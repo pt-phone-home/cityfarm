@@ -90,12 +90,21 @@ body {
     width: auto;
 }
 
-.whatson {
+.bgi-layer {
+    background-image: linear-gradient(to right bottom,
+        rgba(31, 157, 85, 0.5),
+        70%,
+        rgba(39, 121, 189, 0.5));
+}
+
+/* VISIT US PAGE */
+
+.pig-banner {
     background-image: linear-gradient(to right bottom,
         rgba(31, 157, 85, 0.5),
         70%,
         rgba(39, 121, 189, 0.5)),
-        url("/images/whatson.jpg");
+        url("/images/pig.jpg");
     background-size: cover;
     background-position: center;
 }

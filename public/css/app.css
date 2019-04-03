@@ -3460,6 +3460,10 @@ table {
   height: 1px;
 }
 
+.h-10r {
+  height: 10rem;
+}
+
 .h-15r {
   height: 15rem;
 }
@@ -9527,6 +9531,10 @@ table {
     height: 1px;
   }
 
+  .sm\:h-10r {
+    height: 10rem;
+  }
+
   .sm\:h-15r {
     height: 15rem;
   }
@@ -15562,6 +15570,10 @@ table {
 
   .md\:h-px {
     height: 1px;
+  }
+
+  .md\:h-10r {
+    height: 10rem;
   }
 
   .md\:h-15r {
@@ -21601,6 +21613,10 @@ table {
     height: 1px;
   }
 
+  .lg\:h-10r {
+    height: 10rem;
+  }
+
   .lg\:h-15r {
     height: 15rem;
   }
@@ -27636,6 +27652,10 @@ table {
 
   .xl\:h-px {
     height: 1px;
+  }
+
+  .xl\:h-10r {
+    height: 10rem;
   }
 
   .xl\:h-15r {

@@ -61,47 +61,57 @@ St. Anne's City Farm | Our Community
 </div>
 
 {{-- What's On Banner --}}
-<div class="h-15r bgi-p flex justify-center items-center">
+{{-- <div class="h-15r bgi-p flex justify-center items-center">
     <h2 class="my-3 text-grey-darkest text-6xl pt-4 pb-2 px-4 uppercase bg-grey-light">What's On</h2>
+</div> --}}
+
+{{-- What's On Title --}}
+<div class="w-full bg-grey-light">
+    <div class="container w-full mx-auto flex justify-center items-center">
+        <h2 class="text-6xl py-12">What's On</h2>
+    </div>
 </div>
 
-<div class="w-full bg-grey-dark">
-    <div class="w-full container mx-auto flex flex-row justify-center flex-wrap">
+{{-- What's On Content --}}
+
+<div class="w-full bg-grey-light bgi-layer">
+
+    <div class="w-full container mx-auto flex flex-row justify-center flex-wrap pb-6">
 
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/whatson.jpg" alt="" class="">
+            <img src="/images/classes.jpeg" alt="" class="w-auto h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Classes</h5>
             </div>
             <div class="w-full bg-grey-darkest px-4 py-4">
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
-            <div class="w-full bg-blue text-center py-4">
+            <div class="w-full bg-green text-grey-lightest text-center py-4">
                 <a href="" class="text-center no-underline">Read More</a>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/whatson.jpg" alt="" class="">
+            <img src="/images/whatson.jpg" alt="" class="w-auto h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Community Kitchen</h5>
             </div>
             <div class="w-full bg-grey-darkest px-4 py-4">
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
-            <div class="w-full bg-blue text-center py-4">
+            <div class="w-full bg-green text-grey-lightest text-center py-4">
                 <a href="" class="text-center no-underline">Read More</a>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/whatson.jpg" alt="" class="">
+            <img src="/images/calendar.jpg" alt="" class="w-auto h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Farm Calendar</h5>
             </div>
             <div class="w-full bg-grey-darkest px-4 py-4">
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
-            <div class="w-full bg-blue text-center py-4">
-                <a href="" class="text-center no-underline">Read More</a>
+            <div class="w-full bg-green text-grey-lightest text-center py-4">
+                <a href="" class="text-center no-underline text-grey-lightest hover:text-grey-darker">Read More</a>
             </div>
         </div>
         
