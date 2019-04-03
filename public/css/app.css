@@ -6220,6 +6220,18 @@ table {
   font-size: 4rem;
 }
 
+.text-7xl {
+  font-size: 5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+}
+
+.text-9xl {
+  font-size: 7rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -6604,6 +6616,10 @@ table {
 
 .w-80p {
   width: 80%;
+}
+
+.w-90p {
+  width: 90%;
 }
 
 .w-100p {
@@ -12275,6 +12291,18 @@ table {
     font-size: 4rem;
   }
 
+  .sm\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .sm\:text-9xl {
+    font-size: 7rem;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -12659,6 +12687,10 @@ table {
 
   .sm\:w-80p {
     width: 80%;
+  }
+
+  .sm\:w-90p {
+    width: 90%;
   }
 
   .sm\:w-100p {
@@ -18316,6 +18348,18 @@ table {
     font-size: 4rem;
   }
 
+  .md\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .md\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .md\:text-9xl {
+    font-size: 7rem;
+  }
+
   .md\:italic {
     font-style: italic;
   }
@@ -18700,6 +18744,10 @@ table {
 
   .md\:w-80p {
     width: 80%;
+  }
+
+  .md\:w-90p {
+    width: 90%;
   }
 
   .md\:w-100p {
@@ -24357,6 +24405,18 @@ table {
     font-size: 4rem;
   }
 
+  .lg\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .lg\:text-9xl {
+    font-size: 7rem;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -24741,6 +24801,10 @@ table {
 
   .lg\:w-80p {
     width: 80%;
+  }
+
+  .lg\:w-90p {
+    width: 90%;
   }
 
   .lg\:w-100p {
@@ -30398,6 +30462,18 @@ table {
     font-size: 4rem;
   }
 
+  .xl\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .xl\:text-8xl {
+    font-size: 6rem;
+  }
+
+  .xl\:text-9xl {
+    font-size: 7rem;
+  }
+
   .xl\:italic {
     font-style: italic;
   }
@@ -30782,6 +30858,10 @@ table {
 
   .xl\:w-80p {
     width: 80%;
+  }
+
+  .xl\:w-90p {
+    width: 90%;
   }
 
   .xl\:w-100p {

@@ -12,7 +12,7 @@ Visit Us | St. Anne's City Farm
 </div>
 
 <div class="w-full bg-grey-lightest">
-    <div class="container mx-auto flex flex-row flex-wrap py-6">
+    <div class="container mx-auto flex flex-row flex-wrap py-12">
         {{-- left Side --}}
         <div class="map w-full md:w-1/2 h-20r" id="map">
 
@@ -24,10 +24,10 @@ Visit Us | St. Anne's City Farm
                 <h3 class="text-center text-4xl">Farm Location</h3>
             </div>  
             {{-- Bottom --}}
-            <div class="flex flex-row">
+            <div class="flex flex-row border-b-2 border-dashed border-green-dark pb-4">
                 {{-- Left Side --}}
                 <div class="w-1/2 flex justify-center items-center">
-                    <i class="fas fa-map-marked-alt text-6xl text-blue-light self-center"></i>
+                    <i class="fas fa-globe-europe text-7xl text-green self-center"></i>
                 </div>
                 {{-- Right Side --}}
                 <div class="w-1/2 text-lg">
@@ -36,11 +36,76 @@ Visit Us | St. Anne's City Farm
                     <p class="py-1">Dublin, Ireland</p>
                     <p class="py-1">D05 Y102</p>
                 </div>
-
+            </div>
+            {{-- Second Bottom Section --}}
+            <div class="container mx-auto flex flex-col py-6 px-6">
+                    <h3 class="text-3xl text-center">Entrance</h3>
+                    <p class="leading-loose text-xl">Completely free entry! We are located beside the All Saint's Road Service entrace of the park. Right beside the Allotments.</p>
             </div>
         </div>
     </div>
 </div>
+{{-- Getting to the Farm --}}
+<div class="w-full bg-grey-lightest py-8 bg-map bg-fixed">
+        <div class="container mx-auto">
+            <h2 class="text-center text-6xl py-4 text-grey-lightest">Getting to the Farm</h2>
+        </div>
+    <div class="container mx-auto flex flex-wrap justify-around items-center lg:items-center">
+        {{-- Colum 1 --}}
+        <div class="w-90p lg:w-30p my-4">
+            <div class="flex flex-col border-2 border-blue ">
+                <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Train</h3>
+                <div class="bg-grey text-center">
+                    <i class="fas fa-train text-8xl text-blue py-6 text-center"></i>
+                </div>
+                <div class="text-center bg-grey py-2 px-2">
+                    <h4 class="text-xl py-4 underline">Nearest Dart Station</h4>
+                    <p class="text-lg leading-loose">Raheny Dart Station: 15 - 20 minute walk</p>
+                </div>
+            </div>
+        </div>
+        {{-- Column 2 --}}
+        <div class="w-90p lg:w-30p my-4">
+            <div class="flex flex-col border-2 border-blue">
+                <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Bus</h3>
+                <div class="bg-grey text-center">
+                    <i class="fas fa-bus text-8xl text-blue py-6 text-center"></i>
+                </div>
+                <div class="text-center bg-grey py-2 px-2">
+                    <h4 class="text-xl py-4 underline">Bus Routes</h4>
+                    <p class="lowercase py-2 leading-loose">130 BUS FROM LOWER ABBEY ST. TOWARDS CASTLE AVENUE: STOP #1750 ON MT. PROSPECT AVE. OPPOSITE RED STABLES IS A 5 MINUTE WALK THROUGH THE PARK.</p>
+                    <p class="lowercase py-2 leading-loose">29A BUS FROM LOWER ABBEY ST. TOWARDS BALDOYLE: STOP #651 ON ALL SAINTS ROAD</p>
+                </div>
+            </div>
+        </div>
+        {{-- Column 3 --}}
+        <div class="w-90p lg:w-30p my-4">
+            <div class="flex flex-col border-2 border-blue">
+                <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Bike</h3>
+                <div class="bg-grey text-center">
+                    <i class="fas fa-bicycle text-8xl text-blue py-6 text-center"></i>
+                </div>
+                <div class="text-center bg-grey py-2 px-2">
+                    <h4 class="text-xl py-4 underline">Cycling</h4>
+                    <p class="leading-loose">A Bike rack is just outside the entrance to the farm. If cycling from the city you have the Dublin bay cycle path the whole way to the park.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- Rules of Visit --}}
+
+<div class="w-full bg-grey-lightest">
+    <div class="container mx-auto">
+        <h3 class="text-center text-6xl py-4">Some Rules for your visit</h3>
+    </div>
+    <div class="container mx-auto flex justify-center">
+            <i class="fas fa-exclamation-triangle text-9xl text-blue py-4"></i>
+    </div>
+
+</div>
+
 @endsection
 
 @section('scripts')

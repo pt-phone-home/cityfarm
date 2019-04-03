@@ -21,7 +21,7 @@ St. Anne's City Farm | Our Community
 
 {{-- Intro Quote --}}
 <div class="w-full bg-grey-lightest bgi-g2">
-    <div class="container w-full mx-auto">
+    <div class="container mx-auto">
         <h3 class="text-center mx-auto w-50p py-24 leading-loose text-2xl">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  </h3>
     </div>
 </div>
@@ -47,7 +47,7 @@ St. Anne's City Farm | Our Community
             <div class="w-full lg:w-1/2 bg-green-light-opacity-6">
                 <img src="/images/story.jpg" alt="" class="w-full h-full px-6 py-6">
             </div>
-            <div class="w-full lg:w-45p bgi-g2 flex flex-col items-center px-6 py-6 lg:ml-8 mt-4 lg: mt-0"> 
+            <div class=" lg:w-45p bgi-g2 flex flex-col items-center px-6 py-6 lg:ml-8 mt-4 lg: mt-0"> 
                     <h3 class="text-4xl underline text-center uppercase">Our Objectives</h3>
                 <ul>
                     <li class="py-2 leading-normal text-lg">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>
@@ -67,7 +67,7 @@ St. Anne's City Farm | Our Community
 
 {{-- What's On Title --}}
 <div class="w-full bg-grey-light">
-    <div class="container w-full mx-auto flex justify-center items-center">
+    <div class="container mx-auto flex justify-center items-center">
         <h2 class="text-6xl py-12">What's On</h2>
     </div>
 </div>
@@ -76,10 +76,10 @@ St. Anne's City Farm | Our Community
 
 <div class="w-full bg-grey-light bgi-layer">
 
-    <div class="w-full container mx-auto flex flex-row justify-center flex-wrap pb-6">
+    <div class="container mx-auto flex flex-row justify-center flex-wrap pb-6">
 
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/classes.jpeg" alt="" class="w-auto h-20r object-cover">
+            <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Classes</h5>
             </div>
@@ -91,7 +91,7 @@ St. Anne's City Farm | Our Community
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/whatson.jpg" alt="" class="w-auto h-20r object-cover">
+            <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Community Kitchen</h5>
             </div>
@@ -103,7 +103,7 @@ St. Anne's City Farm | Our Community
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/calendar.jpg" alt="" class="w-auto h-20r object-cover">
+            <img src="/images/calendar.jpg" alt="" class="w-full h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Farm Calendar</h5>
             </div>
