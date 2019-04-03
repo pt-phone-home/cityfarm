@@ -58,7 +58,7 @@ Visit Us | St. Anne's City Farm
                 <div class="bg-grey text-center">
                     <i class="fas fa-train text-8xl text-blue py-6 text-center"></i>
                 </div>
-                <div class="text-center bg-grey py-2 px-2">
+                <div class="text-center bg-grey-light py-2 px-2">
                     <h4 class="text-xl py-4 underline">Nearest Dart Station</h4>
                     <p class="text-lg leading-loose">Raheny Dart Station: 15 - 20 minute walk</p>
                 </div>
@@ -71,7 +71,7 @@ Visit Us | St. Anne's City Farm
                 <div class="bg-grey text-center">
                     <i class="fas fa-bus text-8xl text-blue py-6 text-center"></i>
                 </div>
-                <div class="text-center bg-grey py-2 px-2">
+                <div class="text-center bg-grey-light py-2 px-2">
                     <h4 class="text-xl py-4 underline">Bus Routes</h4>
                     <p class="lowercase py-2 leading-loose">130 BUS FROM LOWER ABBEY ST. TOWARDS CASTLE AVENUE: STOP #1750 ON MT. PROSPECT AVE. OPPOSITE RED STABLES IS A 5 MINUTE WALK THROUGH THE PARK.</p>
                     <p class="lowercase py-2 leading-loose">29A BUS FROM LOWER ABBEY ST. TOWARDS BALDOYLE: STOP #651 ON ALL SAINTS ROAD</p>
@@ -85,7 +85,7 @@ Visit Us | St. Anne's City Farm
                 <div class="bg-grey text-center">
                     <i class="fas fa-bicycle text-8xl text-blue py-6 text-center"></i>
                 </div>
-                <div class="text-center bg-grey py-2 px-2">
+                <div class="text-center bg-grey-light py-2 px-2">
                     <h4 class="text-xl py-4 underline">Cycling</h4>
                     <p class="leading-loose">A Bike rack is just outside the entrance to the farm. If cycling from the city you have the Dublin bay cycle path the whole way to the park.</p>
                 </div>
@@ -96,14 +96,23 @@ Visit Us | St. Anne's City Farm
 
 {{-- Rules of Visit --}}
 
-<div class="w-full bg-grey-lightest">
-    <div class="container mx-auto">
-        <h3 class="text-center text-6xl py-4">Some Rules for your visit</h3>
-    </div>
+<div class="w-full bgi-g2 py-6">
     <div class="container mx-auto flex justify-center">
-            <i class="fas fa-exclamation-triangle text-9xl text-blue py-4"></i>
+        <i class="fas fa-exclamation-triangle text-5xl md:text-7xl lg:text-9xl text-green py-4"></i>
     </div>
-
+    <div class="container mx-auto">
+        <h3 class="text-center text-2xl md:text-4xl lg:text-6xl py-4">Some Rules for your visit</h3>
+    </div>
+    <div class="container mx-auto">
+        <ul class="leading-loose">
+            <li class="text-lg md:text-xl lg:text-2xl">Guide dogs only</li>
+            <li class="text-lg md:text-xl lg:text-2xl">On the farm everyone should wash their hands before putting them near their mouths (eating, sucking thumbs or smoking). Full hand washing facilities are available at the Farm.</li>
+            <li class="text-lg md:text-xl lg:text-2xl">Children should be supervised at all times.</li>
+            <li class="text-lg md:text-xl lg:text-2xl">Feeding the animals is not allowed unless approved by a member of staff or part of a planned activity.</li>
+            <li class="text-lg md:text-xl lg:text-2xl">No chasing, throwing or shouting at the animals.</li>
+            <li class="text-lg md:text-xl lg:text-2xl">Wear appropriate clothing, e.g strong shoes/trainers, not open-toed sandals.</li>
+        </ul>
+    </div>
 </div>
 
 @endsection
