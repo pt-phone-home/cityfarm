@@ -4,12 +4,47 @@
             <img src="/images/logo.png" alt="" class="farm-logo" onclick="location.href= '/';" style="cursor:pointer">
         </div>
         <div class="flex justify-end md:justify-between items-center w-2/3">
-            <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Our Community</a>
-            <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Love</a>
-            <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Get Involved</a>
-            <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">News</a>
-        <a href="{{route('info.visit_us')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Info</a>
-            <a href="" class="sm:inline-block md:hidden text-grey-darkest no-underline hover:text-blue-dark text-2xl">icon</a>
+            <li class="list-reset dropdown z-10">
+                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Our Community</a>
+                    <div class="dropdown-content flex flex-col fixed w-auto pt-1 px-8 mt-1 bg-grey-lightest rounded">
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">About US</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Classes</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Community Kitchen</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Calendar</a>
+                    </div>
+            </li>
+            <li class="list-reset dropdown">
+                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Love</a>
+                    <div class="dropdown-content flex flex-col fixed w-auto pt-1 px-8 mt-1 bg-grey-lightest rounded">
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Animals</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Grow</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Education</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Ecology</a>
+                    </div>
+            </li>
+            <li class="list-reset dropdown">
+                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Get Involved</a>
+                    <div class="dropdown-content flex flex-col fixed w-auto pt-1 px-8 mt-1 bg-grey-lightest rounded">
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Volunteer</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Corporate</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Sponsors</a>
+                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Donate</a>
+                    </div>
+            </li>
+            <li class="list-reset">
+                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">News</a>
+            </li>
+            <li class="list-reset dropdown">
+                <a href="{{route('info.visit_us')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Info</a>
+                <div class="dropdown-content flex flex-col fixed w-auto pt-1 px-8 mt-1 bg-grey-lightest rounded">
+                    <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Visit Us</a>
+                    <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Contact Us</a>
+                    <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Safety</a>
+                </div>
+            </li>
+            <li class="list-reset">
+                <a href="" class="sm:inline-block md:hidden text-grey-darkest no-underline hover:text-blue-dark text-2xl">icon</a>
+            </li>
         </div>
     </div>
 </div>

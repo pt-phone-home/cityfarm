@@ -28,6 +28,24 @@ body {
     position: relative;
 }
 
+/* Navigation */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    transition: all 2s ease;
+
+}
+
+.dropdown-content {
+    display: none;
+}
+
+/* Index Page */
+
 .hero {
     background-image: linear-gradient(to right bottom,
         rgba(31, 157, 85, 0.5),
