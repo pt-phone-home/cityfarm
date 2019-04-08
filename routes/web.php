@@ -12,6 +12,11 @@
  */
 
 Route::get('/', 'PagesController@index')->name('index');
+
+// Get Involved
+Route::get('/volunteer', 'PagesController@volunteer')->name('volunteer');
+
+// Info
 Route::get('/info/visit_us', 'PagesController@visitus')->name('info.visit_us');
 Route::get('/info/contact', 'PagesController@contact')->name('info.contact');
 Route::get('/info/farm_safety', 'PagesController@safety')->name('info.safety');

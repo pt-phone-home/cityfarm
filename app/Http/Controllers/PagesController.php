@@ -9,6 +9,15 @@ class PagesController extends Controller
         return view('index');
     }
 
+    // GET INVOLVED
+
+    public function volunteer()
+    {
+        return view('involved.volunteer');
+    }
+
+    // INFO
+
     public function visitus()
     {
         return view('info.visitus');

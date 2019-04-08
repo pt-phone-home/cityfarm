@@ -86,12 +86,17 @@ body {
     background-repeat: repeat;
 }
 
+.bgi-farm {
+    background: url('/images/background_2.svg');
+    background-size: cover;
+    background-position: center;
+}
+
 .aboutusinfo-container {
     transform: rotate(-5deg);
 }
 
 .aboutusinfo {
-    transform: rotate(5deg);
     background-image: linear-gradient(to right bottom,
         rgba(31, 157, 85, 0.5),
         70%,

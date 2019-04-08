@@ -6,13 +6,13 @@ Contact Us | St. Anne's City Farm
 
 @section('content')
 
-<div class="pig-banner h-10r flex justify-center items-center">
-    <h1 class="text-grey-lightest text-6xl">Conact Us</h1>
+<div class="bgi-farm h-10r flex justify-center items-center">
+    <h1 class="text-grey-darkest text-6xl">Conact Us</h1>
 </div>
 
-<div class="w-full bg-grey-light border-b-2 border-grey-darkest">
+<div class="w-full bg-grey-light ">
 
-    <div class="container mx-auto flex flex-row flex-wrap justify-around">
+    <div class="container mx-auto flex flex-row flex-wrap justify-around border-b-2 border-grey-darkest">
         {{-- Contact Info --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-start my-4">
             <div>
@@ -30,24 +30,24 @@ Contact Us | St. Anne's City Farm
         </div>
         {{-- Contact Form --}}
         <div class="w-full md:w-3/4 flex flex-col items-start">
-            <div class="ml-24 w-full">
+            <div class="pl-24 w-full">
                 <h2 class="my-4 text-4xl">Contact Us</h2>
                 <form action="" class="my-8">
                     <div class="my-2">
                         <label for="name" class="block my-2 text-xl">Name:</label>
-                        <input type="text" class="block w-80p md:w-60p h-8 outline-none rounded">
+                        <input type="text" class="block w-80p md:w-80p h-8 outline-none rounded">
                     </div>                    
                     <div class="my-2">
                         <label for="email" class="block my-2 text-xl">Email:</label>
-                        <input type="email" class="block w-80p md:w-60p h-8 outline-none rounded">
+                        <input type="email" class="block w-80p md:w-80p h-8 outline-none rounded">
                     </div>                    
                     <div class="my-2">
                         <label for="phone" class="block my-2 text-xl">Phone:</label>
-                        <input type="number" class="block w-80p md:w-60p h-8 outline-none rounded">
+                        <input type="number" class="block w-80p md:w-80p h-8 outline-none rounded">
                     </div>                    
                     <div class="my-2">
                         <label for="message" class="block my-2 text-xl">Message:</label>
-                        <textarea name="message" id="" cols="30" rows="10" class="block w-80p md:w-60p h-24 outline-none rounded"></textarea>
+                        <textarea name="message" id="" cols="30" rows="10" class="block w-80p md:w-80p h-24 outline-none rounded"></textarea>
                     </div>                    
                     <div class="my-4">
                         <button type="submit" class="bg-green-light text-grey-lightest rounded px-4 py-2 text-2xl hover:bg-green outline-none active:bg-green-dark active:outline-none">Send</button>
@@ -59,9 +59,9 @@ Contact Us | St. Anne's City Farm
 
 </div>
 {{-- Twitter --}}
-<div class="w-full bg-grey-light py-8 border-b-2 border-grey-darkest">
+<div class="w-full bg-grey-light ">
 
-    <div class="container mx-auto flex flex-row flex-wrap">
+    <div class="container mx-auto flex flex-row flex-wrap border-b-2 border-grey-darkest py-8">
          {{-- Twitter Side Container --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-center">
             {{-- Twitter Side --}}
@@ -76,7 +76,7 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4">
             {{-- Twitter Main --}}
-            <div class="flex flex-row justify-start ml-24">
+            <div class="flex flex-row justify-start pl-24">
                 <div class="w-full lg:w-70p overflow-scroll h-30r">
                         <a class="twitter-timeline" href="https://twitter.com/tweet_to_pete?ref_src=twsrc%5Etfw" data-tweet-limit="10" data-chrome="nofooter noscrollbar">Tweets by tweet_to_pete</a> 
                 </div>
@@ -90,9 +90,9 @@ Contact Us | St. Anne's City Farm
 
 </div>
 {{-- Instagram --}}
-<div class="w-full bg-grey-light py-8 border-b-2 border-grey-darkest">
+<div class="w-full bg-grey-light ">
 
-    <div class="container mx-auto flex flex-row flex-wrap">
+    <div class="container mx-auto flex flex-row flex-wrap  border-b-2 border-grey-darkest py-8">
          {{-- Instagram Side Container --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-center">
             {{-- Instagram Side --}}
@@ -107,7 +107,7 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4 flex items-center flex-wrap">
             {{-- Intagram Main --}}
-            <div class="flex justify-start ml-24">
+            <div class="flex justify-start pl-24">
                     <div id="instafeed" class="w-70p overflow-scroll h-auto flex flex-wrap items-center">
             
                     </div>
@@ -128,7 +128,7 @@ Contact Us | St. Anne's City Farm
         <div class="w-full md:w-1/4 flex flex-col items-center justify-center">
             {{-- Facebook Side --}}
             <div class="flex flex-col items-center">
-                    <h2 class="my-4 text-4xl text-center">Follow us on Instagram</h2>
+                    <h2 class="my-4 text-4xl text-center">Follow us on Facebook</h2>
                     <i class="fab fa-facebook text-9xl cursor-pointer" onclick="window.open('https://www.facebook.com/DubCityfarm/', '_blank')"></i>
             </div>
 
@@ -138,7 +138,7 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4">
             {{-- Facebook Main --}}
-            <div class="flex ml-24">
+            <div class="flex pl-24">
                 <div class="fb-page" data-href="https://www.facebook.com/DubCityfarm/" data-tabs="timeline" data-width="500" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/DubCityfarm/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DubCityfarm/">Dublin City Farm</a></blockquote></div>
             </div>
 

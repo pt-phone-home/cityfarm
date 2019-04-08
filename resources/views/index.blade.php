@@ -13,14 +13,14 @@ St. Anne's City Farm | Our Community
 <div class="hero flex flex-col w-full h-30r md:h-40r justify-center bg-fixed">
 
     <h1 class="text-white self-center text-4xl md:text-6xl hero-title uppercase mb-12">St. Anne's City Farm</h1>
-    <h4 class="text-white self-center text-2xl text-center mx-2 lg:mx-0 md:text-3xl  my-4 hero-subtitle">Promoting ecological awareness and sustainable living. Teaching ethics on every level.
+    <h4 class="text-white self-center text-2xl text-center mx-2 lg:mx-0 md:text-3xl my-4 hero-subtitle">Promoting ecological awareness and sustainable living. Teaching ethics on every level.
     </h4>
 
 
 </div>
 
 {{-- Intro Quote --}}
-<div class="w-full bg-grey-lightest bgi-g2">
+<div class="bg-grey-lightest bgi-g2">
     <div class="container mx-auto">
         <h3 class="text-center mx-auto w-50p py-24 leading-loose text-2xl">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  </h3>
     </div>
@@ -29,7 +29,7 @@ St. Anne's City Farm | Our Community
 {{-- About Us Banner --}}
 
 <div class="story-title bg-grey-light about h-20r bg-fixed flex justify-center items-center" id="about_us">
-    <h2 class="my-3 text-grey-lightest text-6xl pt-4 pb-2 uppercase">About Us</h2>
+    <h2 class="py-3 text-grey-lightest text-6xl pt-4 pb-2 uppercase">About Us</h2>
 </div>
 
 {{-- About Us Content --}}
@@ -41,13 +41,13 @@ St. Anne's City Farm | Our Community
     </div>
 </div>
 
-<div class="w-full aboutusinfo-container -mt-20 z-0" >
+<div class="w-full -mt-20 z-0" >
     <div class="w-full aboutusinfo bg-fixed py-8">
         <div class="container mx-auto py-24 flex flex-row flex-wrap">
             <div class="w-full lg:w-1/2 bg-green-light-opacity-6">
                 <img src="/images/story.jpg" alt="" class="w-full h-full px-6 py-6">
             </div>
-            <div class=" lg:w-45p bgi-g2 flex flex-col items-center px-6 py-6 lg:ml-8 mt-4 lg: mt-0"> 
+            <div class=" lg:w-45p bgi-g2 flex flex-col items-center px-6 py-6 lg:ml-8 mt-4 lg:mt-0"> 
                     <h3 class="text-4xl underline text-center uppercase">Our Objectives</h3>
                 <ul>
                     <li class="py-2 leading-normal text-lg">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>

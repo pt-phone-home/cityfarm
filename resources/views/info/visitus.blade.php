@@ -7,8 +7,8 @@ Visit Us | St. Anne's City Farm
 
 
 @section('content')
-<div class="pig-banner h-10r flex justify-center items-center">
-    <h1 class="text-grey-lightest text-6xl">Visit Us</h1>
+<div class="bgi-farm h-10r flex justify-center items-center">
+    <h1 class="text-grey-darkest text-6xl">Visit Us</h1>
 </div>
 
 <div class="w-full bg-grey-lightest">

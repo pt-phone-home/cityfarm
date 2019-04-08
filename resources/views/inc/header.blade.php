@@ -23,9 +23,9 @@
                     </div>
             </li>
             <li class="list-reset dropdown">
-                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Get Involved</a>
+            <a href="{{route('volunteer')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Get Involved</a>
                     <div class="dropdown-content flex flex-col absolute pin-t w-48 mt-8 pt-1 px-8 bg-grey-lightest rounded">
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Volunteer</a>
+                    <a href="{{route('volunteer')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Volunteer</a>
                         <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Corporate</a>
                         <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Sponsors</a>
                         <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Donate</a>
