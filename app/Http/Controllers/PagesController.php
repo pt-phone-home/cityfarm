@@ -18,4 +18,9 @@ class PagesController extends Controller
 
         return view('info.contact');
     }
+
+    public function safety()
+    {
+        return view('info.safety');
+    }
 };

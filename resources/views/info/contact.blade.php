@@ -6,6 +6,10 @@ Contact Us | St. Anne's City Farm
 
 @section('content')
 
+<div class="pig-banner h-10r flex justify-center items-center">
+    <h1 class="text-grey-lightest text-6xl">Conact Us</h1>
+</div>
+
 <div class="w-full bg-grey-light border-b-2 border-grey-darkest">
 
     <div class="container mx-auto flex flex-row flex-wrap justify-around">

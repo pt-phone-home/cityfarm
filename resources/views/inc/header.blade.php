@@ -37,9 +37,9 @@
             <li class="list-reset dropdown">
                 <a href="{{route('info.visit_us')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Info</a>
                 <div class="dropdown-content flex flex-col absolute pin-t pin-r -mr-10 w-48 mt-8 pt-1 px-8 bg-grey-lightest rounded">
-                    <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Visit Us</a>
+                    <a href="{{route('info.visit_us')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Visit Us</a>
                 <a href="{{route('info.contact')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Contact Us</a>
-                    <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Safety</a>
+                <a href="{{route('info.safety')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Safety</a>
                 </div>
             </li>
             <li class="list-reset">
