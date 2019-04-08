@@ -92,6 +92,48 @@ body {
     background-position: center;
 }
 
+.bgi-social {
+    background-image: linear-gradient(to right bottom,
+        rgba(31, 157, 85, 0.5),
+        70%,
+        rgba(39, 121, 189, 0.5)),
+        url("/images/social_background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.bgi-twitter {
+    background-image: linear-gradient(to right bottom,
+        rgba(0, 132, 180, .7),
+        50%,
+        rgba(0, 172, 237, .7)),
+        url('/images/twitter.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bgi-instagram {
+    background-image:
+        linear-gradient(to right bottom,
+        rgba(254, 218, 117, .8),
+        50%,
+        rgba(250, 126, 30, .8)),
+        url('/images/instagram.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bgi-facebook {
+    background-image:
+        linear-gradient(to right bottom,
+        rgba(41, 72, 125, .8),
+        50%,
+        rgba(156, 178, 206, .8)),
+        url('/images/facebook.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .aboutusinfo-container {
     transform: rotate(-5deg);
 }

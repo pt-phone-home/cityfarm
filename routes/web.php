@@ -13,8 +13,28 @@
 
 Route::get('/', 'PagesController@index')->name('index');
 
+// Community
+
+Route::get('/community/classes', 'PagesController@classes')->name('classes');
+Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
+Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
+
+// Love
+
+Route::get('/love/animals', 'PagesController@animals')->name('animals');
+Route::get('/love/grow', 'PagesController@grow')->name('grow');
+Route::get('/love/education', 'PagesController@education')->name('education');
+Route::get('/love/ecology', 'PagesController@ecology')->name('ecology');
+
 // Get Involved
-Route::get('/volunteer', 'PagesController@volunteer')->name('volunteer');
+Route::get('/involved/volunteer', 'PagesController@volunteer')->name('volunteer');
+Route::get('/involved/corporate', 'PagesController@corporate')->name('corporate');
+Route::get('/involved/sponsors', 'PagesController@sponsors')->name('sponsors');
+Route::get('/involved/donate', 'PagesController@donate')->name('donate');
+
+// News
+
+Route::get('/news', 'PagesController@news')->name('news');
 
 // Info
 Route::get('/info/visit_us', 'PagesController@visitus')->name('info.visit_us');

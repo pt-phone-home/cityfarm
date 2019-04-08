@@ -8,31 +8,31 @@
             <a href="{{route('index')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Our Community</a>
                     <div class="dropdown-content flex flex-col absolute pin-t mt-8 w-48 pt-1 px-8 mt-1 bg-grey-lightest rounded">
                     <a href="/#about_us" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">About US</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Classes</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Community Kitchen</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Calendar</a>
+                    <a href="{{route('classes')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Classes</a>
+                    <a href="{{route('kitchen')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Community Kitchen</a>
+                    <a href="{{route('calendar')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Calendar</a>
                     </div>
             </li>
             <li class="list-reset dropdown">
-                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Love</a>
+            <a href="{{route('animals')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Love</a>
                     <div class="dropdown-content flex flex-col absolute pin-t w-48 mt-8 pt-1 px-8 bg-grey-lightest rounded">
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Animals</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Grow</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Education</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Ecology</a>
+                    <a href="{{route('animals')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Animals</a>
+                    <a href="{{route('grow')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Grow</a>
+                    <a href="{{route('education')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Education</a>
+                    <a href="{{route('ecology')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Ecology</a>
                     </div>
             </li>
             <li class="list-reset dropdown">
             <a href="{{route('volunteer')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Get Involved</a>
                     <div class="dropdown-content flex flex-col absolute pin-t w-48 mt-8 pt-1 px-8 bg-grey-lightest rounded">
                     <a href="{{route('volunteer')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Volunteer</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Corporate</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Sponsors</a>
-                        <a href="" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Donate</a>
+                    <a href="{{route('corporate')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Corporate</a>
+                    <a href="{{route('sponsors')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Sponsors</a>
+                    <a href="{{route('donate')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Donate</a>
                     </div>
             </li>
             <li class="list-reset">
-                <a href="" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">News</a>
+            <a href="{{route('news')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">News</a>
             </li>
             <li class="list-reset dropdown">
                 <a href="{{route('info.visit_us')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl dropdown">Info</a>

@@ -12,7 +12,7 @@ Contact Us | St. Anne's City Farm
 
 <div class="w-full bg-grey-light ">
 
-    <div class="container mx-auto flex flex-row flex-wrap justify-around border-b-2 border-grey-darkest">
+    <div class="container mx-auto flex flex-row flex-wrap justify-around">
         {{-- Contact Info --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-start my-4">
             <div>
@@ -31,7 +31,7 @@ Contact Us | St. Anne's City Farm
         {{-- Contact Form --}}
         <div class="w-full md:w-3/4 flex flex-col items-start">
             <div class="pl-24 w-full">
-                <h2 class="my-4 text-4xl">Contact Us</h2>
+                <h2 class="my-4 text-4xl">Send us a message</h2>
                 <form action="" class="my-8">
                     <div class="my-2">
                         <label for="name" class="block my-2 text-xl">Name:</label>
@@ -58,16 +58,21 @@ Contact Us | St. Anne's City Farm
     </div>
 
 </div>
+<div class="bg-grey-light bgi-social">
+    <div class="container mx-auto py-8">
+        <h2 class="text-center text-6xl text-grey-lightest"> Connect with us on social media</h2>
+    </div>
+</div>
 {{-- Twitter --}}
-<div class="w-full bg-grey-light ">
+<div class="w-full bgi-twitter">
 
-    <div class="container mx-auto flex flex-row flex-wrap border-b-2 border-grey-darkest py-8">
+    <div class="container mx-auto flex flex-row flex-wrap py-8">
          {{-- Twitter Side Container --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-center">
             {{-- Twitter Side --}}
             <div class="flex flex-col items-center">
-                    <h2 class="my-4 text-4xl text-center">Follow us on Twitter</h2>
-                    <i class="fab fa-twitter text-9xl cursor-pointer" onclick="window.open('https://twitter.com/dublincityfarm?lang=en', '_blank')"></i>
+                    <h2 class="my-4 text-4xl text-center text-grey-lightest">Follow us on Twitter</h2>
+                    <i class="fab fa-twitter text-9xl cursor-pointer text-grey-lightest" onclick="window.open('https://twitter.com/dublincityfarm?lang=en', '_blank')"></i>
             </div>
 
         </div>
@@ -76,9 +81,9 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4">
             {{-- Twitter Main --}}
-            <div class="flex flex-row justify-start pl-24">
+            <div class="flex flex-row justify-start md:pl-24">
                 <div class="w-full lg:w-70p overflow-scroll h-30r">
-                        <a class="twitter-timeline" href="https://twitter.com/tweet_to_pete?ref_src=twsrc%5Etfw" data-tweet-limit="10" data-chrome="nofooter noscrollbar">Tweets by tweet_to_pete</a> 
+                        <a class="twitter-timeline" href="https://twitter.com/dublincityfarm?ref_src=twsrc%5Etfw" data-tweet-limit="10" data-chrome="nofooter noscrollbar">Tweets by St. Anne's City Farm</a> 
                 </div>
 
             </div>
@@ -90,9 +95,9 @@ Contact Us | St. Anne's City Farm
 
 </div>
 {{-- Instagram --}}
-<div class="w-full bg-grey-light ">
+<div class="w-full bgi-instagram ">
 
-    <div class="container mx-auto flex flex-row flex-wrap  border-b-2 border-grey-darkest py-8">
+    <div class="container mx-auto flex flex-row flex-wrap py-8">
          {{-- Instagram Side Container --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-center">
             {{-- Instagram Side --}}
@@ -107,7 +112,7 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4 flex items-center flex-wrap">
             {{-- Intagram Main --}}
-            <div class="flex justify-start pl-24">
+            <div class="flex justify-start md:pl-24">
                     <div id="instafeed" class="w-70p overflow-scroll h-auto flex flex-wrap items-center">
             
                     </div>
@@ -121,15 +126,15 @@ Contact Us | St. Anne's City Farm
 
 </div>
 {{-- Facebook --}}
-<div class="w-full bg-grey-light py-8">
+<div class="w-full bgi-facebook ">
 
-    <div class="container mx-auto flex flex-row flex-wrap">
+    <div class="container mx-auto flex flex-row flex-wrap py-8">
          {{-- Facebook Side Container --}}
         <div class="w-full md:w-1/4 flex flex-col items-center justify-center">
             {{-- Facebook Side --}}
             <div class="flex flex-col items-center">
-                    <h2 class="my-4 text-4xl text-center">Follow us on Facebook</h2>
-                    <i class="fab fa-facebook text-9xl cursor-pointer" onclick="window.open('https://www.facebook.com/DubCityfarm/', '_blank')"></i>
+                    <h2 class="my-4 text-4xl text-center text-grey-lightest">Follow us on Facebook</h2>
+                    <i class="fab fa-facebook text-9xl cursor-pointer text-grey-lightest" onclick="window.open('https://www.facebook.com/DubCityfarm/', '_blank')"></i>
             </div>
 
         </div>
@@ -138,7 +143,7 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4">
             {{-- Facebook Main --}}
-            <div class="flex pl-24">
+            <div class="flex pl-8 md:pl-24">
                 <div class="fb-page" data-href="https://www.facebook.com/DubCityfarm/" data-tabs="timeline" data-width="500" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/DubCityfarm/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DubCityfarm/">Dublin City Farm</a></blockquote></div>
             </div>
 
