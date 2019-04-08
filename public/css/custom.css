@@ -66,6 +66,11 @@ body {
     background-repeat: repeat;
 }
 
+.bgi-s {
+    background: url('/images/background.svg');
+    background-size: cover;
+}
+
 .about {
     background-image: linear-gradient(to right bottom,
         rgba(31, 157, 85, 0.5),

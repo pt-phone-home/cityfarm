@@ -27,7 +27,7 @@ Visit Us | St. Anne's City Farm
             <div class="flex flex-row border-b-2 border-dashed border-green-dark pb-4">
                 {{-- Left Side --}}
                 <div class="w-1/2 flex justify-center items-center">
-                    <i class="fas fa-globe-europe text-7xl text-green self-center"></i>
+                    <i class="fas fa-globe-europe text-7xl text-grey-darkest self-center"></i>
                 </div>
                 {{-- Right Side --}}
                 <div class="w-1/2 text-lg">
@@ -56,7 +56,7 @@ Visit Us | St. Anne's City Farm
             <div class="flex flex-col border-2 border-blue ">
                 <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Train</h3>
                 <div class="bg-grey text-center">
-                    <i class="fas fa-train text-8xl text-blue py-6 text-center"></i>
+                    <i class="fas fa-train text-8xl text-grey-darkest py-6 text-center"></i>
                 </div>
                 <div class="text-center bg-grey-light py-2 px-2">
                     <h4 class="text-xl py-4 underline">Nearest Dart Station</h4>
@@ -69,7 +69,7 @@ Visit Us | St. Anne's City Farm
             <div class="flex flex-col border-2 border-blue">
                 <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Bus</h3>
                 <div class="bg-grey text-center">
-                    <i class="fas fa-bus text-8xl text-blue py-6 text-center"></i>
+                    <i class="fas fa-bus text-8xl text-grey-darkest py-6 text-center"></i>
                 </div>
                 <div class="text-center bg-grey-light py-2 px-2">
                     <h4 class="text-xl py-4 underline">Bus Routes</h4>
@@ -83,7 +83,7 @@ Visit Us | St. Anne's City Farm
             <div class="flex flex-col border-2 border-blue">
                 <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Bike</h3>
                 <div class="bg-grey text-center">
-                    <i class="fas fa-bicycle text-8xl text-blue py-6 text-center"></i>
+                    <i class="fas fa-bicycle text-8xl text-grey-darkest py-6 text-center"></i>
                 </div>
                 <div class="text-center bg-grey-light py-2 px-2">
                     <h4 class="text-xl py-4 underline">Cycling</h4>

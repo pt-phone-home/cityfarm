@@ -28,7 +28,7 @@ St. Anne's City Farm | Our Community
 
 {{-- About Us Banner --}}
 
-<div class="story-title bg-grey-light about h-20r bg-fixed flex justify-center items-center">
+<div class="story-title bg-grey-light about h-20r bg-fixed flex justify-center items-center" id="about_us">
     <h2 class="my-3 text-grey-lightest text-6xl pt-4 pb-2 uppercase">About Us</h2>
 </div>
 

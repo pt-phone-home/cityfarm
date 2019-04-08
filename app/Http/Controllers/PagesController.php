@@ -6,7 +6,6 @@ class PagesController extends Controller
 {
     public function index()
     {
-
         return view('index');
     }
 
@@ -14,4 +13,9 @@ class PagesController extends Controller
     {
         return view('info.visitus');
     }
-}
+    public function contact()
+    {
+
+        return view('info.contact');
+    }
+};
