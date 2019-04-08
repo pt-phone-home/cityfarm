@@ -87,7 +87,7 @@ St. Anne's City Farm | Our Community
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
             <div class="w-full bg-green text-grey-lightest text-center py-4">
-                <a href="" class="text-center no-underline">Read More</a>
+            <a href="{{route('classes')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
@@ -99,7 +99,7 @@ St. Anne's City Farm | Our Community
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
             <div class="w-full bg-green text-grey-lightest text-center py-4">
-                <a href="" class="text-center no-underline">Read More</a>
+            <a href="{{route('kitchen')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
@@ -111,7 +111,7 @@ St. Anne's City Farm | Our Community
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
             <div class="w-full bg-green text-grey-lightest text-center py-4">
-                <a href="" class="text-center no-underline text-grey-lightest hover:text-grey-darker">Read More</a>
+            <a href="{{route('calendar')}}" class="text-center no-underline text-grey-lightest hover:text-grey-darker">Read More</a>
             </div>
         </div>
         

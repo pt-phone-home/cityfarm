@@ -84,4 +84,11 @@ class PagesController extends Controller
     {
         return view('info.safety');
     }
+
+    // ADMIN
+
+    public function admin()
+    {
+        return view('admin.index');
+    }
 };
