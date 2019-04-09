@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use \App\News;
+
 class PagesController extends Controller
 {
     public function index()
@@ -66,7 +68,8 @@ class PagesController extends Controller
 
     public function news()
     {
-        return view('news');
+        $news = News::all();
+        return view('news')->with('news', $news);
     }
 
     // INFO

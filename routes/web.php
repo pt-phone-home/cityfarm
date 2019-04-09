@@ -34,8 +34,6 @@ Route::get('/involved/donate', 'PagesController@donate')->name('donate');
 
 // News
 
-Route::get('/news', 'PagesController@news')->name('news');
-
 // Info
 Route::get('/info/visit_us', 'PagesController@visitus')->name('info.visit_us');
 Route::get('/info/contact', 'PagesController@contact')->name('info.contact');
@@ -46,5 +44,7 @@ Route::get('/info/farm_safety', 'PagesController@safety')->name('info.safety');
 Route::get('/admin', 'PagesController@admin')->name('admin.index');
 
 //News
-
+Route::get('/news', 'PagesController@news')->name('news');
 Route::get('/news/create', 'NewsController@create')->name('news.create');
+Route::post('/news/store', 'NewsController@store')->name('news.store');
+Route::get('/newsitem/{id}', 'NewsController@newsitem')->name('news.newsitem');

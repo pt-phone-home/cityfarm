@@ -3,7 +3,7 @@
         <div class="logo w-1/3 my-4">
             <img src="/images/logo.png" alt="" class="farm-logo" onclick="location.href= '/';" style="cursor:pointer">
         </div>
-        <div class="flex justify-end md:justify-between items-center w-2/3">
+        <div class="flex justify-end md:justify-between items-center w-2/3" id="nav">
             <li class="list-reset dropdown z-10">
             <a href="{{route('index')}}" class="hidden md:inline-block text-grey-darkest no-underline hover:text-blue-dark text-2xl">Our Community</a>
                     <div class="dropdown-content flex flex-col absolute pin-t mt-8 w-48 pt-1 px-8 mt-1 bg-grey-lightest rounded">
@@ -48,3 +48,4 @@
         </div>
     </div>
 </div>
+

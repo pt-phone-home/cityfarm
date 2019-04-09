@@ -90,7 +90,7 @@ St. Anne's City Farm | Our Community
             <a href="{{route('classes')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6" id="kitchen">
             <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Community Kitchen</h5>
@@ -102,7 +102,7 @@ St. Anne's City Farm | Our Community
             <a href="{{route('kitchen')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6" id="calendar">
             <img src="/images/calendar.jpg" alt="" class="w-full h-20r object-cover">
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Farm Calendar</h5>
@@ -122,5 +122,11 @@ St. Anne's City Farm | Our Community
 @endsection
 
 @section('scripts')
+
+<script>
+  
+
+</script>
+
 
 @endsection

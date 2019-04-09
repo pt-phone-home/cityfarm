@@ -17,7 +17,8 @@ Create News Item | admin
 
     <div class="container mx-auto">
 
-        <form action="" class="py-8">
+    <form action="{{route('news.store')}}" method="POST" class="py-8" enctype="multipart/form-data">
+        @csrf
             <div class="py-2">
                 <label for="title" class="block my-2 text-xl">Title:</label>
                 <input type="text" name="title" class="block w-80p md:w-80p h-8 outline-none rounded">

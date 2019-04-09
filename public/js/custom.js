@@ -21,3 +21,7 @@ $(document).ready(function () {
         }
     });
 })
+
+TweenMax.to('#calendar', 1, {
+    opacity: 1
+});
