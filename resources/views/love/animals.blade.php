@@ -21,8 +21,8 @@
         <h2 class="text-center text-4xl py-2">Our Animals</h2>
     </div>
     <div class="container mx-auto flex flex-wrap justify-center">
-        <div class="w-full lg:w-1/3 flex justify-center">
-            <div class="w-80p flex flex-col justify-center border-2 my-4">
+        <div class="w-full lg:w-1/3 flex justify-center my-4">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Willow</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Vietnamese Potbelly Pig</h5>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Ash</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Vietnamese Potbelly Pig</h5>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Coco</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Mixed Breed Goat</h5>
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Twink</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Mixed Breed Goat</h5>
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Lulu</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Silkie Hen</h5>
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Henry</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Silkie Cockerel</h5>
@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Ms Fluffy Pants</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Silkie Hen</h5>
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Peanut</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Guinea Pig</h5>
@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Nomah</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Rabbit</h5>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Jessica</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Maran Hen</h5>
@@ -102,7 +102,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Betty</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Maran Hen</h5>
@@ -110,7 +110,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Stella</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Maran Hen</h5>
@@ -118,7 +118,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Miranda</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Rhode Island Red Hen</h5>
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/3 flex justify-center my-4">
-            <div class="w-80p flex flex-col justify-center border-2">
+            <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Blonde</h3>
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">Rhode Island Red Hen</h5>
@@ -139,5 +139,7 @@
 @endsection
 
 @section('scripts')
+
+
 
 @endsection

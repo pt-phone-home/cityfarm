@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/magnific.css">
+    <link rel="stylesheet" href="/css/aos.css">
     <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -30,6 +31,11 @@
     <script src="/js/custom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="{{asset('js/toastr.min.js')}}"></script>
+    <script src="/js/anime.min.js"></script>
+    <script src="/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script> 
 
         @if(Session::has('success'))
