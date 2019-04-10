@@ -1,4 +1,4 @@
-<div class="w-full py-2 px-3 h-32 flex  bg-grey-lightest justify-center items-center z-10">
+<div class="w-full py-2 px-3 h-32 flex  bg-grey-lightest justify-center items-center z-10 relative">
     <div class="flex flex-row justify-between container mx-auto sm:w-100p md:w-100p lg:w-70p">
         <div class="logo w-1/3 my-4">
             <img src="/images/logo.png" alt="" class="farm-logo" onclick="location.href= '/';" style="cursor:pointer">
@@ -43,9 +43,60 @@
                 </div>
             </li>
             <li class="list-reset">
-                <a href="" class="sm:inline-block md:hidden text-grey-darkest no-underline hover:text-blue-dark text-2xl"><i class="fas fa-bars text-grey-darkest text-3xl"></i></a>
+                <button class="sm:inline-block md:hidden text-grey-darkest no-underline hover:text-blue-dark text-2xl"><i class="fas fa-bars text-grey-darkest text-3xl" id="navBtn"></i></button>
             </li>
         </div>
     </div>
+</div>
+{{-- Mobile Nav Bar --}}
+<div class="fixed pin-t pin-l bg-green z-30 hidden justify-center" id="mobNav">
+    <ul class="list-reset flex flex-col items-center">
+        <li class="py-4">
+            <a href="/" id="mobLink">Home</a>
+        </li>
+        <li class="py-4 relative" id="dropdownMob">
+            <a href="/" id="mobLink">Our Community</a>
+            <ul class="hidden absolute ml-32 -mt-4 bg-green-light flex-col items-center list-reset rounded" id="dropdownContent">
+                <li class="py-2 px-6 text-grey-lightest">
+                    <a href="" class="text-grey-lightest">About Us</a>
+                </li>
+                <li class="py-2 px-6">
+                    <a href="">Classes</a>
+                </li>
+                <li class="py-2 px-6">
+                    <a href="">Community Kitchen</a>
+                </li>
+                <li class="py-2 px-6">
+                    <a href="">Farm Calendar</a>
+                </li>
+            </ul>
+        </li>
+        <li class="py-4 relative" id="dropdownMob">
+            <a href="/" id="mobLink">Love</a>
+            <ul class="hidden absolute ml-32 -mt-4 bg-green-light flex-col items-center list-reset rounded" id="dropdownContent">
+                    <li class="py-2 px-6 text-grey-lightest">
+                        <a href="" class="text-grey-lightest">Animals</a>
+                    </li>
+                    <li class="py-2 px-6">
+                        <a href="">Grow</a>
+                    </li>
+                    <li class="py-2 px-6">
+                        <a href="">Education </a>
+                    </li>
+                    <li class="py-2 px-6">
+                        <a href="">Ecology</a>
+                    </li>
+            </ul>
+        </li>
+        <li class="py-4">
+            <a href="/" id="mobLink">Get Involved</a>
+        </li>
+        <li class="py-4">
+            <a href="/" id="mobLink">News</a>
+        </li>
+        <li class="py-4">
+            <a href="/" id="mobLink">Info</a>
+        </li>
+    </ul>
 </div>
 

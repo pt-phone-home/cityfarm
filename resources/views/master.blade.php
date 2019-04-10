@@ -28,11 +28,11 @@
     @yield('scripts')
 
     <script src="/js/app.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="{{asset('js/toastr.min.js')}}"></script>
     <script src="/js/anime.min.js"></script>
     <script src="/js/aos.js"></script>
+    <script src="/js/TweenMax.min.js"></script>
+    <script src="/js/custom.js"></script>
     <script>
         AOS.init();
     </script>

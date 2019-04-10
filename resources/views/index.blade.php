@@ -124,8 +124,7 @@ St. Anne's City Farm | Our Community
 @section('scripts')
 
 <script>
-  
-
+ 
 </script>
 
 

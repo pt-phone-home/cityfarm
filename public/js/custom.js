@@ -22,6 +22,51 @@ $(document).ready(function () {
     });
 })
 
-TweenMax.to('#calendar', 1, {
-    opacity: 1
-});
+document.getElementById('navBtn').addEventListener('click', function () {
+
+    let tl = new TimelineMax({
+        paused: false
+    });
+
+    tl.fromTo('#mobNav', .3, {
+            opacity: 0,
+            display: 'none',
+            width: 0,
+            height: 0
+        }, {
+            opacity: 1,
+            display: 'flex',
+            width: '40%',
+            height: '100%'
+        })
+        .staggerFrom('#mobNav>ul>li', .3, {
+            opacity: 0,
+            x: -20
+        }, .1);
+})
+
+
+document.getElementById('dropdownMob').addEventListener('mouseenter', function () {
+    let tl = new TimelineMax({
+
+    });
+
+    tl.fromTo('#dropdownContent', .2, {
+        opacity: 0,
+        display: 'none'
+    }, {
+        opacity: 1,
+        display: 'flex',
+
+    }).staggerFromTo('#dropdownContent>li', .2, {
+        opacity: 0,
+        x: -20
+    }, {
+        opacity: 1,
+        x: 0
+    }, .1);
+
+    document.getElementById('dropdownMob').addEventListener('mouseleave', function () {
+        tl.reverse();
+    })
+})

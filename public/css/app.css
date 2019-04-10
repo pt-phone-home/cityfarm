@@ -3572,6 +3572,10 @@ table {
   margin: 8rem;
 }
 
+.m-48 {
+  margin: 12rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -3718,6 +3722,16 @@ table {
 .mx-32 {
   margin-left: 8rem;
   margin-right: 8rem;
+}
+
+.my-48 {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.mx-48 {
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 .my-auto {
@@ -3962,6 +3976,22 @@ table {
 
 .ml-32 {
   margin-left: 8rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mr-48 {
+  margin-right: 12rem;
+}
+
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
 }
 
 .mt-auto {
@@ -9683,6 +9713,10 @@ table {
     margin: 8rem;
   }
 
+  .sm\:m-48 {
+    margin: 12rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -9829,6 +9863,16 @@ table {
   .sm\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+
+  .sm\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .sm\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .sm\:my-auto {
@@ -10073,6 +10117,22 @@ table {
 
   .sm\:ml-32 {
     margin-left: 8rem;
+  }
+
+  .sm\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .sm\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .sm\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .sm\:ml-48 {
+    margin-left: 12rem;
   }
 
   .sm\:mt-auto {
@@ -15764,6 +15824,10 @@ table {
     margin: 8rem;
   }
 
+  .md\:m-48 {
+    margin: 12rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -15910,6 +15974,16 @@ table {
   .md\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+
+  .md\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .md\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .md\:my-auto {
@@ -16154,6 +16228,22 @@ table {
 
   .md\:ml-32 {
     margin-left: 8rem;
+  }
+
+  .md\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .md\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .md\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .md\:ml-48 {
+    margin-left: 12rem;
   }
 
   .md\:mt-auto {
@@ -21845,6 +21935,10 @@ table {
     margin: 8rem;
   }
 
+  .lg\:m-48 {
+    margin: 12rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -21991,6 +22085,16 @@ table {
   .lg\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+
+  .lg\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .lg\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .lg\:my-auto {
@@ -22235,6 +22339,22 @@ table {
 
   .lg\:ml-32 {
     margin-left: 8rem;
+  }
+
+  .lg\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .lg\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .lg\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .lg\:ml-48 {
+    margin-left: 12rem;
   }
 
   .lg\:mt-auto {
@@ -27926,6 +28046,10 @@ table {
     margin: 8rem;
   }
 
+  .xl\:m-48 {
+    margin: 12rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -28072,6 +28196,16 @@ table {
   .xl\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+
+  .xl\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .xl\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .xl\:my-auto {
@@ -28316,6 +28450,22 @@ table {
 
   .xl\:ml-32 {
     margin-left: 8rem;
+  }
+
+  .xl\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .xl\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .xl\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .xl\:ml-48 {
+    margin-left: 12rem;
   }
 
   .xl\:mt-auto {
