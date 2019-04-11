@@ -49,53 +49,50 @@
     </div>
 </div>
 {{-- Mobile Nav Bar --}}
-<div class="fixed pin-t pin-l bg-green z-30 hidden justify-center" id="mobNav">
+<div class="fixed pin-t pin-l bg-green z-30 hidden justify-center py-4" id="mobNav">
     <ul class="list-reset flex flex-col items-center">
+        <p class="py-4 text-grey-lightest text-xl hover:bg-green-dark hover:cursor-pointer px-8" id="closeBtn"><i class="fas fa-times px-2 "></i>Close</p>
         <li class="py-4">
-            <a href="/" id="mobLink">Home</a>
+        <a href="{{route('index')}}" id="mobLink" class="text-grey-lightest no-underline text-xl hover:bg-green-dark hover:cursor-pointer px-8 py-4">Home</a>
         </li>
-        <li class="py-4 relative" id="dropdownMob">
-            <a href="/" id="mobLink">Our Community</a>
-            <ul class="hidden absolute ml-32 -mt-4 bg-green-light flex-col items-center list-reset rounded" id="dropdownContent">
-                <li class="py-2 px-6 text-grey-lightest">
-                    <a href="" class="text-grey-lightest">About Us</a>
-                </li>
-                <li class="py-2 px-6">
-                    <a href="">Classes</a>
-                </li>
-                <li class="py-2 px-6">
-                    <a href="">Community Kitchen</a>
-                </li>
-                <li class="py-2 px-6">
-                    <a href="">Farm Calendar</a>
-                </li>
-            </ul>
+        <li class=" relative" id="dropdownMob">
+            <p class="py-4 text-grey-lightest text-xl hover:bg-green-dark hover:cursor-pointer px-8" id="comBtn">Our Community</p>
+            <div class="hidden flex-col items-end py-4 px-2 opacity-0 " id="community">
+            <a href="/#about_us" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">About US</a>
+            <a href="{{route('classes')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Classes</a>
+            <a href="{{route('kitchen')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Community Kitchen</a>
+            <a href="{{route('calendar')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Farm Calendar</a>
+            </div>
         </li>
-        <li class="py-4 relative" id="dropdownMob">
-            <a href="/" id="mobLink">Love</a>
-            <ul class="hidden absolute ml-32 -mt-4 bg-green-light flex-col items-center list-reset rounded" id="dropdownContent">
-                    <li class="py-2 px-6 text-grey-lightest">
-                        <a href="" class="text-grey-lightest">Animals</a>
-                    </li>
-                    <li class="py-2 px-6">
-                        <a href="">Grow</a>
-                    </li>
-                    <li class="py-2 px-6">
-                        <a href="">Education </a>
-                    </li>
-                    <li class="py-2 px-6">
-                        <a href="">Ecology</a>
-                    </li>
-            </ul>
+        <li class="relative" id="dropdownMob">
+            <p class="py-4 text-grey-lightest text-xl hover:bg-green-dark hover:cursor-pointer px-8" id="loveBtn">Love</p>
+            <div class="hidden flex-col items-end py-4 px-2 opacity-0 " id="love">
+            <a href="{{route('animals')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Animals</a>
+            <a href="{{route('grow')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Grow</a>
+            <a href="{{route('education')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Education</a>
+            <a href="{{route('ecology')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Ecology</a>
+            </div>
+            
+        </li>
+        <li class="relative" id="dropdownMob">
+            <p class="py-4 text-grey-lightest text-xl hover:bg-green-dark hover:cursor-pointer px-8" id="invBtn">Get Involved</p>
+            <div class="hidden flex-col items-end py-4 px-2 opacity-0 " id="involved">
+            <a href="{{route('volunteer')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Volunteer</a>
+            <a href="{{route('corporate')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Corporate</a>
+            <a href="{{route('sponsors')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Sponsors</a>
+            <a href="{{route('donate')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Donate</a>
+            </div>
         </li>
         <li class="py-4">
-            <a href="/" id="mobLink">Get Involved</a>
+        <a href="{{route('news')}}" id="mobLink" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">News</a>
         </li>
-        <li class="py-4">
-            <a href="/" id="mobLink">News</a>
-        </li>
-        <li class="py-4">
-            <a href="/" id="mobLink">Info</a>
+        <li class="relative" id="dropdownMob">
+            <p class="py-4 text-grey-lightest text-xl hover:bg-green-dark hover:cursor-pointer px-8" id="infBtn">Info</p>
+            <div class="hidden flex-col items-end py-4 px-2 opacity-0 " id="info">
+            <a href="{{route('info.visit_us')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Visit Us</a>
+                <a href="{{route('info.contact')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Contact Us</a>
+                <a href="{{route('info.safety')}}" class="py-2 px-4 text-grey-lightest text-lg no-underline hover:bg-green-dark hover:cursor-pointer">Farm Safety</a>
+            </div>
         </li>
     </ul>
 </div>
