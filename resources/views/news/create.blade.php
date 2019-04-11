@@ -21,15 +21,15 @@ Create News Item | admin
         @csrf
             <div class="py-2">
                 <label for="title" class="block my-2 text-xl">Title:</label>
-                <input type="text" name="title" class="block w-80p md:w-80p h-8 outline-none rounded">
+            <input type="text" name="title" class="block w-80p md:w-80p h-8 outline-none rounded" value="{{old('title')}}">
             </div>
             <div class="py-2">
                 <label for="headline" class="block my-2 text-xl">Headline:</label>
-                <input type="text" name="headline" class="block w-80p md:w-80p h-8 outline-none rounded">
+            <input type="text" name="headline" class="block w-80p md:w-80p h-8 outline-none rounded" value="{{old('headline')}}">
             </div>
             <div class="py-2">
                 <label for="body" class="block my-2 text-xl">News Text:</label>
-                <textarea name="body" id="body" cols="30" rows="10" class="block w-80p md:w-80p h-48 outline-none rounded"></textarea>
+            <textarea name="body" id="body" cols="30" rows="10" class="block w-80p md:w-80p h-48 outline-none rounded">{{old('body')}}</textarea>
             </div>
             <div class="py-2">
                 <label for="image" class="block my-2 text-xl">Image (Optional):</label>

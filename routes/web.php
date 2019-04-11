@@ -47,4 +47,6 @@ Route::get('/admin', 'PagesController@admin')->name('admin.index');
 Route::get('/news', 'PagesController@news')->name('news');
 Route::get('/news/create', 'NewsController@create')->name('news.create');
 Route::post('/news/store', 'NewsController@store')->name('news.store');
+Route::get('/news/edit/{id}', 'NewsController@edit')->name('news.edit');
+Route::put('/news/update/{id}', 'NewsController@update')->name('news.update');
 Route::get('/newsitem/{id}', 'NewsController@newsitem')->name('news.newsitem');

@@ -92,6 +92,8 @@ class PagesController extends Controller
 
     public function admin()
     {
-        return view('admin.index');
+        $news = News::all();
+
+        return view('admin.index')->with('news', $news);
     }
 };
