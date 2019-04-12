@@ -50,3 +50,4 @@ Route::post('/news/store', 'NewsController@store')->name('news.store');
 Route::get('/news/edit/{id}', 'NewsController@edit')->name('news.edit');
 Route::put('/news/update/{id}', 'NewsController@update')->name('news.update');
 Route::get('/newsitem/{id}', 'NewsController@newsitem')->name('news.newsitem');
+Route::delete('/news/delete/{id}', 'NewsController@destroy')->name('news.delete');

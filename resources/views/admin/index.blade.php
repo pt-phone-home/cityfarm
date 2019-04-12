@@ -11,8 +11,8 @@
         <div class="w-full md:w-50p">
             <div>
                 <h2 class="text-center">News</h2>
-                <div>
-                <a href="{{route('news.create')}}">Create News Item</a>
+                <div class="my-4 flex justify-center">
+                <a href="{{route('news.create')}}" class="no-underline bg-green-light text-grey-lightest text-center px-4 py-2 rounded text-xl hover:bg-green-dark active:bg-green-darker">Create News Item</a>
                 </div>
                 <div>
                     <table class="w-full my-2">
@@ -39,14 +39,18 @@
                                 <td>
                                      <a href="{{route('news.edit', ['id' => $newsitem->id])}}">Edit</a>
                                 </td>
+                        
                                 <td>
-                                    Delete
+                                    <form action="{{route('news.delete', ['id' => $newsitem->id])}}" method="POST" onsubmit="return confirm('Are you sure you want to delete? This cannot be undone!')">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button class="px-2 py-1 bg-red rounded text-grey-lightest">DELETE</button>
+                                    </form>
                                 </td>
 
                             </tr>
 
                             @endforeach
-
 
                         @endif
                     </table>

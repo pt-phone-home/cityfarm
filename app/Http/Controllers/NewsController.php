@@ -7,7 +7,6 @@ use \App\News;
 
 class NewsController extends Controller
 {
-
     public function newsitem($id)
     {
         $newsitem = News::find($id);
@@ -59,7 +58,6 @@ class NewsController extends Controller
 
     public function update(Request $request, $id)
     {
-
         $this->validate($request, [
             'title' => 'required',
             'headline' => 'required',
@@ -86,6 +84,15 @@ class NewsController extends Controller
 
         $newsitem->save();
 
-        return redirect()->route('admin.index')->with('success', 'News Item Added Successfully');
+        return redirect()->route('admin.index')->with('success', 'News Item Updated Successfully');
+    }
+
+    public function destroy($id)
+    {
+        $newsitem = News::find($id);
+
+        $newsitem->delete();
+
+        return redirect()->route('admin.index')->with('success', 'News Item Deleted');
     }
 }
