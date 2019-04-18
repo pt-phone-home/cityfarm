@@ -45,6 +45,22 @@ let defaultConfig = require("tailwindcss/defaultConfig")();
 let colors = {
     transparent: "transparent",
 
+    'p-darkest': '#113a3b',
+    'p-darker': '#1d6163',
+    'p-dark': '#28888b',
+    p: '#38BEC2',
+    'p-light': '#4dc8cc',
+    'p-lighter': '#74d4d7',
+    'p-lightest': '#9ce0e2',
+
+    's-darkest': '#284d00',
+    's-darker': '#438000',
+    's-dark': '#5eb300',
+    s: '#79e600',
+    's-light': '#92ff1a',
+    's-lighter': '#aaff4d',
+    's-lightest': '#c3ff80',
+
     black: "#22292f",
     "grey-darkest": "#3d4852",
     "grey-darker": "#606f7b",

@@ -17,7 +17,7 @@ Route::get('/', 'PagesController@index')->name('index');
 
 Route::get('/community/classes', 'PagesController@classes')->name('classes');
 Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
-Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
+Route::get('/community/calendar', 'EventController@index')->name('calendar');
 
 // Love
 

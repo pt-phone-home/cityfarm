@@ -21,39 +21,42 @@ St. Anne's City Farm | Our Community
 
 {{-- Intro Quote --}}
 <div class="bg-grey-lightest bgi-g2">
-    <div class="container mx-auto">
+    <div class="container mx-auto pb-8">
         <h3 class="text-center mx-auto w-50p py-24 leading-loose text-2xl">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  </h3>
     </div>
 </div>
 
 {{-- About Us Banner --}}
 
-<div class="story-title bg-grey-light about h-20r bg-fixed flex justify-center items-center" id="about_us">
+{{-- <div class="story-title bg-grey-light about h-20r bg-fixed flex justify-center items-center" id="about_us">
     <h2 class="py-3 text-grey-lightest text-6xl pt-4 pb-2 uppercase">About Us</h2>
-</div>
+</div> --}}
 
 {{-- About Us Content --}}
 
-<div class="w-full flex justify-center bg-grey-light">
-    <div class="container mx-auto w-80p lg:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 text-xl bgi-g4 shadow-lg z-20">
+<div class="w-full flex justify-center bgi-farm z-30">
+    <div class="container mx-auto w-80p lg:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 text-xl bgi-g4 shadow-lg z-30">
         <h3 class="text-4xl underline text-center uppercase">Our Story</h3>
         <p>The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. The Dublin City Farm aims to function as a center for knowledge, for teaching and for interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local communities providing access to structural learning and modern environmentally sustainable practices.</p>
     </div>
 </div>
 
 <div class="w-full -mt-20 z-0" >
-    <div class="w-full aboutusinfo bg-fixed py-8">
-        <div class="container mx-auto py-24 flex flex-row flex-wrap">
-            <div class="w-full lg:w-1/2 bg-green-light-opacity-6">
-                <img src="/images/story.jpg" alt="" class="w-full h-full px-6 py-6">
+    <div class="w-full py-8 bgi-layer z-0"> {{-- aboutusinfo bg-fixed --}}
+        <div class="container mx-auto pt-16 flex">
+            <h2 class="text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
+        </div>
+        <div class="container mx-auto py-12 flex flex-row flex-wrap">
+            <div class="w-full lg:w-1/2 bg-green-light-opacity-6 rounded-full">
+                <img src="/images/family.png" alt="" class="w-full h-full px-6 py-6 rounded-full">
             </div>
             <div class=" lg:w-45p bgi-g2 flex flex-col items-center px-6 py-6 lg:ml-8 mt-4 lg:mt-0"> 
-                    <h3 class="text-4xl underline text-center uppercase">Our Objectives</h3>
+                    {{-- <h3 class="text-4xl underline text-center uppercase">Our Objectives</h3> --}}
                 <ul>
-                    <li class="py-2 leading-normal text-lg">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>
-                    <li class="py-2 leading-normal text-lg">To provide training to the surrounding community so as to enrich their own personal space with sustainable food and environmental practices.</li>
-                    <li class="py-2 leading-normal text-lg">To be a platform where local community groups and organisations can find a common ground and collaborate together.</li>
-                    <li class="py-2 leading-normal text-lg">To inspire a transition within the Dublin region from intensely chemically grown food to locally sourced organic vegetables and fruit.</li>
+                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>
+                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To provide training to the surrounding community so as to enrich their own personal space with sustainable food and environmental practices.</li>
+                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To be a platform where local community groups and organisations can find a common ground and collaborate together.</li>
+                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To inspire a transition within the Dublin region from intensely chemically grown food to locally sourced organic vegetables and fruit.</li>
                 </ul>
             </div>
         </div>
@@ -66,15 +69,18 @@ St. Anne's City Farm | Our Community
 </div> --}}
 
 {{-- What's On Title --}}
-<div class="w-full bg-grey-light">
+{{-- <div class="w-full bg-grey-light">
     <div class="container mx-auto flex justify-center items-center">
         <h2 class="text-6xl py-12">What's On</h2>
     </div>
-</div>
+</div> --}}
 
 {{-- What's On Content --}}
 
-<div class="w-full bg-grey-light bgi-layer">
+<div class="w-full bg-grey-light bgi-g2">
+        <div class="container mx-auto flex">
+                <h2 class="text-6xl pt-16 mb-4 border-b-8 border-p-darkest text-grey-darkest">What's On</h2>
+            </div>
 
     <div class="container mx-auto flex flex-row justify-center flex-wrap pb-6">
 

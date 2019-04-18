@@ -23,7 +23,7 @@ class PagesController extends Controller
     }
     public function calendar()
     {
-        return view('community.calendar');
+
     }
 
     // Love

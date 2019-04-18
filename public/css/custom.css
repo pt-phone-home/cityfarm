@@ -48,9 +48,9 @@ body {
 
 .hero {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
+        rgba(56, 190, 194, 0.5),
         70%,
-        rgba(39, 121, 189, 0.5)),
+        rgba(121, 230, 0, 0.5)),
         url("/images/hero.jpg");
     background-size: cover;
     background-position: center;
@@ -162,9 +162,9 @@ body {
 
 .bgi-layer {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
+        rgba(56, 190, 194, 1),
         70%,
-        rgba(39, 121, 189, 0.5));
+        rgba(121, 230, 0, 1));
 }
 
 /* VISIT US PAGE */
