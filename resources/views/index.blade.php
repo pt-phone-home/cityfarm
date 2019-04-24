@@ -44,19 +44,20 @@ St. Anne's City Farm | Our Community
 <div class="w-full -mt-20 z-0" >
     <div class="w-full py-8 bgi-layer z-0"> {{-- aboutusinfo bg-fixed --}}
         <div class="container mx-auto pt-16 flex">
-            <h2 class="text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
+            <h2 class=" text-2xl md:text-4xl lg:text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
         </div>
         <div class="container mx-auto py-12 flex flex-row flex-wrap">
-            <div class="w-full lg:w-1/2 bg-green-light-opacity-6 rounded-full">
-                <img src="/images/family.png" alt="" class="w-full h-full px-6 py-6 rounded-full">
+            <div class="w-full lg:w-1/2 bg-primary-5 rounded-full flex justify-center items-center flex-no-shrink">
+                {{-- <img src="/images/family.png" alt="" class="w-15r md:w-25r lg:w-35r h-auto px-6 py-6 rounded-full "> --}}
+                <object data="/images/family2.svg" type="image/svg+xml" class="h-20r w-80p"></object>
             </div>
-            <div class=" lg:w-45p bgi-g2 flex flex-col items-center px-6 py-6 lg:ml-8 mt-4 lg:mt-0"> 
+            <div class="lg:w-45p bgi-g2 flex flex-col items-center px-4 py-6 lg:ml-6 mt-4 lg:mt-0 "> 
                     {{-- <h3 class="text-4xl underline text-center uppercase">Our Objectives</h3> --}}
-                <ul>
-                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>
-                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To provide training to the surrounding community so as to enrich their own personal space with sustainable food and environmental practices.</li>
-                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To be a platform where local community groups and organisations can find a common ground and collaborate together.</li>
-                    <li class="py-2 leading-normal text-base md:text-lg lg:text-xl">To inspire a transition within the Dublin region from intensely chemically grown food to locally sourced organic vegetables and fruit.</li>
+                <ul class="list-reset">
+                    <li class="py-2 px-4 leading-normal text-base md:text-lg lg:text-xl">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>
+                    <li class="py-2 px-4 leading-normal text-base md:text-lg lg:text-xl">To provide training to the surrounding community so as to enrich their own personal space with sustainable food and environmental practices.</li>
+                    <li class="py-2 px-4 leading-normal text-base md:text-lg lg:text-xl">To be a platform where local community groups and organisations can find a common ground and collaborate together.</li>
+                    <li class="py-2 px-4 leading-normal text-base md:text-lg lg:text-xl">To inspire a transition within the Dublin region from intensely chemically grown food to locally sourced organic vegetables and fruit.</li>
                 </ul>
             </div>
         </div>
@@ -84,8 +85,9 @@ St. Anne's City Farm | Our Community
 
     <div class="container mx-auto flex flex-row justify-center flex-wrap pb-6">
 
-        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 ">
-            <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 border-2 border-grey-lighter">
+            <object data="/images/classes.svg" type="image/svg+xml" class="h-20r w-80p"></object>
+            {{-- <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover"> --}}
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Classes</h5>
             </div>
@@ -96,8 +98,9 @@ St. Anne's City Farm | Our Community
             <a href="{{route('classes')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6" id="kitchen">
-            <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 border-2 border-grey-lighter" id="kitchen">
+            {{-- <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover"> --}}
+            <object data="/images/cooking.svg" type="image/svg+xml" class="h-20r w-80p"></object>
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Community Kitchen</h5>
             </div>
@@ -108,8 +111,9 @@ St. Anne's City Farm | Our Community
             <a href="{{route('kitchen')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6" id="calendar">
-            <img src="/images/calendar.jpg" alt="" class="w-full h-20r object-cover">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center px-4 py-6 border-2 border-grey-lighter" id="calendar">
+            {{-- <img src="/images/calendar.jpg" alt="" class="w-full h-20r object-cover"> --}}
+            <object data="/images/calendar.svg" type="image/svg+xml" class="h-20r w-80p"></object>
             <div class="bg-grey w-full py-4">
                 <h5 class="text-center text-3xl">Farm Calendar</h5>
             </div>

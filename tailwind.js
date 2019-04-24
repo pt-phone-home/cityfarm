@@ -45,6 +45,50 @@ let defaultConfig = require("tailwindcss/defaultConfig")();
 let colors = {
     transparent: "transparent",
 
+    'primary-10': '#004440',
+    'primary-9': '#016457',
+    'primary-8': '#048271',
+    'primary-7': '#079AB2',
+    'primary-6': '#17B897',
+    'primary-5': '#2DCCA7',
+    'primary-4': '#5FE3CO',
+    'primary-3': '#8EEDD1',
+    'primary-2': '#C6F7E9',
+    'primary-1': '#FOFCF9',
+
+    'neutral-10': '#222222',
+    'neutral-9': '#3B3B3B',
+    'neutral-8': '#515151',
+    'neutral-7': '#626262',
+    'neutral-6': '#7E7E7E',
+    'neutral-5': '#9E9E9E',
+    'neutral-4': '#B1B1B1',
+    'neutral-3': '#CFCFCF',
+    'neutral-2': '#E1E1E1',
+    'neutral-1': '#F7F7F7',
+
+    'sup1-10': '#8D2B0B',
+    'sup1-9': '#B44D12',
+    'sup1-8': '#CB6E17',
+    'sup1-7': '#DE911D',
+    'sup1-6': '#FOB429',
+    'sup1-5': '#F7C948',
+    'sup1-4': '#FADB57',
+    'sup1-3': '#FCE588',
+    'sup1-2': '#FFF3C4',
+    'sup1-1': '#FFFBEA',
+
+    'sup2-10': '#610316',
+    'sup2-9': '#8AO41A',
+    'sup2-8': '#ABO91E',
+    'sup2-7': '#CF1124',
+    'sup2-6': '#E12D39',
+    'sup2-5': '#EF4E4E',
+    'sup2-4': '#F86A6A',
+    'sup2-3': '#FF9B9B',
+    'sup2-2': '#FFBDBD',
+    'sup2-1': '#FFE3E3',
+
     'p-darkest': '#113a3b',
     'p-darker': '#1d6163',
     'p-dark': '#28888b',
@@ -144,6 +188,10 @@ let colors = {
     "pink-light": "#fa7ea8",
     "pink-lighter": "#ffbbca",
     "pink-lightest": "#ffebef",
+
+    "wine": "#74291B",
+
+    "fair": "#DEB985",
 };
 
 module.exports = {
@@ -520,6 +568,9 @@ module.exports = {
         "5/6": "83.33333%",
         full: "100%",
         screen: "100vw",
+        '15r': '15rem',
+        '20r': '20rem',
+        '25r': '25rem',
         '30r': '30rem',
         '35r': '35rem',
         '40r': '40rem',
@@ -530,6 +581,7 @@ module.exports = {
         '50p': '50%',
         '60p': '60%',
         '70p': '70%',
+        '75p': '75%',
         '80p': '80%',
         '90p': '90%',
         '100p': '100%',
@@ -577,7 +629,7 @@ module.exports = {
         "40r": "40rem",
         full: "100%",
         screen: "100vh",
-
+        '50p': '50%',
         '80p': '80%',
     },
 

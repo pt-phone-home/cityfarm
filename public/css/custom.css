@@ -4,6 +4,7 @@ html {
     font-family: "Indie Flower", cursive;
 }
 
+/* 
 @media (max-width: 992px) {
     html {
         font-size: 95%;
@@ -20,7 +21,7 @@ html {
     html {
         font-size: 85%;
     }
-}
+} */
 
 body {
     /* background: url("/images/bg1.png");
@@ -48,9 +49,9 @@ body {
 
 .hero {
     background-image: linear-gradient(to right bottom,
-        rgba(56, 190, 194, 0.5),
+        rgba(45, 204, 167, 0.5),
         70%,
-        rgba(121, 230, 0, 0.5)),
+        rgba(247, 201, 72, 0.5)),
         url("/images/hero.jpg");
     background-size: cover;
     background-position: center;
@@ -73,9 +74,9 @@ body {
 
 .about {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
+        rgba(45, 204, 167, 0.5),
         70%,
-        rgba(39, 121, 189, 0.5)),
+        rgba(247, 201, 72, 0.5)),
         url("/images/story.jpg");
     background-size: cover;
     background-position: center;
@@ -94,9 +95,9 @@ body {
 
 .bgi-social {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
+        rgba(45, 204, 167, 0.5),
         70%,
-        rgba(39, 121, 189, 0.5)),
+        rgba(247, 201, 72, 0.5)),
         url("/images/social_background.png");
     background-size: cover;
     background-position: center;
@@ -140,9 +141,9 @@ body {
 
 .aboutusinfo {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
+        rgba(45, 204, 167, 0.5),
         70%,
-        rgba(39, 121, 189, 0.5)),
+        rgba(247, 201, 72, 0.5)),
         url("/images/aboutus.jpg");
     background-size: cover;
     background-position: center;
@@ -162,9 +163,8 @@ body {
 
 .bgi-layer {
     background-image: linear-gradient(to right bottom,
-        rgba(56, 190, 194, 1),
-        70%,
-        rgba(121, 230, 0, 1));
+        rgba(45, 204, 167, 1) 70%,
+        rgba(247, 201, 72, 1));
 }
 
 /* VISIT US PAGE */
@@ -183,9 +183,9 @@ body {
 
 .bg-map {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
+        rgba(45, 204, 167, 0.5),
         70%,
-        rgba(39, 121, 189, 0.5)),
+        rgba(247, 201, 72, 0.5)),
         url("/images/map2.jpg");
     background-size: cover;
     background-position: center;

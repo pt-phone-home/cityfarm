@@ -9,12 +9,12 @@ Volunteer | St. Anne's City Farm
     <h1 class="text-grey-darkest text-6xl">Volunteer</h1>
 </div>
 
-<div class="bg-grey-lightest">
+<div class="bg-primary-8">
     <div class="container mx-auto">
-        <h1 class="text-center text-6xl my-4">Help out around the farm</h1>
-        <div class="px-4">
-            <h5 class="leading-loose text-xl">St. Anne's City Farm was set up by volunteers, the gates of the farm will open on the 26th of April 2019 to the public and we will rely on volunteers to help with the day to day running of the farm. We have lots of projects running from maintaining the farm and gardens, to looking after the animals.</h5>
-            <h5 class="leading-loose text-xl">Our open volunteering day is every Saturday from 10am to 1pm. We are always looking for volunteers</h5>
+        <h1 class="text-center text-6xl py-6 text-neutral-2">Help out around the farm</h1>
+        <div class="px-12 py-6">
+            <h5 class="leading-loose text-xl text-neutral-2">St. Anne's City Farm was set up by volunteers, the gates of the farm will open on the 26th of April 2019 to the public and we will rely on volunteers to help with the day to day running of the farm. We have lots of projects running from maintaining the farm and gardens, to looking after the animals.</h5>
+            <h5 class="leading-loose text-xl text-neutral-2">Our open volunteering day is every Saturday from 10am to 1pm. We are always looking for volunteers</h5>
         </div>
     </div>
 </div>

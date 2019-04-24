@@ -11,7 +11,7 @@ Visit Us | St. Anne's City Farm
     <h1 class="text-grey-darkest text-6xl">Visit Us</h1>
 </div>
 
-<div class="w-full bg-grey-lightest">
+<div class="w-full bg-primary-8">
     <div class="container mx-auto flex flex-row flex-wrap py-12">
         {{-- left Side --}}
         <div class="map w-full md:w-1/2 h-20r" id="map">
@@ -21,16 +21,16 @@ Visit Us | St. Anne's City Farm
         <div class="w-full md:w-1/2 h-auto flex flex-col justify-center px-4 py-4 md:py-0">
             {{-- Top --}}
             <div>
-                <h3 class="text-center text-4xl">Farm Location</h3>
+                <h3 class="text-center text-4xl text-neutral-2">Farm Location</h3>
             </div>  
             {{-- Bottom --}}
-            <div class="flex flex-row border-b-2 border-dashed border-green-dark pb-4">
+            <div class="flex flex-row border-b-2 border-dashed border-neutral-2 pb-4">
                 {{-- Left Side --}}
                 <div class="w-1/2 flex justify-center items-center">
-                    <i class="fas fa-globe-europe text-7xl text-grey-darkest self-center"></i>
+                    <i class="fas fa-globe-europe text-7xl text-neutral-2 self-center"></i>
                 </div>
                 {{-- Right Side --}}
-                <div class="w-1/2 text-lg">
+                <div class="w-1/2 text-lg text-neutral-2">
                     <h5 class="text-xl py-2">St. Anne's City Farm</h5>
                     <p class="py-1">67 All Saints Rd., Raheny</p>
                     <p class="py-1">Dublin, Ireland</p>
@@ -39,8 +39,8 @@ Visit Us | St. Anne's City Farm
             </div>
             {{-- Second Bottom Section --}}
             <div class="container mx-auto flex flex-col py-6 px-6">
-                    <h3 class="text-3xl text-center">Entrance</h3>
-                    <p class="leading-loose text-xl">Completely free entry! We are located beside the All Saint's Road Service entrace of the park. Right beside the Allotments.</p>
+                    <h3 class="text-3xl text-center text-neutral-2">Entrance</h3>
+                    <p class="leading-loose text-xl text-neutral-2">Completely free entry! We are located beside the All Saint's Road Service entrace of the park. Right beside the Allotments.</p>
             </div>
         </div>
     </div>
