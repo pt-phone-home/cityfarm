@@ -8,7 +8,7 @@ Visit Us | St. Anne's City Farm
 
 @section('content')
 <div class="bgi-farm h-10r flex justify-center items-center">
-    <h1 class="text-grey-darkest text-6xl">Visit Us</h1>
+    <h1 class="font-dec text-grey-darkest text-6xl">Visit Us</h1>
 </div>
 
 <div class="w-full bg-primary-8">
@@ -48,7 +48,7 @@ Visit Us | St. Anne's City Farm
 {{-- Getting to the Farm --}}
 <div class="w-full bg-grey-lightest py-8 bg-map bg-fixed">
         <div class="container mx-auto">
-            <h2 class="text-center text-6xl py-4 text-grey-lightest">Getting to the Farm</h2>
+            <h2 class="font-dec text-center text-6xl py-4 text-grey-lightest">Getting to the Farm</h2>
         </div>
     <div class="container mx-auto flex flex-wrap justify-around items-center lg:items-center">
         {{-- Colum 1 --}}
@@ -101,7 +101,7 @@ Visit Us | St. Anne's City Farm
         <i class="fas fa-exclamation-triangle text-5xl md:text-7xl lg:text-9xl text-green py-4"></i>
     </div>
     <div class="container mx-auto">
-        <h3 class="text-center text-2xl md:text-4xl lg:text-6xl py-4">Some Rules for your visit</h3>
+        <h3 class="font-dec text-center text-2xl md:text-4xl lg:text-6xl py-4">Some Rules for your visit</h3>
     </div>
     <div class="container mx-auto">
         <ul class="leading-loose">

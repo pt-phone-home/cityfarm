@@ -7,7 +7,7 @@ Contact Us | St. Anne's City Farm
 @section('content')
 
 <div class="bgi-farm h-10r flex justify-center items-center">
-    <h1 class="text-grey-darkest text-6xl">Conact Us</h1>
+    <h1 class="font-dec text-grey-darkest text-6xl">Conact Us</h1>
 </div>
 
 <div class="w-full bg-grey-light ">

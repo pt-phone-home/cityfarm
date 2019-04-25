@@ -290,6 +290,9 @@ module.exports = {
             "Courier New",
             "monospace",
         ],
+
+        dec: ['Indie Flower', 'cursive'],
+        body: ['Roboto', 'sans-serif']
     },
 
     /*

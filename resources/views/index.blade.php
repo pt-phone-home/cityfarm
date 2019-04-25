@@ -12,7 +12,7 @@ St. Anne's City Farm | Our Community
 
 <div class="hero flex flex-col w-full h-30r md:h-40r justify-center bg-fixed">
 
-    <h1 class="text-white self-center text-4xl md:text-6xl hero-title uppercase mb-12">St. Anne's City Farm</h1>
+    <h1 class="font-dec text-white self-center text-4xl md:text-6xl hero-title uppercase mb-12">St. Anne's City Farm</h1>
     <h4 class="text-white self-center text-2xl text-center mx-2 lg:mx-0 md:text-3xl my-4 hero-subtitle">Promoting ecological awareness and sustainable living. Teaching ethics on every level.
     </h4>
 
@@ -36,7 +36,7 @@ St. Anne's City Farm | Our Community
 
 <div class="w-full flex justify-center bgi-farm z-30">
     <div class="container mx-auto w-80p lg:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 text-xl bgi-g4 shadow-lg z-30">
-        <h3 class="text-4xl underline text-center uppercase">Our Story</h3>
+        <h3 class="font-dec text-4xl underline text-center uppercase">Our Story</h3>
         <p>The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. The Dublin City Farm aims to function as a center for knowledge, for teaching and for interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local communities providing access to structural learning and modern environmentally sustainable practices.</p>
     </div>
 </div>
@@ -44,7 +44,7 @@ St. Anne's City Farm | Our Community
 <div class="w-full -mt-20 z-0" >
     <div class="w-full py-8 bgi-layer z-0"> {{-- aboutusinfo bg-fixed --}}
         <div class="container mx-auto pt-16 flex">
-            <h2 class=" text-2xl md:text-4xl lg:text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
+            <h2 class="font-dec text-2xl md:text-4xl lg:text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
         </div>
         <div class="container mx-auto py-12 flex flex-row flex-wrap">
             <div class="w-full lg:w-1/2 bg-primary-5 rounded-full flex justify-center items-center flex-no-shrink">
@@ -80,7 +80,7 @@ St. Anne's City Farm | Our Community
 
 <div class="w-full bg-grey-light bgi-g2">
         <div class="container mx-auto flex">
-                <h2 class="text-6xl pt-16 mb-4 border-b-8 border-p-darkest text-grey-darkest">What's On</h2>
+                <h2 class="font-dec text-6xl pt-16 mb-4 border-b-8 border-p-darkest text-grey-darkest">What's On</h2>
             </div>
 
     <div class="container mx-auto flex flex-row justify-center flex-wrap pb-6">
@@ -89,7 +89,7 @@ St. Anne's City Farm | Our Community
             <object data="/images/classes.svg" type="image/svg+xml" class="h-20r w-80p"></object>
             {{-- <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover"> --}}
             <div class="bg-grey w-full py-4">
-                <h5 class="text-center text-3xl">Classes</h5>
+                <h5 class="font-dec text-center text-3xl">Classes</h5>
             </div>
             <div class="w-full bg-grey-darkest px-4 py-4">
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
@@ -102,7 +102,7 @@ St. Anne's City Farm | Our Community
             {{-- <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover"> --}}
             <object data="/images/cooking.svg" type="image/svg+xml" class="h-20r w-80p"></object>
             <div class="bg-grey w-full py-4">
-                <h5 class="text-center text-3xl">Community Kitchen</h5>
+                <h5 class="font-dec text-center text-3xl">Community Kitchen</h5>
             </div>
             <div class="w-full bg-grey-darkest px-4 py-4">
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
@@ -115,7 +115,7 @@ St. Anne's City Farm | Our Community
             {{-- <img src="/images/calendar.jpg" alt="" class="w-full h-20r object-cover"> --}}
             <object data="/images/calendar.svg" type="image/svg+xml" class="h-20r w-80p"></object>
             <div class="bg-grey w-full py-4">
-                <h5 class="text-center text-3xl">Farm Calendar</h5>
+                <h5 class="font-dec text-center text-3xl">Farm Calendar</h5>
             </div>
             <div class="w-full bg-grey-darkest px-4 py-4">
                 <p class="text-grey-lightest text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>

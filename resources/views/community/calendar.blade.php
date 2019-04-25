@@ -7,7 +7,7 @@
 
 @section('content')
 <div class="bgi-farm h-10r flex justify-center items-center">
-    <h1 class="text-grey-darkest text-6xl">Farm Calendar</h1>
+    <h1 class="font-dec text-grey-darkest text-6xl">Farm Calendar</h1>
 </div>
 <div class="container mx-auto py-8 flex flex-wrap">
        

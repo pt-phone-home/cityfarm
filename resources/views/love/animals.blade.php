@@ -6,13 +6,13 @@
 
 @section('content')
 <div class="bgi-farm h-10r flex justify-center items-center">
-    <h1 class="text-grey-darkest text-6xl">Our Animals</h1>
+    <h1 class="font-dec text-grey-darkest text-6xl">Our Animals</h1>
 </div>
 
 <div class="bg-primary-8">
     <div class="container mx-auto py-8 px-2">
         {{-- <h2 class="text-center text-5xl py-2 text-neutral-2">Our Animals</h2> --}}
-        <p class="leading-tight text-center text-2xl text-neutral-2 px-12"><span class="text-6xl">"</span> Our animals, our family. We love and respect all our animals. They all have different stories, some are rescued, some have had to be rehomed for many different reasons.<span class="text-6xl">"</span></p>
+        <p class="leading-tight text-center text-2xl text-neutral-2 px-12"><span class="text-6xl font-dec">"</span> Our animals, our family. We love and respect all our animals. They all have different stories, some are rescued, some have had to be rehomed for many different reasons.<span class="text-6xl font-dec">"</span></p>
     </div>
 </div>
 

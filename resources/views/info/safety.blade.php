@@ -6,13 +6,13 @@ Farm Safety | St. Anne's City Farm
 
 @section('content')
 <div class="bgi-farm h-10r flex justify-center items-center">
-    <h1 class="text-grey-darkest text-6xl">Farm Safety</h1>
+    <h1 class="font-dec text-grey-darkest text-6xl">Farm Safety</h1>
 </div>
 
 <div class="w-full bg-grey-lightest">
 
     <div class="container mx-auto">
-        <h2 class="text-center text-4xl my-4">Farm rules for your safety</h2>
+        <h2 class="font-dec text-center text-4xl my-4">Farm rules for your safety</h2>
     </div>
     <div class="container mx-auto flex flex-row flex-wrap">
 

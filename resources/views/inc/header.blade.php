@@ -1,4 +1,4 @@
-<div class="w-full py-2 px-3 h-32 flex  bg-grey-lightest justify-center items-center z-10 relative">
+<div class="w-full py-2 px-3 h-32 flex  bg-grey-lightest justify-center items-center z-10 relative font-dec">
     <div class="flex flex-row justify-between container mx-auto sm:w-100p md:w-100p lg:w-70p">
         <div class="logo w-1/3 my-4">
             <img src="/images/logo.png" alt="" class="farm-logo" onclick="location.href= '/';" style="cursor:pointer">

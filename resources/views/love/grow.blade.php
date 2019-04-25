@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="bgi-farm h-10r flex justify-center items-center">
-    <h1 class="text-grey-darkest text-6xl">Grow</h1>
+    <h1 class="font-dec text-grey-darkest text-6xl">Grow</h1>
 </div>
 
 <div class="bg-grey-lightest">
