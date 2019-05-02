@@ -168,6 +168,16 @@ body {
         rgba(247, 201, 72, 1));
 }
 
+.bg-events {
+    background-image: linear-gradient(to right bottom,
+        rgba(45, 204, 167, 0.5),
+        70%,
+        rgba(247, 201, 72, 0.5)),
+        url("/images/aboutus.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /* VISIT US PAGE */
 
 .pig-banner {

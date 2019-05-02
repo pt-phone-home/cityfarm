@@ -148,6 +148,8 @@ let colors = {
     "green-lightest": "#e3fcec",
 
     'green-light-opacity-6': "rgba(81, 216, 138, 0.6)",
+    'green-light-opacity-8': "rgba(81, 216, 138, 0.8)",
+    'green-light-opacity-9': "rgba(81, 216, 138, 0.9)",
 
     "teal-darkest": "#0d3331",
     "teal-darker": "#20504f",
@@ -632,7 +634,9 @@ module.exports = {
         "40r": "40rem",
         full: "100%",
         screen: "100vh",
+        '40p': '40%',
         '50p': '50%',
+        '60p': '60%',
         '80p': '80%',
     },
 
