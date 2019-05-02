@@ -59,7 +59,7 @@
 <div class="bg-events">
     <div class="container mx-auto flex flex-wrap py-8">
 
-        <div class="w-full md:w-1/3 flex justify-center items-center px-2 py-2">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center px-2 py-2 h-64">
             <div class="relative w-full h-full flex flex-col">
                 {{-- Backround Image and Overlay START --}}
                 <div class=" w-full h-full absolute pin-t pin-l z-0">
@@ -94,16 +94,83 @@
                     </div>
                 </div>
                 {{-- Bottom Section END --}}
-
-
             </div>
         </div>
-        <div class="w-full md:w-1/3  h-64">
+        <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center px-2 py-2 h-64">
+            <div class="relative w-full h-full flex flex-col">
+                {{-- Backround Image and Overlay START --}}
+                <div class=" w-full h-full absolute pin-t pin-l z-0">
+                    <img src="/images/story.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                {{-- <div class=" w-full h-full absolute pin-t pin-l bg-green-light-opacity-6 z-10">
+                   
+                </div> --}}
+                {{-- Background Image and Overlay END --}}
 
-        </div>
-        <div class="w-full md:w-1/3 h-64">
+                {{-- Top Section START --}}
+                <div class="z-20 h-60p ">
+                    <div class="w-1/3 bg-green-light-opacity-9 h-full flex flex-col items-center justify-center">
+                        <span class="text-grey-lightest text-sm">May</span>
+                        <span class="py-1 text-grey-lightest text-4xl">22nd</span> 
+                        <span class="text-grey-lightest text-sm">2019</span>
+                    </div>
+                    <div class="w-2/3 h-full">
 
+                    </div>
+                </div>
+                {{-- Top Section END --}}
+                {{-- Bottom Section START --}}
+                <div class="z-20 h-40p flex">
+                    <div class="w-70p bg-grey-light h-full px-2 py-2">
+                        <h3>Title</h3>
+                        <h4 class="py-1">Location</h4>
+                        <h5>Time</h5>
+                    </div>
+                    <div class="flex justify-center items-center bg-green-light w-30p">
+                        <button class="uppercase text-grey-lightest border-2 px-4 py-2 border-grey-lightest">More</button>
+                    </div>
+                </div>
+                {{-- Bottom Section END --}}
+            </div>
         </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center px-2 py-2 h-64">
+            <div class="relative w-full h-full flex flex-col">
+                {{-- Backround Image and Overlay START --}}
+                <div class=" w-full h-full absolute pin-t pin-l z-0">
+                    <img src="/images/story.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                {{-- <div class=" w-full h-full absolute pin-t pin-l bg-green-light-opacity-6 z-10">
+                   
+                </div> --}}
+                {{-- Background Image and Overlay END --}}
+
+                {{-- Top Section START --}}
+                <div class="z-20 h-60p ">
+                    <div class="w-1/3 bg-green-light-opacity-9 h-full flex flex-col items-center justify-center">
+                        <span class="text-grey-lightest text-sm">May</span>
+                        <span class="py-1 text-grey-lightest text-4xl">22nd</span> 
+                        <span class="text-grey-lightest text-sm">2019</span>
+                    </div>
+                    <div class="w-2/3 h-full">
+
+                    </div>
+                </div>
+                {{-- Top Section END --}}
+                {{-- Bottom Section START --}}
+                <div class="z-20 h-40p flex">
+                    <div class="w-70p bg-grey-light h-full px-2 py-2">
+                        <h3>Title</h3>
+                        <h4 class="py-1">Location</h4>
+                        <h5>Time</h5>
+                    </div>
+                    <div class="flex justify-center items-center bg-green-light w-30p">
+                        <button class="uppercase text-grey-lightest border-2 px-4 py-2 border-grey-lightest">More</button>
+                    </div>
+                </div>
+                {{-- Bottom Section END --}}
+            </div>
+        </div>
+        
         
 
 
