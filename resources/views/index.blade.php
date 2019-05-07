@@ -22,8 +22,16 @@ St. Anne's City Farm | Our Community
 {{-- Intro Quote --}}
 <div class="bg-grey-lightest bgi-g2">
     <div class="container mx-auto pb-8">
-        <h3 class="text-center mx-auto w-50p py-24 leading-loose text-2xl">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  </h3>
+        <h3 class="text-center mx-auto w-50p py-24 leading-loose text-2xl">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  
+
+            <div class="text-center">
+                    <object data="/images/divider.svg" type="image/svg+xml" class="w-24 h-auto"></object>
+            </div>
+        </h3>
+        
     </div>
+
+
 </div>
 
 {{-- About Us Banner --}}
@@ -38,10 +46,12 @@ St. Anne's City Farm | Our Community
     <div class="container mx-auto w-80p lg:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 text-xl bgi-g4 shadow-lg z-30">
         <h3 class="font-dec text-4xl underline text-center uppercase">Our Story</h3>
         <p>The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. The Dublin City Farm aims to function as a center for knowledge, for teaching and for interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local communities providing access to structural learning and modern environmentally sustainable practices.</p>
+    
     </div>
+    
 </div>
 
-<div class="w-full -mt-20 z-0" >
+<div class="w-full -mt-18 z-0" >
     <div class="w-full py-8 bgi-layer z-0"> {{-- aboutusinfo bg-fixed --}}
         <div class="container mx-auto pt-16 flex">
             <h2 class="font-dec text-2xl md:text-4xl lg:text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
