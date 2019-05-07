@@ -51,7 +51,7 @@ St. Anne's City Farm | Our Community
     
 </div>
 
-<div class="w-full -mt-18 z-0" >
+<div class="w-full -mt-20 z-0" >
     <div class="w-full py-8 bgi-layer z-0"> {{-- aboutusinfo bg-fixed --}}
         <div class="container mx-auto pt-16 flex">
             <h2 class="font-dec text-2xl md:text-4xl lg:text-6xl border-b-8 border-p-darkest text-grey-darkest">Our Objectives</h2>
