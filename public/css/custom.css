@@ -50,9 +50,9 @@ body {
 
 .hero {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 0.5),
-        70%,
-        rgba(247, 201, 72, 0.5)),
+            rgba(45, 204, 167, 0.5),
+            70%,
+            rgba(247, 201, 72, 0.5)),
         url("/images/hero.jpg");
     background-size: cover;
     background-position: center;
@@ -75,9 +75,9 @@ body {
 
 .about {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 0.5),
-        70%,
-        rgba(247, 201, 72, 0.5)),
+            rgba(45, 204, 167, 0.5),
+            70%,
+            rgba(247, 201, 72, 0.5)),
         url("/images/story.jpg");
     background-size: cover;
     background-position: center;
@@ -96,9 +96,9 @@ body {
 
 .bgi-social {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 0.5),
-        70%,
-        rgba(247, 201, 72, 0.5)),
+            rgba(45, 204, 167, 0.5),
+            70%,
+            rgba(247, 201, 72, 0.5)),
         url("/images/social_background.png");
     background-size: cover;
     background-position: center;
@@ -106,9 +106,9 @@ body {
 
 .bgi-twitter {
     background-image: linear-gradient(to right bottom,
-        rgba(0, 132, 180, .7),
-        50%,
-        rgba(0, 172, 237, .7)),
+            rgba(0, 132, 180, .7),
+            50%,
+            rgba(0, 172, 237, .7)),
         url('/images/twitter.png');
     background-size: cover;
     background-position: center;
@@ -117,9 +117,9 @@ body {
 .bgi-instagram {
     background-image:
         linear-gradient(to right bottom,
-        rgba(254, 218, 117, .8),
-        50%,
-        rgba(250, 126, 30, .8)),
+            rgba(254, 218, 117, .8),
+            50%,
+            rgba(250, 126, 30, .8)),
         url('/images/instagram.png');
     background-size: cover;
     background-position: center;
@@ -128,9 +128,9 @@ body {
 .bgi-facebook {
     background-image:
         linear-gradient(to right bottom,
-        rgba(41, 72, 125, .8),
-        50%,
-        rgba(156, 178, 206, .8)),
+            rgba(41, 72, 125, .8),
+            50%,
+            rgba(156, 178, 206, .8)),
         url('/images/facebook.png');
     background-size: cover;
     background-position: center;
@@ -142,9 +142,9 @@ body {
 
 .aboutusinfo {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 0.5),
-        70%,
-        rgba(247, 201, 72, 0.5)),
+            rgba(45, 204, 167, 0.5),
+            70%,
+            rgba(247, 201, 72, 0.5)),
         url("/images/aboutus.jpg");
     background-size: cover;
     background-position: center;
@@ -164,15 +164,15 @@ body {
 
 .bgi-layer {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 1) 70%,
-        rgba(247, 201, 72, 1));
+            rgba(45, 204, 167, 1) 70%,
+            rgba(247, 201, 72, 1));
 }
 
 .bg-events {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 0.5),
-        70%,
-        rgba(247, 201, 72, 0.5)),
+            rgba(45, 204, 167, 0.5),
+            70%,
+            rgba(247, 201, 72, 0.5)),
         url("/images/aboutus.jpg");
     background-size: cover;
     background-position: center;
@@ -182,9 +182,9 @@ body {
 
 .pig-banner {
     background-image: linear-gradient(to right bottom,
-        rgba(31, 157, 85, 0.5),
-        70%,
-        rgba(39, 121, 189, 0.5)),
+            rgba(31, 157, 85, 0.5),
+            70%,
+            rgba(39, 121, 189, 0.5)),
         url("/images/pig.jpg");
     background-size: cover;
     background-position: center;
@@ -194,9 +194,9 @@ body {
 
 .bg-map {
     background-image: linear-gradient(to right bottom,
-        rgba(45, 204, 167, 0.5),
-        70%,
-        rgba(247, 201, 72, 0.5)),
+            rgba(45, 204, 167, 0.5),
+            70%,
+            rgba(247, 201, 72, 0.5)),
         url("/images/map2.jpg");
     background-size: cover;
     background-position: center;

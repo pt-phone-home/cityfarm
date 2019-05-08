@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use \App\News;
+use \App\Task;
 
 class PagesController extends Controller
 {
@@ -12,6 +13,11 @@ class PagesController extends Controller
     }
 
     //OUR COMMUNITY
+
+    public function about()
+    {
+        return view('community.about');
+    }
 
     public function classes()
     {
@@ -23,7 +29,9 @@ class PagesController extends Controller
     }
     public function calendar()
     {
+        $events = Task::all()->sortByDesc('month')->sortBy('date')->take(9);
 
+        return view('community.calendar')->with('events', $events);
     }
 
     // Love

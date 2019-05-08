@@ -14,10 +14,10 @@
 Route::get('/', 'PagesController@index')->name('index');
 
 // Community
-
+Route::get('/community/about', 'PagesController@about')->name('about');
 Route::get('/community/classes', 'PagesController@classes')->name('classes');
 Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
-Route::get('/community/calendar', 'EventController@index')->name('calendar');
+Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
 
 // Love
 
