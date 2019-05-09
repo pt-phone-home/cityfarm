@@ -23,7 +23,7 @@
     <div class="container mx-auto flex flex-wrap justify-center">
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
             <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
-                 <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
+                 <img src="/images/willow.jpg" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Willow</h3>
                 <h5 class="bg-pink-light text-grey-lightest text-center py-2 text-xl">Vietnamese Potbelly Pig</h5>
                 <p class="leading-normal py-2 px-1 h-full bg-neutral-1">She may have been the runt of the liter but this pig is the brain of the operation, she's always got a plan, she's doesn't miss a trick. Our willow is a clever girl.</p>
@@ -31,7 +31,7 @@
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
             <div class="w-80p flex flex-col justify-center border-2 animals" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
-                 <img src="/images/placeholder.png" class="h-48 w-full object-cover" alt="">  
+                 <img src="/images/ash2.jpg" class="h-48 w-full object-cover" alt="">  
                  <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">Ash</h3>
                 <h5 class="bg-pink-light text-grey-lightest text-center py-2 text-xl">Vietnamese Potbelly Pig</h5>
                 <p class="leading-normal py-2 px-1 h-full bg-neutral-1">Ash is our big softie! She is big-hearted and kind. She loves sunbathing on the mud bank. She loves to have her tummy tickled.</p>

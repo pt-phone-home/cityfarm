@@ -12,7 +12,7 @@ Visit Us | St. Anne's City Farm
 </div>
 
 <div class="w-full bg-primary-8">
-    <div class="container mx-auto flex flex-row flex-wrap py-12">
+    <div class="container mx-auto flex flex-row flex-wrap items-center py-12">
         {{-- left Side --}}
         <div class="map w-full md:w-1/2 h-20r" id="map">
 
@@ -40,7 +40,8 @@ Visit Us | St. Anne's City Farm
             {{-- Second Bottom Section --}}
             <div class="container mx-auto flex flex-col py-6 px-6">
                     <h3 class="text-3xl text-center text-neutral-2">Entrance</h3>
-                    <p class="leading-loose text-xl text-neutral-2">Completely free entry! We are located beside the All Saint's Road Service entrace of the park. Right beside the Allotments.</p>
+                    <p class="leading-loose text-xl text-neutral-2">Completely free entry! We are located beside the All Saint's Road Service entrance of the park. Right beside the Allotments.</p>
+                    <p class="leading-loose text-xl text-neutral-2">Toilets - We are in the process of building our toilets at the minute. So be aware that we don't have those facilities onsite.</p>
             </div>
         </div>
     </div>
@@ -49,6 +50,11 @@ Visit Us | St. Anne's City Farm
 <div class="w-full bg-grey-lightest py-8 bg-map bg-fixed">
         <div class="container mx-auto">
             <h2 class="font-dec text-center text-6xl py-4 text-grey-lightest">Getting to the Farm</h2>
+        </div>
+        <div class="container mx-auto flex justify-center px-2 py-2">
+            <div class="w-60p bg-primary-8 py-2 px-4">
+                <p class="leading-loose text-xl text-neutral-2">PARKING: We have no parking at the farm. The nearest carpark is the Tennis club on the All Saints Road. </p>
+            </div>
         </div>
     <div class="container mx-auto flex flex-wrap justify-around items-center lg:items-center">
         {{-- Colum 1 --}}
