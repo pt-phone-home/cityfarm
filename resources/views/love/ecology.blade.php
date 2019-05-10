@@ -24,28 +24,28 @@
     <div>
         <div class="container mx-auto">
             <div class="text-center">
-                <object data="/images/divider.svg" type="image/svg+xml" class="w-32 h-auto"></object>
+                <object data="/images/divider.svg" type="image/svg+xml" class="w-24 h-auto"></object>
             </div>
         </div>
     </div>
     <div class="container mx-auto py-4">
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">
-                <div class="px-4 py-4 bg-primary-6">
+                <div class="px-4 py-4 bg-primary-8">
                     <img src="/images/park1.jpg" alt="">
                 </div>
             </div>
             <div class="w-full md:w-2/3 flex justify-center items-center">
                 <div class="flex flex-col items-center justify-center">
-                    <p class="px-20 text-lg leading-normal py-2">St. Annes City Farm is surrounded by all this wonderful Ecology and, using our cosy cabin as a base, we will explore the Birds, Bugs, Mammals, Ponds, Wildflowers and Bees of the Park with specially designed classes for children and teens.</p>
-                    <p class="px-20 text-lg leading-normal self-start py-2">Keep an eye on our website and Facebook page for more information.</p>
+                    <p class="px-20 text-lg text-grey-darkest leading-normal py-2">St. Annes City Farm is surrounded by all this wonderful Ecology and, using our cosy cabin as a base, we will explore the Birds, Bugs, Mammals, Ponds, Wildflowers and Bees of the Park with specially designed classes for children and teens.</p>
+                    <p class="px-20 text-lg text-grey-darkest leading-normal self-start py-2">Keep an eye on our website and Facebook page for more information.</p>
                 </div>
             </div>
         </div>
 
     </div>
 </div>
-<div class="bg-neutral-2">
+<div class="bgi-layer2">
     <div class="container mx-auto">
         <div class="flex flex-wrap py-8">
             <div class="w-full md:w-1/4 h-64 px-2 py-2">
