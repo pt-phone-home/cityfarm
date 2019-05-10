@@ -20,7 +20,7 @@ About Us | St. Anne's City Farm
 </div>
 <div class="bg-neutral-3">
     <div class="container mx-auto py-4 md:py-6">
-        <h3 class="text-base md:text-lg lg:text-xl leading-normal text-center" >St. Anne's City Farm is a sustainable farm that promotes education and multiculturalism.</h3>
+        <h3 class="text-base md:text-lg lg:text-2xl leading-normal text-center text-primary-8" >St. Anne's City Farm is a sustainable farm that promotes education and multiculturalism.</h3>
     </div>
     <div>
         <div class="container mx-auto">
@@ -34,15 +34,15 @@ About Us | St. Anne's City Farm
     <div class="container mx-auto py-2 md:py-8">
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">
-                <div class="px-4 py-4 my-2 md:my-0 bg-primary-6 rounded flex items-center justify-center">
+                <div class="px-4 py-4 my-2 md:my-0 bg-primary-8 rounded flex items-center justify-center">
                     <img src="/images/about1.jpg" class="shadow-lg rounded w-25r md:w-40r h-auto object-cover" alt="">
                 </div>
             </div>
             <div class="w-full md:w-2/3 flex justify-center items-center">
                 <div class="flex flex-col items-center justify-center">
-                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg leading-normal py-2">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 9 Chickens, 3 Goats, a Guinea Pig, and Moses the Pony. </p>
+                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg text-grey-darkest leading-normal py-2">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 9 Chickens, 3 Goats, a Guinea Pig, and Moses the Pony. </p>
 
-                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg leading-normal py-2"> It is also the site of raised beds, a herb garden, and a wooden cabin. They promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>            
+                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg text-grey-darkest leading-normal py-2"> It is also the site of raised beds, a herb garden, and a wooden cabin. They promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>            
                 </div>
             </div>
         </div>
@@ -54,12 +54,12 @@ About Us | St. Anne's City Farm
         <div class="flex flex-wrap-reverse">
             <div class="w-full md:w-2/3 flex justify-center items-center">
                 <div class="flex flex-col items-center justify-center">
-                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg leading-normal py-2"> As they develop further, they will serve healthy food and drink onsite, expand their educational program and host cultural events.</p>
-                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg leading-normal py-2"> They also will develop their site as a showcase for how to thrive as a farm off the grid, using renewable energy sources and water conserving technologies.</p>            
+                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg text-grey-darkest leading-normal py-2"> As they develop further, they will serve healthy food and drink onsite, expand their educational program and host cultural events.</p>
+                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg text-grey-darkest leading-normal py-2"> They also will develop their site as a showcase for how to thrive as a farm off the grid, using renewable energy sources and water conserving technologies.</p>            
                 </div>
             </div>
             <div class="w-full md:w-1/3">
-                <div class="px-4 py-4 my-2 md:my-0 bg-primary-6 rounded flex items-center justify-center">
+                <div class="px-4 py-4 my-2 md:my-0 bg-primary-8 rounded flex items-center justify-center">
                     <img src="/images/about2.jpg" class="shadow-lg rounded w-25r md:w-40r h-auto object-cover" alt="">
                 </div>
             </div>
@@ -70,15 +70,15 @@ About Us | St. Anne's City Farm
     <div class="container mx-auto py-2 md:py-8">
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">
-                <div class="px-4 py-4 my-2 md:my-0 bg-primary-6 rounded flex items-center justify-center">
+                <div class="px-4 py-4 my-2 md:my-0 bg-primary-8 rounded flex items-center justify-center">
                     <img src="/images/park2.jpg" class="shadow-lg rounded shadow-lg rounded w-25r md:w-40r h-auto object-cover" alt="">
                 </div>
             </div>
             <div class="w-full md:w-2/3 flex justify-center items-center">
                 <div class="flex flex-col items-center justify-center">
-                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg leading-normal py-2">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 9 Chickens, 3 Goats, a Guinea Pig, and Moses the Pony. </p>
+                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg text-grey-darkest leading-normal py-2">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 9 Chickens, 3 Goats, a Guinea Pig, and Moses the Pony. </p>
 
-                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg leading-normal py-2"> It is also the site of raised beds, a herb garden, and a wooden cabin. They promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>            
+                    <p class="px-10 xl:px-20 text-sm md:text-base xl:text-lg text-grey-darkest leading-normal py-2"> It is also the site of raised beds, a herb garden, and a wooden cabin. They promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>            
                 </div>
             </div>
         </div>

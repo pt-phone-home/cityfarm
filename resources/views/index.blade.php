@@ -48,7 +48,7 @@ St. Anne's City Farm | Our Community
         <p class="text-sm md:text-base lg:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. The Dublin City Farm aims to function as a center for knowledge, for teaching and for interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local communities providing access to structural learning and modern environmentally sustainable practices.</p>
     </div>
 </div>
-<div class="bg-grey-lightest -mt-20">
+<div class="bgi-layer2 -mt-20">
     <div class="container mx-auto pt-24 flex"> 
         <h2 class="font-dec text-lg md:text-3xl lg:text-5xl ml-4 md:ml-0 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">How the Farm Works</h2>
     </div>
@@ -181,7 +181,7 @@ St. Anne's City Farm | Our Community
             <div class="w-full bg-grey-light px-2 py-2">
                 <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
-            <div class="w-full bg-green text-grey-lightest text-center py-2">
+            <div class="w-full bg-primary-8 text-grey-lightest text-center py-2">
             <a href="{{route('classes')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
@@ -194,7 +194,7 @@ St. Anne's City Farm | Our Community
             <div class="w-full bg-grey-light px-2 py-2">
                 <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
-            <div class="w-full bg-green text-grey-lightest text-center py-2">
+            <div class="w-full bg-primary-8 text-grey-lightest text-center py-2">
             <a href="{{route('kitchen')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
@@ -207,7 +207,7 @@ St. Anne's City Farm | Our Community
             <div class="w-full bg-grey-light px-2 py-2">
                 <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
-            <div class="w-full bg-green text-grey-lightest text-center py-2">
+            <div class="w-full bg-primary-9 text-grey-lightest text-center py-2">
             <a href="{{route('calendar')}}" class="text-center no-underline text-grey-lightest hover:text-grey-darker">Read More</a>
             </div>
         </div>

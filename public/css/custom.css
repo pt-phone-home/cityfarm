@@ -168,6 +168,18 @@ body {
             rgba(247, 201, 72, 1));
 }
 
+.bgi-layer2 {
+    background-image: linear-gradient(to right bottom,
+            #f8fafc 80%,
+            #048271);
+}
+
+.bgi-layer3 {
+    background-image: linear-gradient(to right bottom,
+            #048271 5%,
+            #f8fafc);
+}
+
 .bg-events {
     background-image: linear-gradient(to right bottom,
             rgba(45, 204, 167, 0.5),

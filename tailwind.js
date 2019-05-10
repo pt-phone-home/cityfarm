@@ -56,6 +56,8 @@ let colors = {
     'primary-2': '#C6F7E9',
     'primary-1': '#FOFCF9',
 
+    'primary-8-opacity-7': "rgba(4,130,113, 0.7)",
+
     'neutral-10': '#222222',
     'neutral-9': '#3B3B3B',
     'neutral-8': '#515151',
