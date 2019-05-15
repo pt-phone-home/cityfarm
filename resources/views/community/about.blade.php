@@ -87,5 +87,5 @@ About Us | St. Anne's City Farm
 @endsection
 
 @section('scripts')
-
+@parent
 @endsection

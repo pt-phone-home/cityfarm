@@ -161,3 +161,88 @@ let infAnimation = TweenMax.to(info, .2, {
 infBtn.addEventListener('click', function () {
     infAnimation.reversed(!infAnimation.reversed());
 })
+
+// What's On Section Animations
+
+let WhatsOnButton = document.getElementById('WhatsOnButton');
+let WhatsOnSection = document.getElementById('WhatsOnSection');
+
+let whatsOnAnimation = TweenMax.to(WhatsOnSection, .2, {
+        opacity: 1,
+        display: 'block',
+        height: 'auto'
+    })
+    .reverse();
+
+WhatsOnButton.addEventListener('click', function () {
+    whatsOnAnimation.reversed(!whatsOnAnimation.reversed());
+})
+
+let WhatsOnButton2 = document.getElementById('WhatsOnButton2');
+let WhatsOnSection2 = document.getElementById('WhatsOnSection2');
+
+let whatsOnAnimation2 = TweenMax.to(WhatsOnSection2, .2, {
+        opacity: 1,
+        display: 'block',
+        height: 'auto'
+    })
+    .reverse();
+
+WhatsOnButton2.addEventListener('click', function () {
+    whatsOnAnimation2.reversed(!whatsOnAnimation2.reversed());
+})
+let WhatsOnButton3 = document.getElementById('WhatsOnButton3');
+let WhatsOnSection3 = document.getElementById('WhatsOnSection3');
+
+let whatsOnAnimation3 = TweenMax.to(WhatsOnSection3, .2, {
+        opacity: 1,
+        display: 'block',
+        height: 'auto'
+    })
+    .reverse();
+
+WhatsOnButton3.addEventListener('click', function () {
+    whatsOnAnimation3.reversed(!whatsOnAnimation3.reversed());
+})
+let WhatsOnButton4 = document.getElementById('WhatsOnButton4');
+let WhatsOnSection4 = document.getElementById('WhatsOnSection4');
+
+let whatsOnAnimation4 = TweenMax.to(WhatsOnSection4, .2, {
+        opacity: 1,
+        display: 'block',
+        height: 'auto'
+    })
+    .reverse();
+
+WhatsOnButton4.addEventListener('click', function () {
+    whatsOnAnimation4.reversed(!whatsOnAnimation4.reversed());
+})
+let WhatsOnButton5 = document.getElementById('WhatsOnButton5');
+let WhatsOnSection5 = document.getElementById('WhatsOnSection5');
+
+let whatsOnAnimation5 = TweenMax.to(WhatsOnSection5, .2, {
+        opacity: 1,
+        display: 'block',
+        height: 'auto'
+    })
+    .reverse();
+
+WhatsOnButton5.addEventListener('click', function () {
+    whatsOnAnimation5.reversed(!whatsOnAnimation5.reversed());
+})
+
+// Volunteer Sections
+
+// let VolBtn = document.getElementById('Test');
+// let VolSec = document.getElementById('VolSec');
+
+// let volunteerAnimation = TweenMax.to(VolSec, .2, {
+//         opacity: 1,
+//         display: 'block',
+//         height: 'auto'
+//     })
+//     .reverse();
+
+// VolBtn.addEventListener('click', function () {
+//     volunteerAnimation.reversed(!volunteerAnimation.reversed());
+// })

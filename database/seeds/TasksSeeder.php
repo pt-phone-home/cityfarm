@@ -32,7 +32,7 @@ class TasksSeeder extends Seeder
             'month' => 'June',
             'date' => '2nd',
             'year' => '2019',
-            'location' => 'St. Anne\'s City Farm',
+            'location' => 'St. Anne\'s City Farm', // not needed
             'time_from' => '9am',
             'time_to' => '4:30p,',
             'img' => 'http://placeimg.com/640/470/any',

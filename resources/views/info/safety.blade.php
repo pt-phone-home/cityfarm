@@ -40,5 +40,6 @@ Farm Safety | St. Anne's City Farm
 
 
 @section('scripts')
+@parent
 
 @endsection

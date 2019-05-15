@@ -124,6 +124,7 @@ Visit Us | St. Anne's City Farm
 @endsection
 
 @section('scripts')
+@parent
 <script> 
         function initMap() {
           

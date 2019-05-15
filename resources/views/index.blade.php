@@ -56,10 +56,13 @@ St. Anne's City Farm | Our Community
         <div class="w-full md:w-1/3  mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighest w-full py-4">
-                    <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Wednesday</h5>
+                    <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Wednesday - group day</h5>
                 </div>
                 <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/wed.jpg" alt="" class="w-full h-full object-cover "></div>
-                <div class="w-full bg-grey-lighter px-4 py-4">
+                <div class="my-4">
+                    <button class="border-2 border-grey-darkest py-1 px-2 rounded font-dec" id="WhatsOnButton">More info</button>
+                </div>
+                <div class="w-full bg-grey-lighter px-4 hidden opacity-0 h-0" id="WhatsOnSection">
                     <p class="text-grey-darkest text-sm xl:text-base py-1">Wednesday is for groups, schools and is our Sensory Friendly day</p>
                     <p class="text-grey-darkest text-sm xl:text-base py-1">If you would like to book please email dublincityfarm@gmail.com</p>
                 </div>
@@ -68,10 +71,14 @@ St. Anne's City Farm | Our Community
         <div class="w-full md:w-1/3 mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="w-full py-4 bg-grey-lighter">
-                    <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Thursday</h5>
+                    <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Thursday - Open Entry</h5>
                 </div>
-                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/thursday.jpg" alt="" class="w-full h-full object-cover "></div>
-                <div class="w-full bg-grey-lightest px-4 py-4">
+                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/thursday.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="my-4">
+                    <button class="border-2 border-grey-darkest py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
+                </div>
+                <div class="w-full bg-grey-lighter px-4 py-4 hidden opacity-0 h-0" id="WhatsOnSection2">
                     <p class="text-grey-darkest text-sm xl:text-base py-1">Thursday, the farm is open from 9:30am - 3pm</p>
                     <p class="text-grey-darkest  text-sm xl:text-base py-1">No booking necessary</p>
                 </div>
@@ -80,10 +87,14 @@ St. Anne's City Farm | Our Community
         <div class="w-full md:w-1/3 mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighter w-full py-4">
-                    <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Friday</h5>
+                    <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Friday - Open Entry</h5>
                 </div>
-                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/friday.jpg" alt="" class="w-full h-full object-cover "></div>
-                <div class="w-full bg-grey-lighter px-4 py-4">
+                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/friday.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="my-4">
+                    <button class="border-2 border-grey-darkest py-1 px-2 rounded font-dec" id="WhatsOnButton3">More info</button>
+                </div>
+                <div class="w-full bg-grey-lighter px-4 py-4 hidden opacity-0 h-0" id="WhatsOnSection3">
                     <p class="text-grey-darkest text-sm xl:text-base py-1">Friday, the farm is open from 1pm - 4pm</p>
                     <p class="text-grey-darkest text-sm xl:text-base py-1">No booking necessary</p>
                 </div>
@@ -94,8 +105,12 @@ St. Anne's City Farm | Our Community
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Saturday - New Volunteers Day</h5>
                 </div>
-                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/saturday.jpg" alt="" class="w-full h-full object-cover "></div>
-                <div class="w-full bg-grey-lighter px-4 py-4">
+                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/saturday.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="my-4">
+                    <button class="border-2 border-grey-darkest py-1 px-2 rounded font-dec" id="WhatsOnButton4">More info</button>
+                </div>
+                <div class="w-full bg-grey-lighter px-4 py-4 hidden opacity-0 h-0" id="WhatsOnSection4">
                     <p class="text-grey-darkest text-sm xl:text-base py-1">We ask that all volunteers arrive onsite by 10:30am as we close the gates to focus on the jobs at hand. This is our day to get involved and actually work on the farm, from mucking out stables to digging up beds and doing maintenance tasks onsite. There are jobs for everyone. This is our family-friendly volunteer day. </p>
                     <hr class="border border-grey-darkest">
                     <ul class="list-reset text-grey-darkest text-sm xl:text-base">
@@ -112,8 +127,12 @@ St. Anne's City Farm | Our Community
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-lg md:text-xl xl:text-3xl text-primary-8">Sunday - Family Day</h5>
                 </div>
-                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/sunday.jpg" alt="" class="w-full h-full object-cover "></div>
-                <div class="w-full bg-grey-lighter px-4 py-4">
+                <div class="h-7r md:h-7r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/sunday.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div class="my-4">
+                    <button class="border-2 border-grey-darkest py-1 px-2 rounded font-dec" id="WhatsOnButton5">More info</button>
+                </div>
+                <div class="w-full bg-grey-lighter px-4 py-4 hidden opacity-0 h-0" id="WhatsOnSection5">
                     <p class="text-grey-darkest text-sm xl:text-base py-1">Sunday is our Family Day</p>
                     <p class="text-grey-darkest text-sm xl:text-base py-1">St. Anne's City Farm is open free to the public but you <span class="underline">must book tickets</span></p>
                     <p class="text-grey-darkest text-sm xl:text-base py-1">We have a: </p>
@@ -166,52 +185,62 @@ St. Anne's City Farm | Our Community
 {{-- What's On Content --}}
 
 <div class="w-full bg-grey-light">
-        <div class="container mx-auto flex">
-                <h2 class="font-dec text-lg md:text-3xl lg:text-5xl ml-4 md:ml-0 pt-16 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">What's On</h2>
-            </div>
+    <div class="container mx-auto flex">
+            <h2 class="font-dec text-lg md:text-3xl lg:text-5xl ml-4 md:ml-0 pt-16 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">What's On</h2>
+    </div>
+    <div class="container mx-auto py-6">
+        <h3 class="text-xl leading-normal text-center text-grey-darkest">Here at the farm we run a range of events such as classes and activities in our community kitchen.</h3>
+    </div>
+    
 
     <div class="container mx-auto flex flex-row justify-center flex-wrap pb-6">
 
-        <div class="w-full md:w-45p lg:w-30p flex flex-col justify-center items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4">
+        <div class="w-full md:w-45p flex flex-col justify-start items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4">
             <object data="/images/classes.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
             {{-- <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover"> --}}
-            <div class="bg-grey-light w-full py-1">
+            <div class="bg-grey-light w-full py-1 h-auto">
                 <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Classes</h5>
             </div>
-            <div class="w-full bg-grey-light px-2 py-2">
+            <div class="w-full bg-grey-light px-2 py-2 flex-1">
                 <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
             <div class="w-full bg-primary-8 text-grey-lightest text-center py-2">
             <a href="{{route('classes')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
-        <div class="w-full md:w-45p lg:w-30p flex flex-col justify-center items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4" id="kitchen">
+        <div class="w-full md:w-45p flex flex-col justify-center items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4" id="kitchen">
             {{-- <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover"> --}}
             <object data="/images/cooking.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
             <div class="bg-grey-light w-full py-1">
                 <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Community Kitchen</h5>
             </div>
             <div class="w-full bg-grey-light px-2 py-2">
-                <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
+                <p class="text-grey-darkest text-sm xl:text-base leading-normal">Community Kitchen is empowering the community through food. Our kitchen is an ethical, sustainable, local and culturally diverse food hub, offering food centred activities, services, education, and training. We will be accessible, family-friendly and will be using all the produce that we grow on the farm. Giving people the chance to grow, harvest and cook their own food all in one place.</p>
             </div>
             <div class="w-full bg-primary-8 text-grey-lightest text-center py-2">
             <a href="{{route('kitchen')}}" class="text-center no-underline">Read More</a>
             </div>
         </div>
-        <div class="w-full md:w-45p lg:w-30p flex flex-col justify-center items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4" id="calendar">
+    </div>
+
+    <div class="container mx-auto">
+        <div class="container mx-auto flex flex-col items-center">
+        <h3 class="text-xl leading-normal text-center text-grey-darkest py-4">For a full list of events happening at the farm, visit the Farm Calendar</h3>
+        <div class="w-full md:w-45p lg:w-30p flex flex-col justify-center items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4" id="calendar" onclick="location.href= '/community/calendar';" style="cursor:pointer;">
             {{-- <img src="/images/calendar.jpg" alt="" class="w-full h-20r object-cover"> --}}
-            <object data="/images/calendar.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
+            <object data="/images/calendar.svg" type="image/svg+xml" class="h-5r xl:h-10r w-80p pb-2 md:pb-0 my-1 z-0" ></object>
             <div class="bg-grey-light w-full py-1">
-                <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Farm Calendar</h5>
+                <h5 class="font-dec text-lg text-center md:text-xl xl:text-2xl text-grey-lightest bg-primary-8 py-1 border  hover:text-primary-8 hover:bg-grey-lightest hover:border hover:border-primary-8 ">Farm Calendar</h5>
             </div>
-            <div class="w-full bg-grey-light px-2 py-2">
+            {{-- <div class="w-full bg-grey-light px-2 py-2">
                 <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
             </div>
             <div class="w-full bg-primary-9 text-grey-lightest text-center py-2">
             <a href="{{route('calendar')}}" class="text-center no-underline text-grey-lightest hover:text-grey-darker">Read More</a>
-            </div>
+            </div> --}}
         </div>
-        
+    </div>
+
     </div>
 
 </div>
@@ -219,7 +248,7 @@ St. Anne's City Farm | Our Community
 @endsection
 
 @section('scripts')
-
+@parent
 <script>
  
 </script>

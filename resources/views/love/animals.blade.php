@@ -156,6 +156,7 @@
 @endsection
 
 @section('scripts')
+@parent
 
 
 
