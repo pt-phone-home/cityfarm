@@ -9,7 +9,7 @@
                     <div class="dropdown-content flex flex-col absolute pin-t mt-8 w-48 pt-1 px-8 mt-1 bg-grey-lightest rounded">
                     <a href={{route('about')}} class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl"><object data="/images/divider.svg" type="image/svg+xml" class="w-6 hidden group-hover:block fill-current h-auto"></object> About US</a>
                     <a href="{{route('classes')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Classes</a>
-                    <a href="{{route('kitchen')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Community Kitchen</a>
+                    {{-- <a href="{{route('kitchen')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Community Kitchen</a> --}}
                     <a href="{{route('calendar')}}" class="py-1 no-underline text-grey-darkest hover:text-blue-dark text-xl">Farm Calendar</a>
                     </div>
             </li>
@@ -60,7 +60,7 @@
             <div class="hidden flex-col items-end py-4 px-2 opacity-0 " id="community">
             <a href="{{route('about')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">About Us</a>
             <a href="{{route('classes')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">Classes</a>
-            <a href="{{route('kitchen')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">Community Kitchen</a>
+            {{-- <a href="{{route('kitchen')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">Community Kitchen</a> --}}
             <a href="{{route('calendar')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">Farm Calendar</a>
             </div>
         </li>
