@@ -53,7 +53,7 @@
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
             <div class="w-90p flex flex-col justify-center border-2 border-primary-8 px-2 py-2 animals rounded" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
-                 <img src="/images/twinkle.jpg" class="h-48 w-full object-cover rounded" alt="">  
+                 <img src="/images/Twinkle.jpg" class="h-48 w-full object-cover rounded" alt="">  
                  <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Twink</h3>
                 <h5 class="text-grey-darkest py-1 text-lg">Mixed Breed Goat</h5>
                 <hr class="border w-full border-primary-8">
