@@ -63,8 +63,8 @@ St. Anne's City Farm | Our Community
                     <button class="border-2 border-grey-darkest py-1 px-2 rounded font-dec" id="WhatsOnButton">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 hidden" id="WhatsOnSection">
-                    <p class="text-grey-darkest text-sm xl:text-base py-1">Wednesday is for groups, schools and is our Sensory Friendly day</p>
-                    <p class="text-grey-darkest text-sm xl:text-base py-1">If you would like to book please email dublincityfarm@gmail.com</p>
+                    <p class="text-grey-darkest text-sm xl:text-base py-1 ">Wednesday is for groups, schools and is our Sensory Friendly day</p>
+                    <p class="text-grey-darkest text-sm xl:text-base py-1 ">If you would like to book please email dublincityfarm@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -192,33 +192,37 @@ St. Anne's City Farm | Our Community
         <h3 class="text-xl leading-normal text-center text-grey-darkest">Here at the farm we run a range of events such as classes and activities in our community kitchen.</h3>
     </div>
     
+    <div class="container mx-auto flex justify-center flex-wrap pb-4">
 
-    <div class="container mx-auto flex flex-row justify-center flex-wrap pb-6">
-
-        <div class="w-full md:w-45p flex flex-col justify-start items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4">
-            <object data="/images/classes.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
-            {{-- <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover"> --}}
-            <div class="bg-grey-light w-full py-1 h-auto">
-                <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Classes</h5>
+        <div class="w-full md:w-45p px-4 py-4">
+            <div class="flex flex-col justify-start items-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4">
+                <object data="/images/classes.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
+                {{-- <img src="/images/classes.jpeg" alt="" class="w-full h-20r object-cover"> --}}
+                <div class="bg-grey-light w-full py-1" >
+                    <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Classes</h5>
+                </div>
+                <div class="w-full bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer" id="calendarBtn" >
+                <a class="text-center no-underline" >More</a>
+                </div>
+                <div class="w-full bg-grey-light px-2 py-2 flex-1 hidden" id="calendarItem">
+                    <p class="text-grey-darkest text-sm xl:text-base leading-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
+                </div>
             </div>
-            <div class="w-full bg-grey-light px-2 py-2 flex-1">
-                <p class="text-grey-darkest text-sm xl:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
-            </div>
-            <div class="w-full bg-primary-8 text-grey-lightest text-center py-2">
-            <a href="{{route('classes')}}" class="text-center no-underline">Read More</a>
-            </div>
+            
         </div>
-        <div class="w-full md:w-45p flex flex-col justify-center items-center mx-1 px-4 py-4 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4" id="kitchen">
-            {{-- <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover"> --}}
-            <object data="/images/cooking.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
-            <div class="bg-grey-light w-full py-1">
-                <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Community Kitchen</h5>
-            </div>
-            <div class="w-full bg-grey-light px-2 py-2">
-                <p class="text-grey-darkest text-sm xl:text-base leading-normal">Community Kitchen is empowering the community through food. Our kitchen is an ethical, sustainable, local and culturally diverse food hub, offering food centred activities, services, education, and training. We will be accessible, family-friendly and will be using all the produce that we grow on the farm. Giving people the chance to grow, harvest and cook their own food all in one place.</p>
-            </div>
-            <div class="w-full bg-primary-8 text-grey-lightest text-center py-2">
-            <a href="{{route('kitchen')}}" class="text-center no-underline">Read More</a>
+        <div class="w-full md:w-45p px-4 py-4" id="kitchen">
+            <div class="flex flex-col justify-start items-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4">
+                {{-- <img src="/images/whatson.jpg" alt="" class="w-full h-20r object-cover"> --}}
+                <object data="/images/cooking.svg" type="image/svg+xml" class="h-10r xl:h-15r w-80p pb-2 md:pb-0 my-1"></object>
+                <div class="bg-grey-light w-full py-1">
+                    <h5 class="font-dec text-lg md:text-xl xl:text-2xl text-primary-8">Community Kitchen</h5>
+                </div>
+                <div class="w-full bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer" id="calendarBtn2">
+                    <a class="text-center no-underline">More</a>
+                </div>
+                <div class="w-full bg-grey-light px-2 py-2 flex-1 hidden" id="calendarItem2">
+                    <p class="text-grey-darkest text-sm xl:text-base leading-normal">Community Kitchen is empowering the community through food. Our kitchen is an ethical, sustainable, local and culturally diverse food hub, offering food centred activities, services, education, and training. We will be accessible, family-friendly and will be using all the produce that we grow on the farm. Giving people the chance to grow, harvest and cook their own food all in one place.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -250,21 +254,73 @@ St. Anne's City Farm | Our Community
 @section('scripts')
 @parent
 <script>
- $('#WhatsOnButton').click(function () {
-        $("#WhatsOnSection").toggle('fast');
-    });
- $('#WhatsOnButton2').click(function () {
-        $("#WhatsOnSection2").toggle('fast');
-    });
- $('#WhatsOnButton3').click(function () {
-        $("#WhatsOnSection3").toggle('fast');
-    });
- $('#WhatsOnButton4').click(function () {
-        $("#WhatsOnSection4").toggle('fast');
-    });
- $('#WhatsOnButton5').click(function () {
-        $("#WhatsOnSection5").toggle('fast');
-    });
+
+/* What's On buttons */
+
+let whatsOnButton = document.getElementById("WhatsOnButton");
+let whatsOnSection = document.getElementById("WhatsOnSection");
+
+whatsOnButton.addEventListener("click", function () {
+    window.getComputedStyle(whatsOnSection).display === 'none' ?
+        (whatsOnSection.classList.add('show')): 
+        (whatsOnSection.classList.remove('show')) ;
+})
+let whatsOnButton2 = document.getElementById("WhatsOnButton2");
+let whatsOnSection2 = document.getElementById("WhatsOnSection2");
+
+whatsOnButton2.addEventListener("click", function () {
+    window.getComputedStyle(whatsOnSection2).display === 'none' ?
+        (whatsOnSection2.classList.add('show')): 
+        (whatsOnSection2.classList.remove('show')) ;
+})
+let whatsOnButton3 = document.getElementById("WhatsOnButton3");
+let whatsOnSection3 = document.getElementById("WhatsOnSection3");
+
+whatsOnButton3.addEventListener("click", function () {
+    window.getComputedStyle(whatsOnSection3).display === 'none' ?
+        (whatsOnSection3.classList.add('show')): 
+        (whatsOnSection3.classList.remove('show')) ;
+})
+let whatsOnButton4 = document.getElementById("WhatsOnButton4");
+let whatsOnSection4 = document.getElementById("WhatsOnSection4");
+
+whatsOnButton4.addEventListener("click", function () {
+    window.getComputedStyle(whatsOnSection4).display === 'none' ?
+        (whatsOnSection4.classList.add('show')): 
+        (whatsOnSection4.classList.remove('show')) ;
+})
+let whatsOnButton5 = document.getElementById("WhatsOnButton5");
+let whatsOnSection5 = document.getElementById("WhatsOnSection5");
+
+whatsOnButton5.addEventListener("click", function () {
+    window.getComputedStyle(whatsOnSection5).display === 'none' ?
+        (whatsOnSection5.classList.add('show')): 
+        (whatsOnSection5.classList.remove('show')) ;
+});
+
+/* Calendar Button Animaiton */
+
+let calendarBtn = document.getElementById("calendarBtn");
+let calendarItem = document.getElementById("calendarItem");
+
+calendarBtn.addEventListener("click", function () {
+    window.getComputedStyle(calendarItem).display === 'none' ?
+        (calendarItem.classList.add('show')) (calendarBtn.innerText = 'Less') : 
+        (calendarItem.classList.remove('show')) (calendarBtn.innerText = 'More') ;
+    
+})
+let calendarBtn2 = document.getElementById("calendarBtn2");
+let calendarItem2 = document.getElementById("calendarItem2");
+
+
+calendarBtn2.addEventListener("click", function () {
+    window.getComputedStyle(calendarItem2).display === 'none' ?
+        (calendarItem2.classList.add('show')) (calendarBtn2.innerText = 'Less') : 
+        (calendarItem2.classList.remove('show')) (calendarBtn2.innerText = 'More') ;
+    
+})
+
+
 </script>
 
 

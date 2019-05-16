@@ -218,3 +218,23 @@ body {
     /* opacity: 0;
     transition: opacity 2s; */
 }
+
+/* ANIMATIONS */
+
+.show {
+    display: block;
+    transition: all 5s ease-in-out;
+    animation-name: opacity;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -5208,6 +5208,10 @@ table {
   font-weight: 900;
 }
 
+.h-0 {
+  height: 0rem;
+}
+
 .h-1 {
   height: .25rem;
 }
@@ -14903,6 +14907,10 @@ table {
     font-weight: 900;
   }
 
+  .sm\:h-0 {
+    height: 0rem;
+  }
+
   .sm\:h-1 {
     height: .25rem;
   }
@@ -24566,6 +24574,10 @@ table {
 
   .md\:focus\:font-black:focus {
     font-weight: 900;
+  }
+
+  .md\:h-0 {
+    height: 0rem;
   }
 
   .md\:h-1 {
@@ -34233,6 +34245,10 @@ table {
     font-weight: 900;
   }
 
+  .lg\:h-0 {
+    height: 0rem;
+  }
+
   .lg\:h-1 {
     height: .25rem;
   }
@@ -43896,6 +43912,10 @@ table {
 
   .xl\:focus\:font-black:focus {
     font-weight: 900;
+  }
+
+  .xl\:h-0 {
+    height: 0rem;
   }
 
   .xl\:h-1 {
