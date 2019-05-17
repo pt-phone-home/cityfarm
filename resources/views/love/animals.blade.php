@@ -10,9 +10,11 @@
 </div>
 
 <div class="bg-primary-8">
-    <div class="container mx-auto py-8 px-2">
+    <div class="container mx-auto">
+        <div class="px-12 py-12">
         {{-- <h2 class="text-center text-5xl py-2 text-neutral-2">Our Animals</h2> --}}
-        <p class="leading-loose text-center text-2xl text-grey-lightest px-12"> Our animals, our family. We love and respect all our animals. They all have different stories, some are rescued, some have had to be rehomed for many different reasons.</p>
+        <p class="leading-loose text-neutral-2 text-center mx-auto sm:w-90p md:w-80p lg:w-50p leading-loose text-2xl"> Our animals, our family. We love and respect all our animals. They all have different stories, some are rescued, some have had to be rehomed for many different reasons.</p>
+        </div>
     </div>
 </div>
 

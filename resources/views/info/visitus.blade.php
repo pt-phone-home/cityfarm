@@ -60,7 +60,7 @@ Visit Us | St. Anne's City Farm
         {{-- Colum 1 --}}
         <div class="w-90p lg:w-30p my-4">
             <div class="flex flex-col border-2 border-blue ">
-                <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Train</h3>
+                <h3 class="bg-primary-8 text-grey-lightest text-4xl px-4 py-2 text-center font-dec">By Train</h3>
                 <div class="bg-grey text-center">
                     <i class="fas fa-train text-8xl text-grey-darkest py-6 text-center"></i>
                 </div>
@@ -73,7 +73,7 @@ Visit Us | St. Anne's City Farm
         {{-- Column 2 --}}
         <div class="w-90p lg:w-30p my-4">
             <div class="flex flex-col border-2 border-blue">
-                <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Bus</h3>
+                <h3 class="bg-primary-8 text-grey-lightest text-4xl px-4 py-2 text-center font-dec">By Bus</h3>
                 <div class="bg-grey text-center">
                     <i class="fas fa-bus text-8xl text-grey-darkest py-6 text-center"></i>
                 </div>
@@ -87,7 +87,7 @@ Visit Us | St. Anne's City Farm
         {{-- Column 3 --}}
         <div class="w-90p lg:w-30p my-4">
             <div class="flex flex-col border-2 border-blue">
-                <h3 class="bg-green text-grey-lightest text-4xl px-4 py-2 text-center">By Bike</h3>
+                <h3 class="bg-primary-8 text-grey-lightest text-4xl px-4 py-2 text-center font-dec">By Bike</h3>
                 <div class="bg-grey text-center">
                     <i class="fas fa-bicycle text-8xl text-grey-darkest py-6 text-center"></i>
                 </div>
@@ -104,19 +104,19 @@ Visit Us | St. Anne's City Farm
 
 <div class="w-full bgi-g2 py-6">
     <div class="container mx-auto flex justify-center">
-        <i class="fas fa-exclamation-triangle text-5xl md:text-7xl lg:text-9xl text-green py-4"></i>
+        <i class="fas fa-exclamation-triangle text-5xl md:text-7xl lg:text-9xl text-primary-8 py-4"></i>
     </div>
     <div class="container mx-auto">
         <h3 class="font-dec text-center text-2xl md:text-4xl lg:text-6xl py-4">Some Rules for your visit</h3>
     </div>
     <div class="container mx-auto">
         <ul class="leading-loose">
-            <li class="text-lg md:text-xl lg:text-2xl">Guide dogs only</li>
-            <li class="text-lg md:text-xl lg:text-2xl">On the farm everyone should wash their hands before putting them near their mouths (eating, sucking thumbs or smoking). Full hand washing facilities are available at the Farm.</li>
-            <li class="text-lg md:text-xl lg:text-2xl">Children should be supervised at all times.</li>
-            <li class="text-lg md:text-xl lg:text-2xl">Feeding the animals is not allowed unless approved by a member of staff or part of a planned activity.</li>
-            <li class="text-lg md:text-xl lg:text-2xl">No chasing, throwing or shouting at the animals.</li>
-            <li class="text-lg md:text-xl lg:text-2xl">Wear appropriate clothing, e.g strong shoes/trainers, not open-toed sandals.</li>
+            <li class="text-xl">Guide dogs only</li>
+            <li class="text-xl">On the farm everyone should wash their hands before putting them near their mouths (eating, sucking thumbs or smoking). Full hand washing facilities are available at the Farm.</li>
+            <li class="text-xl">Children should be supervised at all times.</li>
+            <li class="text-xl">Feeding the animals is not allowed unless approved by a member of staff or part of a planned activity.</li>
+            <li class="text-xl">No chasing, throwing or shouting at the animals.</li>
+            <li class="text-xl">Wear appropriate clothing, e.g strong shoes/trainers, not open-toed sandals.</li>
         </ul>
     </div>
 </div>

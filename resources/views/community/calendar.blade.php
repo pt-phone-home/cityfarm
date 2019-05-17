@@ -17,10 +17,10 @@
                 <div class="flex flex-col bg-primary-8-opacity-7 justify-center items-center w-full h-full">
                     
                     <div class="border-b border-grey-lightest pb-4 pt-24 mb-8">
-                        <h4 class="text-grey-lightest text-4xl tracking-wide">Family Day Sundays</h4>
+                        <h4 class="text-grey-lightest text-3xl">Family Day Sundays</h4>
                     </div>
                     <div class="flex justify-around w-1/2 pb-4 border-b border-grey-lightest">
-                        <div class="flex flex-col items-center ">
+                        <div class="flex flex-col items-center px-4">
                             <span class="py-1 text-grey-lightest text-sm">Every</span>
                             <span class="py-1 text-grey-lightest text-2xl">Sunday</span> 
                             {{-- <span class="py-1 text-grey-lightest text-sm">2019</span> --}}
@@ -39,7 +39,7 @@
                 </div>
                 
             </div>
-            <div class="w-full md:w-2/3 flex">
+            <div class="w-full md:w-2/3 hidden md:flex">
                 <div class="w-full flex flex-col items-center justify-center">
                     <h2 class="font-dec text-3xl text-grey-lightest pb-4 text-center">St. Anne's City Farm is open free to the public every Sunday. </h2>
                     <p class="text-xl text-grey-lightest py-1">Morning Sessions: 10am - 12pm</p>

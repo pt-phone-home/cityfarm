@@ -11,13 +11,13 @@
 <div class="bg-primary-8">
     <div class="container mx-auto">
         <div class="px-12 py-12">
-            <p class="leading-loose text-neutral-2 text-center mx-auto w-50p leading-loose text-2xl">Education is for all ages at the farm. We run classes for all age groups, from herb school to animal care to forging in the raised beds and cooking what we grow, We will have classes to suit everyone.</p>
+            <p class="leading-loose text-neutral-2 text-center mx-auto sm:w-90p md:w-80p lg:w-50p leading-loose text-2xl">Education is for all ages at the farm. We run classes for all age groups, from herb school to animal care to forging in the raised beds and cooking what we grow, We will have classes to suit everyone.</p>
             
         </div> 
     </div>
 </div>
 <div class="bg-neutral-3">
-    <div class="container mx-auto py-6">
+    <div class="container mx-auto py-6 px-4">
         <h3 class="text-xl leading-normal text-center text-grey-darkest" >We have one day a week dedicated to schools, groups, and clubs, we aim to educate wherever possible. The benefits of learning outside the classroom are well documented and widely recognised and we welcome visits from schools of all ages and abilities!</h3>
     </div>
     <div>
