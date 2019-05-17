@@ -51,7 +51,28 @@
                 </div>
             </div>
         </div>
-        
+        <div class="w-full md:w-1/3 px-4 py-4">
+            <div class="flex flex-col">
+                <h3 class="text-center py-2 font-dec text-3xl text-grey-light">Contact</h3>
+                <p class="text-grey text-center"><i class="fas fa-at"></i>dublincityfarm@gmail.com</p>
+            </div>
+        </div>
+        <div class="w-full md:w-1/3 px-4 py-4">
+            <div class="flex flex-col">
+                <h3 class="text-center py-2 font-dec text-3xl text-grey-light">Connect</h3>
+                <div class="flex flex-wrap">
+                    <div class="w-1/3 flex justify-center">
+                        <a href=""><i class="fab fa-facebook-square text-4xl text-grey hover:text-grey-light"></i></a>
+                    </div>
+                    <div class="w-1/3 flex justify-center">
+                        <a href=""><i class="fab fa-twitter-square text-4xl text-grey hover:text-grey-light"></i></a>
+                    </div>
+                    <div class="w-1/3 flex justify-center">
+                        <a href=""><i class="fab fa-instagram text-4xl text-grey hover:text-grey-light"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </div>
 </footer>
