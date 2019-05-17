@@ -59,7 +59,7 @@ Visit Us | St. Anne's City Farm
     <div class="container mx-auto flex flex-wrap justify-around items-center lg:items-center">
         {{-- Colum 1 --}}
         <div class="w-90p lg:w-30p my-4">
-            <div class="flex flex-col border-2 border-blue ">
+            <div class="flex flex-col border-2 border-primary-8 ">
                 <h3 class="bg-primary-8 text-grey-lightest text-4xl px-4 py-2 text-center font-dec">By Train</h3>
                 <div class="bg-grey text-center">
                     <i class="fas fa-train text-8xl text-grey-darkest py-6 text-center"></i>
@@ -72,7 +72,7 @@ Visit Us | St. Anne's City Farm
         </div>
         {{-- Column 2 --}}
         <div class="w-90p lg:w-30p my-4">
-            <div class="flex flex-col border-2 border-blue">
+            <div class="flex flex-col border-2 border-primary-8">
                 <h3 class="bg-primary-8 text-grey-lightest text-4xl px-4 py-2 text-center font-dec">By Bus</h3>
                 <div class="bg-grey text-center">
                     <i class="fas fa-bus text-8xl text-grey-darkest py-6 text-center"></i>
@@ -86,7 +86,7 @@ Visit Us | St. Anne's City Farm
         </div>
         {{-- Column 3 --}}
         <div class="w-90p lg:w-30p my-4">
-            <div class="flex flex-col border-2 border-blue">
+            <div class="flex flex-col border-2 border-primary-8">
                 <h3 class="bg-primary-8 text-grey-lightest text-4xl px-4 py-2 text-center font-dec">By Bike</h3>
                 <div class="bg-grey text-center">
                     <i class="fas fa-bicycle text-8xl text-grey-darkest py-6 text-center"></i>
