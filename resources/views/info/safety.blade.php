@@ -12,7 +12,7 @@ Farm Safety | St. Anne's City Farm
 <div class="w-full bg-grey-lightest">
 
     <div class="container mx-auto">
-        <h2 class="font-dec text-center text-4xl my-4">Farm rules for your safety</h2>
+        <h2 class="font-dec text-center text-4xl py-6">Farm rules for your safety</h2>
     </div>
     <div class="container mx-auto flex flex-row flex-wrap">
 
