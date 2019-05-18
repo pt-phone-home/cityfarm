@@ -43,6 +43,7 @@ About Us | St. Anne's City Farm
                     <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 9 Chickens, 3 Goats, a Guinea Pig, and Moses the Pony. </p>
 
                     <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2"> It is also the site of raised beds, a herb garden, and a wooden cabin. They promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>            
+                    <hr class="w-50p border-b-2 border-primary-8 mt-4">         
                 </div>
             </div>
         </div>
@@ -55,7 +56,8 @@ About Us | St. Anne's City Farm
             <div class="w-full md:w-2/3 flex justify-center items-center">
                 <div class="flex flex-col items-center justify-center">
                     <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2"> As they develop further, they will serve healthy food and drink onsite, expand their educational program and host cultural events.</p>
-                    <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2"> They also will develop their site as a showcase for how to thrive as a farm off the grid, using renewable energy sources and water conserving technologies.</p>            
+                    <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2"> They also will develop their site as a showcase for how to thrive as a farm off the grid, using renewable energy sources and water conserving technologies.</p>    
+                    <hr class="w-50p border-b-2 border-primary-8 mt-4">                 
                 </div>
             </div>
             <div class="w-full md:w-1/3">
@@ -75,10 +77,11 @@ About Us | St. Anne's City Farm
                 </div>
             </div>
             <div class="w-full md:w-2/3 flex justify-center items-center">
-                <div class="flex flex-col items-center justify-center">
-                    <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 9 Chickens, 3 Goats, a Guinea Pig, and Moses the Pony. </p>
+                <div class="flex flex-col items-center justify-center ">
+                    <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2">The park is surrounded by the suburban areas of Dublin 3 &amp; 5 but they want to reach even more people. They believe that every child and grown-up should have access to a garden and that everyone in the garden is equal. </p>
 
-                    <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2"> It is also the site of raised beds, a herb garden, and a wooden cabin. They promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>            
+                    <p class="px-10 xl:px-20 text-lg text-grey-darkest leading-normal py-2"> By being a safe and open space for people to share what they know and learn from others, they stive to empower people through knowledge, growing and creating. </p>   
+                    <hr class="w-50p border-b-2 border-primary-8 mt-4">         
                 </div>
             </div>
         </div>

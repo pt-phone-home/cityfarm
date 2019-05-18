@@ -58,9 +58,9 @@ St. Anne's City Farm | Our Community
                 <div class="bg-grey-lighest w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Wednesday - group day</h5>
                 </div>
-                <div class="h-7r md:h-15r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/wed.jpg" alt="" class="w-full h-full object-cover "></div>
+                <div class="h-15r w-full md:pb-0"><img src="/images/wed.jpg" alt="" class="w-full h-full object-cover "></div>
                 <div class="my-4">
-                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton">More info</button>
+                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection">
                     <p class="text-grey-darkest text-base py-1 ">Wednesday is for groups, schools and is our Sensory Friendly day</p>
@@ -73,10 +73,10 @@ St. Anne's City Farm | Our Community
                 <div class="w-full py-4 bg-grey-lighter">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Thursday - Open Entry</h5>
                 </div>
-                <div class="h-7r md:h-15r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/thursday.jpg" alt="" class="w-full h-full object-cover ">
+                <div class="h-15r w-full md:pb-0"><img src="/images/thursday.jpg" alt="" class="w-full h-full object-cover ">
                 </div>
                 <div class="my-4">
-                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
+                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection2">
                     <p class="text-grey-darkest text-base py-1">Thursday, the farm is open from 9:30am - 3pm</p>
@@ -89,10 +89,10 @@ St. Anne's City Farm | Our Community
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Friday - Open Entry</h5>
                 </div>
-                <div class="h-7r md:h-15r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/friday.jpg" alt="" class="w-full h-full object-cover ">
+                <div class="h-15r w-full md:pb-0"><img src="/images/friday.jpg" alt="" class="w-full h-full object-cover ">
                 </div>
                 <div class="my-4">
-                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton3">More info</button>
+                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton3">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection3">
                     <p class="text-grey-darkest text-base py-1">Friday, the farm is open from 1pm - 4pm</p>
@@ -105,10 +105,10 @@ St. Anne's City Farm | Our Community
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Saturday - New Volunteers Day</h5>
                 </div>
-                <div class="h-7r md:h-15r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/saturday.jpg" alt="" class="w-full h-full object-cover ">
+                <div class="h-15r w-full md:pb-0"><img src="/images/saturday.jpg" alt="" class="w-full h-full object-cover ">
                 </div>
                 <div class="my-4">
-                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest focus:outline-none py-1 px-2 rounded font-dec"  id="WhatsOnButton4">More info</button>
+                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec"  id="WhatsOnButton4">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection4">
                     <p class="text-grey-darkest text-base py-1">We ask that all volunteers arrive onsite by 10:30am as we close the gates to focus on the jobs at hand. This is our day to get involved and actually work on the farm, from mucking out stables to digging up beds and doing maintenance tasks onsite. There are jobs for everyone. This is our family-friendly volunteer day. </p>
@@ -127,10 +127,10 @@ St. Anne's City Farm | Our Community
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Sunday - Family Day</h5>
                 </div>
-                <div class="h-7r md:h-15r lg:h-10r xl:h-15r w-full md:pb-0"><img src="/images/sunday.jpg" alt="" class="w-full h-full object-cover ">
+                <div class="h-15r w-full md:pb-0"><img src="/images/sunday.jpg" alt="" class="w-full h-full object-cover ">
                 </div>
                 <div class="my-4">
-                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton5">More info</button>
+                    <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton5">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8 " id="WhatsOnSection5">
                     <p class="text-grey-darkest text-base py-1">Sunday is our Family Day</p>
