@@ -60,8 +60,10 @@
     <div class="container mx-auto flex flex-wrap py-8">
 
         @if ($events->count() > 0)
-
+        
         @foreach ($events as $event)
+
+        @if($event->date > Carbon::now())
 
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center px-2 py-2 h-64">
             <div class="relative w-full h-full flex flex-col">
@@ -100,8 +102,9 @@
                 {{-- Bottom Section END --}}
             </div>
         </div>
-        
+        @endif
         @endforeach
+        
     
         @endif
         

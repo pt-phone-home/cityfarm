@@ -19,7 +19,7 @@
         <div class="w-full lg:w-1/3 flex justify-center">
             <div class="w-80p flex flex-col justify-center border-2 my-4">
                 <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">{{$article->title}}</h3>
-                <img src="/{{$article->image}}" class="h-48 w-full object-cover" alt="">  
+                <img src="{{$article->img}}" class="h-full w-full object-cover" alt="">  
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">{{$article->headline}}</h5>
                 {{-- <p class="leading-normal py-2 px-1 h-full">{!! str_limit($article->body, $limit=50, $end='...')!!}</p> --}}
                 <div class="flex justify-center py-2 bg-green-darker">

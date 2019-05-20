@@ -33,7 +33,7 @@ class PagesController extends Controller
         // $events_2 = $events->sortBy('month');
         // $events_3 = $events_2->sortBy('year');
 
-        $events = Fixture::all()->sortBy('date')->take(9);
+        $events = Fixture::all()->sortByDesc('date')->take(9);
         return view('community.calendar')->with('events', $events);
     }
 
@@ -104,7 +104,8 @@ class PagesController extends Controller
     public function admin()
     {
         $news = News::all();
+        $events = Fixture::all();
 
-        return view('admin.index')->with('news', $news);
+        return view('admin.index')->with('news', $news)->with('events', $events);
     }
 };

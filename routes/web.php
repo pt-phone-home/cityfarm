@@ -20,6 +20,12 @@ Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
 Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
 Route::get('/community/calendaritem/{id}', 'FixturesController@show')->name('calendar.show');
 
+Route::get('/community/calendar/create', 'FixturesController@create')->name('calendar.create');
+Route::post('/community/calendar/store', 'FixturesController@store')->name('calendar.store');
+Route::get('/community/calendar/edit/{id}', 'FixturesController@edit')->name('calendar.edit');
+Route::put('/community/calendar/update/{id}', 'FixturesController@update')->name('calendar.update');
+Route::delete('/community/calendar/delete/{id}', 'FixturesController@destroy')->name('calendar.delete');
+
 // Love
 
 Route::get('/love/animals', 'PagesController@animals')->name('animals');
