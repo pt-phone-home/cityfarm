@@ -18,6 +18,7 @@ Route::get('/community/about', 'PagesController@about')->name('about');
 Route::get('/community/classes', 'PagesController@classes')->name('classes');
 Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
 Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
+Route::get('/community/calendaritem/{id}', 'FixturesController@show')->name('calendar.show');
 
 // Love
 

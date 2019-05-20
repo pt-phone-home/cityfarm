@@ -62,6 +62,7 @@
         @if ($events->count() > 0)
 
         @foreach ($events as $event)
+
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center px-2 py-2 h-64">
             <div class="relative w-full h-full flex flex-col">
                 {{-- Backround Image and Overlay START --}}
@@ -76,9 +77,9 @@
                 {{-- Top Section START --}}
                 <div class="z-20 h-60p ">
                     <div class="w-1/3 bg-primary-8-opacity-7 h-full flex flex-col items-center justify-center">
-                        <span class="text-grey-lightest text-sm">{{$event->month}}</span>
-                        <span class="py-1 text-grey-lightest text-4xl">{{$event->date}}</span> 
-                    <span class="text-grey-lightest text-sm">{{$event->year}}</span>
+                        <span class="text-grey-lightest text-sm">{{Carbon::parse($event->date)->format('M')}}</span>
+                        <span class="py-1 text-grey-lightest text-4xl">{{Carbon::parse($event->date)->format('d')}}</span> 
+                    <span class="text-grey-lightest text-sm">{{Carbon::parse($event->date)->format('Y')}}</span>
                     </div>
                     <div class="w-2/3 h-full">
 
@@ -93,16 +94,17 @@
                     <h5 class="text-grey-darkest">{{$event->time_from}} - {{$event->time_to}}</h5>
                     </div>
                     <div class="flex justify-center items-center bg-primary-8 w-30p">
-                        <button class="uppercase text-grey-lightest border-2 px-4 py-2 border-grey-lightest">More</button>
+                    <a href="{{route('calendar.show', ['id' => $event->id])}}" class="uppercase text-grey-lightest border-2 px-4 py-2 border-grey-lightest no-underline hover:bg-grey-lightest hover:text-primary-8">More</a>
                     </div>
                 </div>
                 {{-- Bottom Section END --}}
             </div>
         </div>
+        
         @endforeach
-
+    
         @endif
-
+        
     </div>
 </div>
 

@@ -39,6 +39,7 @@
                 <div class="flex flex-col items-center justify-center">
                     <p class="px-20 text-lg text-grey-darkest leading-normal py-2">St. Annes City Farm is surrounded by all this wonderful Ecology and, using our cosy cabin as a base, we will explore the Birds, Bugs, Mammals, Ponds, Wildflowers and Bees of the Park with specially designed classes for children and teens.</p>
                     <p class="px-20 text-lg text-grey-darkest leading-normal self-start py-2">Keep an eye on our website and Facebook page for more information.</p>
+                    <hr class="w-50p border-b-2 border-primary-8 mt-4">         
                 </div>
             </div>
         </div>

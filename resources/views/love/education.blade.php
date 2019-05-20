@@ -38,6 +38,7 @@
                 <div class="flex flex-col items-center justify-center">
                     <h3 class="font-dec text-primary-9 text-4xl">Farm Tours</h3>
                     <p class="px-20 text-lg leading-normal py-2 text-grey-darkest">One of the best ways to experience the farm is with one of our Farm Tours, a staff led guided tour around the farm. The tours usually take around one hour. If you’d like to focus on a particular topic then please let us know, if we’re able to personalise your visit to link in with studies in the classroom, we’re happy to help!</p>
+                    <hr class="w-50p border-b-2 border-primary-8 mt-4">         
                     <p class="px-20 text-lg leading-normal py-2 text-primary-8">Each tour includes:</p>
                     <ul class="list-reset">
                         <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>A Staff led tour around the farm</li>

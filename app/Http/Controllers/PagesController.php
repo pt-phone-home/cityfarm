@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use \App\Fixture;
 use \App\News;
-use \App\Task;
 
 class PagesController extends Controller
 {
@@ -29,8 +29,11 @@ class PagesController extends Controller
     }
     public function calendar()
     {
-        $events = Task::all()->sortByDesc('month')->sortBy('date')->take(9);
+        // $events = Fixture::all()->sortBy('date');
+        // $events_2 = $events->sortBy('month');
+        // $events_3 = $events_2->sortBy('year');
 
+        $events = Fixture::all()->sortBy('date')->take(9);
         return view('community.calendar')->with('events', $events);
     }
 

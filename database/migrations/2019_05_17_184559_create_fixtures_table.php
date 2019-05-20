@@ -18,9 +18,7 @@ class CreateFixturesTable extends Migration
             $table->string('title');
             $table->string('headline');
             $table->string('short_description');
-            $table->string('month');
             $table->string('date');
-            $table->string('year')->default('2019');
             $table->string('location');
             $table->string('time_from')->nullable();
             $table->string('time_to')->nullable();
