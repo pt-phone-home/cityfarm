@@ -20,11 +20,11 @@ Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
 Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
 Route::get('/community/calendaritem/{id}', 'FixturesController@show')->name('calendar.show');
 
-Route::get('/community/calendar/create', 'FixturesController@create')->name('calendar.create');
-Route::post('/community/calendar/store', 'FixturesController@store')->name('calendar.store');
-Route::get('/community/calendar/edit/{id}', 'FixturesController@edit')->name('calendar.edit');
-Route::put('/community/calendar/update/{id}', 'FixturesController@update')->name('calendar.update');
-Route::delete('/community/calendar/delete/{id}', 'FixturesController@destroy')->name('calendar.delete');
+Route::get('/community/calendar/create', 'FixturesController@create')->name('calendar.create')->middleware('auth');
+Route::post('/community/calendar/store', 'FixturesController@store')->name('calendar.store')->middleware('auth');
+Route::get('/community/calendar/edit/{id}', 'FixturesController@edit')->name('calendar.edit')->middleware('auth');
+Route::put('/community/calendar/update/{id}', 'FixturesController@update')->name('calendar.update')->middleware('auth');
+Route::delete('/community/calendar/delete/{id}', 'FixturesController@destroy')->name('calendar.delete')->middleware('auth');
 
 // Love
 
@@ -48,13 +48,16 @@ Route::get('/info/farm_safety', 'PagesController@safety')->name('info.safety');
 
 // ADMIN
 
-Route::get('/admin', 'PagesController@admin')->name('admin.index');
+Route::get('/admin', 'PagesController@admin')->name('admin.index')->middleware('auth');
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login.get');
+Route::post('/login', 'Auth\LoginController@login')->name('login.post');
+Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 //News
 Route::get('/news', 'PagesController@news')->name('news');
-Route::get('/news/create', 'NewsController@create')->name('news.create');
-Route::post('/news/store', 'NewsController@store')->name('news.store');
-Route::get('/news/edit/{id}', 'NewsController@edit')->name('news.edit');
-Route::put('/news/update/{id}', 'NewsController@update')->name('news.update');
+Route::get('/news/create', 'NewsController@create')->name('news.create')->middleware('auth');
+Route::post('/news/store', 'NewsController@store')->name('news.store')->middleware('auth');
+Route::get('/news/edit/{id}', 'NewsController@edit')->name('news.edit')->middleware('auth');
+Route::put('/news/update/{id}', 'NewsController@update')->name('news.update')->middleware('auth');
 Route::get('/newsitem/{id}', 'NewsController@newsitem')->name('news.newsitem');
-Route::delete('/news/delete/{id}', 'NewsController@destroy')->name('news.delete');
+Route::delete('/news/delete/{id}', 'NewsController@destroy')->name('news.delete')->middleware('auth');

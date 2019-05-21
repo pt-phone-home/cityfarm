@@ -20,14 +20,17 @@
 <body>
     <div class="bgi-layer">
         <div class="container mx-auto">
-            <h1 class="text-center text-6xl py-8">St. Anne's City Farm - Admin</h1>
+            <h1 class="text-center text-6xl py-8 font-dec text-grey-lightest">St. Anne's City Farm - Admin</h1>
         </div>
     </div>
     <div class="bg-green-dark">
         <div class="container mx-auto">
             <ul class="flex justify-between list-reset py-4">
             <li class="text-xl "><a href="{{route('index')}}" class="no-underline text-grey-lightest hover:text-grey">Return to main site</a></li>
-            <li class="text-xl "><a href="" class="no-underline text-grey-lightest hover:text-grey">Logout</a></li>
+            @if(!Request::is('admin'))
+            <li class="text-xl "><a href="{{route('admin.index')}}" class="no-underline text-grey-lightest hover:text-grey">Return to admin page</a></li>
+            @endif
+            @Auth<li class="text-xl "><a href="{{route('logout')}}" class="no-underline text-grey-lightest hover:text-grey">Logout</a></li>@endauth
             </ul>
         </div>
 
@@ -52,6 +55,11 @@
         @if(Session::has('info'))
     
         toastr.info("{{Session::get('info')}}")
+        @endif
+
+        @if(Session::has('error'))
+
+        toastr.error("{{Session::get('error')}}")
         @endif
     </script>
     

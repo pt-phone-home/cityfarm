@@ -7,9 +7,9 @@ Create Event | admin
 @endsection
 
 @section('content')
-<div class="bg-grey-lightest">
+<div class="bg-pattern-grey-lightest bg-grey-lightest">
     <div class="container mx-auto py-8">
-        <h1 class="text-center">Create Event </h1>
+        <h1 class="text-center font-dec ">Create Event </h1>
     </div>
 </div>
 

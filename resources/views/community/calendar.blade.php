@@ -69,7 +69,7 @@
             <div class="relative w-full h-full flex flex-col">
                 {{-- Backround Image and Overlay START --}}
                 <div class=" w-full h-full absolute pin-t pin-l z-0">
-                    <img src="{{$event->img}}" alt="" class="w-full h-full object-cover">
+                    <img src="/{{$event->img}}" alt="" class="w-full h-full object-cover">
                 </div>
                 {{-- <div class=" w-full h-full absolute pin-t pin-l bg-green-light-opacity-6 z-10">
                    

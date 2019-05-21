@@ -17,7 +17,7 @@
                 <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">{{$event->title}}</h3>
                 <img src="{{$event->img}}" class="h-48 w-full object-cover" alt="">  
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">{{$event->headline}}</h5>
-                <p class="leading-normal py-2 px-1">{!! $event->content !!}</p>
+                <div class="output leading-normal py-2 px-2">{!!$event->content!!}</div>
                 <div>
                 <a href="{{route('calendar')}}">Back to News</a>
                 </div>

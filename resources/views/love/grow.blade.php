@@ -12,9 +12,9 @@
 <div class="bg-pattern-grey-light">
     <div class="container mx-auto flex justify-center flex-wrap">
 
-        <div class="w-full lg:w-1/2 py-2 flex justify-center">
+        <div class="w-full lg:w-1/2 py-2">
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
-                <h2 class="bg-primary-8 text-grey-lightest rounded font-dec text-5xl px-4 py-2 w-full max-h-full">Demonstration Bed</h2>
+                <h2 class="bg-primary-8 text-grey-lightest rounded font-dec text-3xl px-4 py-2 w-full max-h-full">Demonstration Bed</h2>
                 <div class="h-auto py-2 px-2  w-full flex justify-center items-center">
                     <img src="/images/placeholder.png" class="w-80p h-auto object-cover" alt="">
                 </div>
@@ -27,9 +27,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 py-2 flex justify-center">
+        <div class="w-full lg:w-1/2 py-2">
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
-                <h2 class="text-grey-lightest bg-primary-8 rounded text-center font-dec text-5xl px-4 py-2 w-full max-h-full">Pollytunnel</h2>
+                <h2 class="text-grey-lightest bg-primary-8 rounded  font-dec text-3xl px-4 py-2 w-full max-h-full">Pollytunnel</h2>
                 <div class="h-auto py-2 px-2 w-full flex justify-center items-center">
                     <img src="/images/pollytunnel.jpg" class="w-80p h-auto object-cover" alt="">
                 </div>
@@ -49,9 +49,9 @@
     </div>
 
     <div class="container mx-auto flex justify-center flex-wrap">
-        <div class="w-full lg:w-1/2 py-2 flex justify-center">
+        <div class="w-full lg:w-1/2 py-2">
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
-                <h2 class="bg-primary-8 text-grey-lightest font-dec text-5xl px-4 py-2  w-full max-h-full">Herb Garden</h2>
+                <h2 class="bg-primary-8 text-grey-lightest font-dec text-3xl px-4 py-2  w-full max-h-full">Herb Garden</h2>
                 <div class="h-auto py-2 px-2 w-full flex justify-center items-center">
                     <img src="/images/pollytunnel.jpg" class="w-80p h-auto object-cover" alt="">
                 </div>
@@ -64,9 +64,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/2 py-2 flex justify-center">
-            <div class="w-90p px-4 py-4 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
-                <h2 class="bg-primary-8 text-grey-lightest font-dec text-5xl px-4 py-2 w-full max-h-full">Animal Fodder</h2>
+        <div class="w-full lg:w-1/2 py-2">
+            <div class="w-90p px-4 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
+                <h2 class="bg-primary-8 text-grey-lightest font-dec text-3xl px-4 py-2 w-full max-h-full">Animal Fodder</h2>
                 <div class="h-auto py-2 px-2  w-full flex justify-center items-center">
                     <img src="/images/fodder.jpg" class="w-80p h-auto object-cover" alt="">
                 </div>
