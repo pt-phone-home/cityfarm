@@ -24,15 +24,15 @@ class NewsController extends Controller
             'title' => 'required',
             'headline' => 'required',
             'body' => 'required',
-            'image' => 'max:5000',
+            'img' => 'max:5000',
         ]);
 
-        if ($request->file('image')) {
-            $filenameWithExt = $request->file('image')->getClientOriginalName();
+        if ($request->file('img')) {
+            $filenameWithExt = $request->file('img')->getClientOriginalName();
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
-            $extension = $request->file('image')->getClientOriginalExtension();
+            $extension = $request->file('img')->getClientOriginalExtension();
             $filenameToStore = $filename . '_' . time() . '.' . $extension;
-            $path = $request->file('image')->move('images/news', $filenameToStore);
+            $path = $request->file('img')->move('images/news', $filenameToStore);
         } else {
             $path = 'images/news/default' . rand(1, 4) . '.jpg';
         }
@@ -42,7 +42,7 @@ class NewsController extends Controller
         $newsitem->title = $request['title'];
         $newsitem->headline = $request['headline'];
         $newsitem->body = $request['body'];
-        $newsitem->image = $path;
+        $newsitem->img = $path;
 
         $newsitem->save();
 
@@ -62,15 +62,15 @@ class NewsController extends Controller
             'title' => 'required',
             'headline' => 'required',
             'body' => 'required',
-            'image' => 'max:5000',
+            'img' => 'max:5000',
         ]);
 
-        if ($request->file('image')) {
-            $filenameWithExt = $request->file('image')->getClientOriginalName();
+        if ($request->file('img')) {
+            $filenameWithExt = $request->file('img')->getClientOriginalName();
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
-            $extension = $request->file('image')->getClientOriginalExtension();
+            $extension = $request->file('img')->getClientOriginalExtension();
             $filenameToStore = $filename . '_' . time() . '.' . $extension;
-            $path = $request->file('image')->move('images/news', $filenameToStore);
+            $path = $request->file('img')->move('images/news', $filenameToStore);
         } else {
             $path = 'images/news/default' . rand(1, 4) . '.jpg';
         }
@@ -80,7 +80,7 @@ class NewsController extends Controller
         $newsitem->title = $request['title'];
         $newsitem->headline = $request['headline'];
         $newsitem->body = $request['body'];
-        $newsitem->image = $path;
+        $newsitem->img = $path;
 
         $newsitem->save();
 
