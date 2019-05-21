@@ -17,7 +17,7 @@
         </div> 
     </div>
 </div>
-<div class="bg-neutral-3">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto py-6 px-4">
         <h3 class="text-xl leading-normal text-center" >The Ecology of St. Annes Park is rich with lots of different animals and plants and fabulous trees &amp; grasslands.</h3>
     </div>
@@ -46,7 +46,7 @@
 
     </div>
 </div>
-<div class="bgi-layer2">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto">
         <div class="flex flex-wrap py-8">
             <div class="w-full md:w-1/4 h-64 px-2 py-2">

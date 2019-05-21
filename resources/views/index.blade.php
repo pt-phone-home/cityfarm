@@ -48,7 +48,7 @@ St. Anne's City Farm | Our Community
         <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. The Dublin City Farm aims to function as a center for knowledge, for teaching and for interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local communities providing access to structural learning and modern environmentally sustainable practices.</p>
     </div>
 </div>
-<div class="bgi-layer2 -mt-20">
+<div class="bg-pattern-grey-lightest bgi-layer2 -mt-20">
     <div class="container mx-auto pt-24 flex"> 
         <h2 class="font-dec text-3xl md:text-5xl ml-4 md:ml-0 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">How the Farm Works</h2>
     </div>
@@ -184,7 +184,7 @@ St. Anne's City Farm | Our Community
 
 {{-- What's On Content --}}
 
-<div class="w-full bg-grey-light">
+<div class="w-full bg-pattern-grey-light bg-grey-light">
     <div class="container mx-auto flex">
             <h2 class="font-dec text-5xl ml-4 md:ml-0 pt-16 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">What's On</h2>
     </div>

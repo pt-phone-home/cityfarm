@@ -16,7 +16,7 @@
         </div> 
     </div>
 </div>
-<div class="bg-neutral-3">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto py-6 px-4">
         <h3 class="text-xl leading-normal text-center text-grey-darkest" >We have one day a week dedicated to schools, groups, and clubs, we aim to educate wherever possible. The benefits of learning outside the classroom are well documented and widely recognised and we welcome visits from schools of all ages and abilities!</h3>
     </div>

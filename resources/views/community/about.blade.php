@@ -18,7 +18,7 @@ About Us | St. Anne's City Farm
         </div> 
     </div>
 </div>
-<div class="bg-neutral-3">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto py-4 md:py-6">
         <h3 class="text-xl sm:text-2xl leading-normal text-center text-primary-8" >St. Anne's City Farm is a sustainable farm that promotes education and multiculturalism.</h3>
     </div>
@@ -30,7 +30,7 @@ About Us | St. Anne's City Farm
         </div>
     </div>
 </div>
-<div class="bg-neutral-3">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto py-2 md:py-8">
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">
@@ -47,10 +47,9 @@ About Us | St. Anne's City Farm
                 </div>
             </div>
         </div>
-
     </div>
 </div>
-<div class="bg-neutral-3">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto py-2 md:py-8">
         <div class="flex flex-wrap-reverse">
             <div class="w-full md:w-2/3 flex justify-center items-center">
@@ -68,7 +67,7 @@ About Us | St. Anne's City Farm
         </div>
     </div>
 </div>
-<div class="bg-neutral-3">
+<div class="bg-pattern-grey-light">
     <div class="container mx-auto py-2 md:py-8">
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">

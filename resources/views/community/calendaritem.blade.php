@@ -9,11 +9,11 @@
     <h1 class="text-grey-darkest text-6xl">Events</h1>
 </div>
 
-<div class="bg-grey-lightest">
+<div class="bg-pattern-grey-lightest">
     @if($event)
     <div class="container mx-auto flex flex-wrap justify-center py-4">
         <div class="w-80p flex justify-center">
-            <div class="w-90p flex flex-col justify-center py-2">
+            <div class="w-90p flex flex-col justify-center py-2 border-2 border-primary-8 bg-grey-lightest">
                 <h3 class="bg-green-light text-grey-lightest text-3xl text-center py-1">{{$event->title}}</h3>
                 <img src="{{$event->img}}" class="h-48 w-full object-cover" alt="">  
                 <h5 class="bg-grey-dark text-grey-lightest text-center py-2 text-xl">{{$event->headline}}</h5>

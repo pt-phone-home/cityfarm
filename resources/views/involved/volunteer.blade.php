@@ -19,7 +19,7 @@ Volunteer | St. Anne's City Farm
     </div>
 </div>
 {{-- Voluteering Duties --}}
-<div class="bg-grey-lightest">
+<div class="bg-pattern-grey-lightest">
     <div class="container mx-auto py-4">
         <h3 class="text-center text-4xl text-grey-darkest">You can help out in many ways</h3>
     </div>
