@@ -49,9 +49,9 @@ Route::get('/info/farm_safety', 'PagesController@safety')->name('info.safety');
 // ADMIN
 
 Route::get('/admin', 'PagesController@admin')->name('admin.index')->middleware('auth');
-Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login.get');
-Route::post('/login', 'Auth\LoginController@login')->name('login.post');
-Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
+Route::get('/login', 'LoginController@showLoginForm')->name('login.get');
+Route::post('/login', 'LoginController@login')->name('login.post');
+Route::get('/logout', 'LoginController@logout')->name('logout');
 
 //News
 Route::get('/news', 'PagesController@news')->name('news');
