@@ -310,6 +310,31 @@ body {
     }
 }
 
+.rise {
+    display: flex;
+    /* transition: all 5s ease-in-out; */
+    animation-name: rise;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes rise {
+    0% {
+        height: 0;
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+
+    10% {
+        height: auto;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
 .bg-pattern-grey-lightest {
     background-color: #f8fafc;
     background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23048271' fill-opacity='0.17' fill-rule='evenodd'/%3E%3C/svg%3E");
