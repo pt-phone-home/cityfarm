@@ -33,8 +33,8 @@ Edit News Item | admin
             <textarea name="body" id="body" cols="30" rows="10" class="block w-80p md:w-80p h-48 outline-none rounded">{{$newsitem->body}}</textarea>
             </div>
             <div class="py-2">
-                <label for="image" class="block my-2 text-xl">Image (Optional):</label>
-                <input type="file" name="image" id="image" class="block w-80p md:w-80p h-8 outline-none rounded">
+                <label for="img" class="block my-2 text-xl">Image (Optional):</label>
+                <input type="file" name="img" id="img" class="block w-80p md:w-80p h-8 outline-none rounded">
             </div>
             <div class="my-4">
                 <button type="submit" class="bg-green-light text-grey-lightest rounded px-4 py-2 text-2xl hover:bg-green outline-none active:bg-green-dark active:outline-none">Update</button>

@@ -19,7 +19,7 @@
         <div class="w-full lg:w-1/3 flex justify-center my-2">
             <div class="w-80p flex flex-col border-2 border-primary-8 bg-grey-lightest">
                 <h3 class="text-primary-8 text-2xl text-center py-2">{{$article->title}}</h3>
-                <div class="w-full h-10r"><img src="{{$article->img}}" class="h-full w-full object-cover" alt=""></div>  
+                <div class="w-full h-10r"><img src="/{{$article->img}}" class="h-full w-full object-cover" alt=""></div>  
                 <div class="flex-1">
                     <h5 class="text-grey-darkest px-1 py-4 capitalize">{{str_limit($article->headline, $limit = 50, $end = '...')}}</h5>
                 </div>

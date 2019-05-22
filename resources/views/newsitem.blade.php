@@ -18,7 +18,7 @@
         <div class="w-80p flex justify-center px-2 py-2 border-2 border-primary-8 bg-grey-lightest">
             <div class="w-80p flex flex-col justify-center my-4">
                 <h3 class="text-primary-8 text-3xl text-center py-2">{{$newsitem->title}}</h3>
-                <img src="{{$newsitem->img}}" class="h-48 w-full object-cover" alt="">  
+                <img src="/{{$newsitem->img}}" class="h-48 w-full object-cover" alt="">  
                 <h5 class="text-grey-darkest py-2 mt-6 text-xl">{{$newsitem->headline}}</h5>
                 <hr class="border-2 border-grey-darkest w-full">
                 <p class="leading-loose py-2 px-1">{!! $newsitem->body !!}</p>
