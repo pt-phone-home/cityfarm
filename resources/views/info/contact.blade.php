@@ -32,23 +32,33 @@ Contact Us | St. Anne's City Farm
         <div class="w-full md:w-3/4 flex flex-col items-start">
             <div class="pl-24 w-full">
                 <h2 class="my-4 text-4xl">Send us a message</h2>
-                <form action="" class="my-4">
+                @if($errors)
+            @foreach($errors->all() as $error)
+                <li>{{$error}}</li>
+                @endforeach
+                @endif
+            <form action="{{route('contact.post')}}" method="POST" class="my-4">
+                @csrf
                     <div class="my-2">
                         <label for="name" class="block my-2 text-xl">Name:</label>
-                        <input type="text" class="block w-80p md:w-80p h-8 outline-none rounded">
+                    <input type="text" name="name" class="block w-80p md:w-80p h-8 outline-none rounded" required value="{{old('name')}}">
                     </div>                    
                     <div class="my-2">
                         <label for="email" class="block my-2 text-xl">Email:</label>
-                        <input type="email" class="block w-80p md:w-80p h-8 outline-none rounded">
+                    <input type="email" name="email" class="block w-80p md:w-80p h-8 outline-none rounded" required value="{{old('email')}}">
                     </div>                    
                     <div class="my-2">
                         <label for="phone" class="block my-2 text-xl">Phone:</label>
-                        <input type="number" class="block w-80p md:w-80p h-8 outline-none rounded">
+                    <input type="number" name="phone" class="block w-80p md:w-80p h-8 outline-none rounded" value="{{old('phone')}}">
                     </div>                    
                     <div class="my-2">
                         <label for="message" class="block my-2 text-xl">Message:</label>
-                        <textarea name="message" id="" cols="30" rows="10" class="block w-80p md:w-80p h-24 outline-none rounded"></textarea>
-                    </div>                    
+                    <textarea name="message" id="" cols="30" rows="10" class="block w-80p md:w-80p h-24 outline-none rounded" required>{{old('message')}}</textarea>
+                    </div> 
+                    <div class="my-2">
+                            {!! NoCaptcha::renderJs(array('required' => 'required')) !!}
+                            {!! NoCaptcha::display() !!}
+                    </div>                   
                     <div class="my-4">
                         <button type="submit" class="bg-green-light text-grey-lightest rounded px-4 py-2 text-2xl hover:bg-green outline-none active:bg-green-dark active:outline-none">Send</button>
                     </div>                    
