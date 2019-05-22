@@ -21,7 +21,7 @@
                 <img src="/{{$newsitem->img}}" class="h-48 w-full object-cover" alt="">  
                 <h5 class="text-grey-darkest py-2 mt-6 text-xl">{{$newsitem->headline}}</h5>
                 <hr class="border-2 border-grey-darkest w-full">
-                <p class="leading-loose py-2 px-1">{!! $newsitem->body !!}</p>
+                <div class="output leading-loose py-2 px-1 text-grey-darkest">{!! $newsitem->body !!}</div>
             </div>
             
         </div>
