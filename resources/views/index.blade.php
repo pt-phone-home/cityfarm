@@ -205,7 +205,10 @@ St. Anne's City Farm | Our Community
                 <a class="text-center no-underline" >More</a>
                 </div>
                 <div class="w-full bg-grey-light px-2 py-2 flex-1 hidden" id="calendarItem">
-                    <p class="text-grey-darkest text-base leading-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ex optio. Eum officia soluta voluptatem!</p>
+                    <p class="text-grey-darkest py-2 text-base leading-normal">We have one day a week dedicated to schools, groups, and clubs, we aim to educate wherever possible. The benefits of learning outside the classroom are well documented and widely recognised and we welcome visits from schools of all ages and abilities!
+                    </p>
+                    <p class="text-grey-darkest py-2 text-base leading-normal">For more information visit our <a href="{{route('education')}}" class="text-primary-8 hover:text-grey-darkest">education</a> page.
+                    </p>
                 </div>
             </div>
             

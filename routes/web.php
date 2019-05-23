@@ -19,6 +19,7 @@ Route::get('/community/classes', 'PagesController@classes')->name('classes');
 Route::get('/community/kitchen', 'PagesController@kitchen')->name('kitchen');
 Route::get('/community/calendar', 'PagesController@calendar')->name('calendar');
 Route::get('/community/calendaritem/{id}', 'FixturesController@show')->name('calendar.show');
+Route::get('/love/education', 'PagesController@education')->name('education');
 
 Route::get('/community/calendar/create', 'FixturesController@create')->name('calendar.create')->middleware('auth');
 Route::post('/community/calendar/store', 'FixturesController@store')->name('calendar.store')->middleware('auth');
