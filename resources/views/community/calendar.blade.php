@@ -51,7 +51,7 @@
 </div>
 
 <div>
-    <div class="container mx-auto py-8 flex flex-col  bg-grey-lightest">
+    <div class="container mx-auto py-8 flex flex-col  bg-patter-grey-lightest">
         <h2 class="text-5xl font-dec text-primary-8 underline">Upcoming Events</h2>
     </div>
 </div>
