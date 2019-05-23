@@ -28,7 +28,7 @@ Volunteer | St. Anne's City Farm
             <div class="flex flex-col items-center">
                 <img src="/images/gardening.png" alt="" class="h-48 w-auto">
                 <h5 class="border-2 bg-primary-8 text-grey-lightest border-primary-8 font-dec text-xl px-4 py-2 my-4 hover:bg-grey-lightest hover:text-primary-9 hover:cursor-pointer" id="VolBtn">Gardening Volunteer <i class="fas fa-arrow-circle-down" id="VolIcon"></i></h5>
-                <div class="border-b-2 border-primary-8 border-t-2 hidden" id="VolSec">
+                <div class="border-b-2 border-primary-8 border-t-2 hidden bg-grey-lightest" id="VolSec">
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest">Volunteers are involved in all aspects of cultivating the vegetable garden, polytunnel, and allotment, some tasks are more hard work than others. </p> 
                     
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest"> We have space to learn how to grow food and we hold gardening sessions regularly as part of our volunteer training program.</p>
@@ -39,7 +39,7 @@ Volunteer | St. Anne's City Farm
             <div class="flex flex-col items-center">
                 <img src="/images/maintenance.png" alt="" class="h-48 w-auto">
                 <h5 class="border-2 bg-primary-8 text-grey-lightest border-primary-8 font-dec text-xl px-4 py-2 my-4 hover:bg-grey-lightest hover:text-primary-9 hover:cursor-pointer" id="VolBtn2">Maintenance Volunteer <i class="fas fa-arrow-circle-down" id="VolIcon2"></i> </h5>
-                <div class="border-b-2 border-primary-8 border-t-2 hidden" id="VolSec2">
+                <div class="border-b-2 border-primary-8 border-t-2 hidden bg-grey-lightest" id="VolSec2">
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest">Volunteers help us maintain the farm. We are always in need of help of tradesmen and women. Carpenters, plumbers, electricians, painters, etc. </p> 
                     
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest"> We have lots of job on site we need help with. </p>
@@ -50,7 +50,7 @@ Volunteer | St. Anne's City Farm
             <div class="flex flex-col items-center">
                 <img src="/images/education.png" alt="" class="h-48 w-auto">
                 <h5 class="border-2 bg-primary-8 text-grey-lightest border-primary-8 font-dec text-xl px-4 py-2 my-4 hover:bg-grey-lightest hover:text-primary-9 hover:cursor-pointer" id="VolBtn3" >Education Volunteer <i class="fas fa-arrow-circle-down" id="VolIcon3"></i> </h5>
-                <div class="border-b-2 border-primary-8 border-t-2 hidden" id="VolSec3">
+                <div class="border-b-2 border-primary-8 border-t-2 hidden bg-grey-lightest" id="VolSec3">
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest">Volunteers help us deliver our education programme, both at the farm and in local schools. </p> 
                     
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest"> If you are interested in getting involved please email us. 
@@ -62,7 +62,7 @@ Volunteer | St. Anne's City Farm
             <div class="flex flex-col items-center">
                 <img src="/images/youth.png" alt="" class="h-48 w-auto">
                 <h5 class="border-2 bg-primary-8 text-grey-lightest border-primary-8 font-dec text-xl px-4 py-2 my-4 hover:bg-grey-lightest hover:text-primary-9 hover:cursor-pointer" id="VolBtn4">Youth Volunteer <i class="fas fa-arrow-circle-down" id="VolIcon4"></i> </h5>
-                <div class="border-b-2 border-primary-8 border-t-2 hidden" id="VolSec4">
+                <div class="border-b-2 border-primary-8 border-t-2 hidden bg-grey-lightest" id="VolSec4">
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest">Youths between the ages of 13 to 18 are eligible to volunteer and help out on the farm. We have one session per week every Saturday.</p> 
                     
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest"> If you are interested in getting a child involved please come along on Saturday to have a chat with us.
@@ -75,7 +75,7 @@ Volunteer | St. Anne's City Farm
             <div class="flex flex-col items-center">
                 <img src="/images/family.png" alt="" class="h-48 w-auto">
                 <h5 class="border-2 bg-primary-8 text-grey-lightest border-primary-8 font-dec text-xl px-4 py-2 my-4 hover:bg-grey-lightest hover:text-primary-9 hover:cursor-pointer"   id="VolBtn5">Family Volunteer <i class="fas fa-arrow-circle-down" id="VolIcon5"></i> </h5>
-                <div class="border-b-2 border-primary-8 border-t-2 hidden" id="VolSec5">
+                <div class="border-b-2 border-primary-8 border-t-2 hidden bg-grey-lightest" id="VolSec5">
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest">Families are encouraged to get involved in gardening, animal care, healthy cooking, general maintenance, and other related activities at the farm. </p> 
                     
                     <p class="px-4 sm:text-sm md:text-base leading-normal py-1 text-grey-darkest"> Sessions run every Saturday from 10 am – 1 pm. All ages and abilities are welcome.

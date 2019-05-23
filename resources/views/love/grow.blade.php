@@ -23,7 +23,10 @@
                 </div>
                 <div class="hidden" id="GrowItem">
                     <hr class="border w-full border-primary-8">
-                    <p class="leading-normal py-1 px-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, odit! Minima a voluptas rerum nobis in, minus nisi? Beatae saepe, nulla cum dolorem et neque. Dignissimos, velit voluptatum. Distinctio, quaerat commodi itaque dolores perspiciatis nemo veniam eligendi saepe, numquam, ipsa doloribus maxime soluta nam voluptatibus facilis excepturi fugit aliquid quod!</p>
+                    <p class="leading-normal py-1 px-2">An attractive education space with demonstration growing beds 
+                    </p>
+                    <p class="leading-normal py-1 px-2">The demonstration beds are the perfect place for children to engage with nature, with raised garden beds at just the right level for little arms to reach toward the soil. Budding gardeners and future scientists learn by doing as they water, weed, and harvest plants. Expert instructors provide hands-on learning that makes a lasting impression. The family is encouraged to volunteer on Saturdays to come to grow and get closer to nature
+                    </p>
                 </div>
             </div>
         </div>

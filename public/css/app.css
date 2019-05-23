@@ -10794,6 +10794,10 @@ table {
   z-index: 50;
 }
 
+.z-100 {
+  z-index: 100;
+}
+
 .z-auto {
   z-index: auto;
 }
@@ -21009,6 +21013,10 @@ table {
     z-index: 50;
   }
 
+  .sm\:z-100 {
+    z-index: 100;
+  }
+
   .sm\:z-auto {
     z-index: auto;
   }
@@ -31208,6 +31216,10 @@ table {
 
   .md\:z-50 {
     z-index: 50;
+  }
+
+  .md\:z-100 {
+    z-index: 100;
   }
 
   .md\:z-auto {
@@ -41411,6 +41423,10 @@ table {
     z-index: 50;
   }
 
+  .lg\:z-100 {
+    z-index: 100;
+  }
+
   .lg\:z-auto {
     z-index: auto;
   }
@@ -51610,6 +51626,10 @@ table {
 
   .xl\:z-50 {
     z-index: 50;
+  }
+
+  .xl\:z-100 {
+    z-index: 100;
   }
 
   .xl\:z-auto {
