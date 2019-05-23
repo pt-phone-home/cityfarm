@@ -50,8 +50,8 @@
     </div>
 </div>
 
-<div>
-    <div class="container mx-auto py-8 flex flex-col  bg-patter-grey-lightest">
+<div class="bg-pattern-grey-lightest">
+    <div class="container mx-auto py-8 flex flex-col ">
         <h2 class="text-5xl font-dec text-primary-8 underline">Upcoming Events</h2>
     </div>
 </div>
