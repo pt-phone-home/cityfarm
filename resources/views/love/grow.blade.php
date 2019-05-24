@@ -16,7 +16,7 @@
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
                 <h2 class="bg-primary-8 text-grey-lightest rounded font-dec text-3xl px-4 py-2 w-full max-h-full">Demonstration Bed</h2>
                 <div class="h-auto py-2 px-2  w-full flex justify-center items-center">
-                    <img src="/images/placeholder.png" class="w-80p h-auto object-cover" alt="">
+                    <img src="/images/demonstration.jpg" class="w-80p h-64 object-cover" alt="">
                 </div>
                 <div class="w-full text-center bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer rounded" id="GrowBtn">
                         <a class="text-center no-underline px-2 py-2">More</a>
@@ -34,7 +34,7 @@
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
                 <h2 class="text-grey-lightest bg-primary-8 rounded  font-dec text-3xl px-4 py-2 w-full max-h-full">Pollytunnel</h2>
                 <div class="h-auto py-2 px-2 w-full flex justify-center items-center">
-                    <img src="/images/pollytunnel.jpg" class="w-80p h-auto object-cover" alt="">
+                    <img src="/images/pollytunnel.jpg" class="w-80p h-64 object-cover" alt="">
                 </div>
                 <div class="w-full text-center bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer rounded" id="GrowBtn2">
                         <a class="text-center no-underline px-2 py-2">More</a>
@@ -56,7 +56,7 @@
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
                 <h2 class="bg-primary-8 text-grey-lightest font-dec text-3xl px-4 py-2  w-full max-h-full">Herb Garden</h2>
                 <div class="h-auto py-2 px-2 w-full flex justify-center items-center">
-                    <img src="/images/pollytunnel.jpg" class="w-80p h-auto object-cover" alt="">
+                    <img src="/images/herb.jpg" class="w-80p h-64 object-cover" alt="">
                 </div>
                 <div class="w-full text-center bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer rounded" id="GrowBtn3">
                         <a class="text-center no-underline px-2 py-2">More</a>
@@ -71,7 +71,7 @@
             <div class="w-90p px-4 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
                 <h2 class="bg-primary-8 text-grey-lightest font-dec text-3xl px-4 py-2 w-full max-h-full">Animal Fodder</h2>
                 <div class="h-auto py-2 px-2  w-full flex justify-center items-center">
-                    <img src="/images/fodder.jpg" class="w-80p h-auto object-cover" alt="">
+                    <img src="/images/fodder.jpg" class="w-80p h-64 object-cover" alt="">
                 </div>
                 <div class="w-full text-center bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer rounded" id="GrowBtn4">
                         <a class="text-center no-underline px-2 py-2">More</a>
@@ -80,6 +80,40 @@
                     <hr class="border w-full border-primary-8">
                     <p class="leading-normal py-1 px-2 self-start">Our long term plan is to grow all the food for our animals on the farm. Between our raised beds, allotment and polytunnel. We have lots of lush beds of grass, kale, spinach and wild herbs that meet the needs of our Goats, chickens, pony, rabbits, and guinea pigs. We've planted the allotment full of root vegetables for our piggie girls.</p>
                     <p class="leading-normal py-1 px-2 self-start">If you'd like more information or advice please contact us at the farm.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full lg:w-1/2 py-2">
+            <div class="w-90p px-4 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
+                <h2 class="bg-primary-8 text-grey-lightest font-dec text-3xl px-4 py-2 w-full max-h-full">Forest Garden</h2>
+                <div class="h-auto py-2 px-2  w-full flex justify-center items-center">
+                    <img src="/images/fodder.jpg" class="w-80p h-64 object-cover" alt="">
+                </div>
+                <div class="w-full text-center bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer rounded" id="GrowBtn5">
+                        <a class="text-center no-underline px-2 py-2">More</a>
+                </div>
+                <div class="hidden" id="GrowItem5">
+                    <hr class="border w-full border-primary-8">
+                    <p class="leading-normal py-1 px-2 self-start">Forest gardens are food-producing gardens which seek to emulate natural woodland ecosystems as closely as possible.</p>
+                    <p class="leading-normal py-1 px-2 self-start">A forest garden is made-up of mainly perennial plants which are agriculturally productive or useful, growing as they would in the wild.</p>
+                    <p class="leading-normal py-1 px-2 self-start">Forest gardening is the intentional process of cultivating a diverse culture of useful plants and trees. The forest garden is so-named because the plants are stacked or assembled as they may be found in a natural forest or woodland. There is a universal assembly of forest plants, found worldwide. Whilst this structure is universal,  each forest or woodland is uniquely composed of species that are specific to climate and location.</p>
+                    <p class="leading-normal py-1 px-2 self-start">Most temperate forests consist of seven layers of plants, whilst some sucessionally-advanced tropical forests may feature up to thirteen layers.</p>
+                    <hr class="border border-dashed border-grey-darkest w-80p">
+                    <p class="leading-normal py-1 px-2 self-start">The most common seven plant layers are as follows (with examples for forest gardens in temperate climates):</p>
+                    <ul class="list-reset">
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Upper Canopy (Sweet Chestnut, Cherry, Pear, Victoria Plum)</li>
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Lower Canopy or Sub-Canopy    (Hazel, Crab Apple, Fig, Medlar and dwarfing trees)</li>
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Vines and Climbers (Kiwi, Grape, Passion Fruit, Runner Beans)</li>
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Shrubs, and understorey bushes (Blackcurrant, Gooseberry, Raspberry, Eleagnus)</li>
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Herbaceous perenennials and annuals (Mint, Chives, Fennel, Rhubarb)</li>
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Ground Cover (Strawberries, Clover, Ramsons)</li>
+                        <li class="text-grey-darkest py-1"><i class="fas fa-leaf pr-4 text-primary-8"></i>Roots and Rhizosphere ( Parsnips, Welsh Onion, Ground Nut, Garlic and Chives, Jerusalem Artichoke)</li>
+                    </ul>
+                    <hr class="border border-dashed border-grey-darkest w-80p">
+                    <p class="leading-normal py-1 px-2 self-start">A well-managed garden will yield nuts, fruits, herbs and annual crops. Once a forest garden becomes established, it requires little or no artificial energy input and minimal labour, whilst continuing to produce harvestable yields.</p>
+                    <p class="leading-normal py-1 px-2 self-start">The objective of a forest garden, is to epitomise the diversity and stability found in wild forest systems, whilst choosing productive trees, shrubs, bushes and herbs which are benficial to humans. The purpose of this is to create natural pest resilence though biodiversity, to create natural habitat, and to create cultures of plants which can produce food perpetually, without annual tilling, pesticides, fertilisers or other high inputs of chemicals or energy - indeed as an alternative, and also as an ecologically regenererative and sustainable source of organic and seasonal food.</p>
+                    <p class="leading-normal py-1 px-2 self-start">A polyculture (a mixed species of plants), is the opposite of a monoculture. Monocultures are largely absent in the natural environment and consist of one species of plant growing on a flat plane. Almost all of nature may be considered polycultural. A polycultural food forest (forest garden), consists of multiple species of food, growing on multiple planes. Thus, food growing and cropping occurs on multiple layers, as opposed to a single yield on a flat growing plane. This increases the input of human labour, but eliminates any dependency on petrochemicals.</p>
+                    <p class="leading-normal py-1 px-2 self-start">The forest gardener seeks to create as much diversity as possible to maximise the stabilty and resilience of the agriultural system, and to create a greater range of potential crops, harvestable throughout the season. It is essentially, a multi-layered foraging garden, sometimes referred to as a wild or outdoor pantry. </p>
                 </div>
             </div>
         </div>
@@ -126,6 +160,15 @@ growBtn4.addEventListener("click", function () {
     window.getComputedStyle(growItem4).display === 'none' ?
         (growItem4.classList.add('show')) (growBtn4.innerText = 'Less') : 
         (growItem4.classList.remove('show')) (growBtn4.innerText = 'More') ;
+    
+})
+let growBtn5 = document.getElementById("GrowBtn5");
+let growItem5 = document.getElementById("GrowItem5");
+
+growBtn5.addEventListener("click", function () {
+    window.getComputedStyle(growItem5).display === 'none' ?
+        (growItem5.classList.add('show')) (growBtn5.innerText = 'Less') : 
+        (growItem5.classList.remove('show')) (growBtn5.innerText = 'More') ;
     
 })
 </script>

@@ -104,7 +104,7 @@
                  <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Nomah</h3>
                 <h5 class="text-grey-darkest py-1 text-lg">Rabbit</h5>
                 <hr class="border w-full border-primary-8">
-                <p class="leading-normal py-1 px-1 h-full">Nomah is a happy rabbit with beautiful soft fur. She loves to jump on the straw bails in her stable and loves apples. She is self-confident and teaches us to be happy.</p>
+                <p class="leading-normal py-1 px-1 h-full">Nomah is a happy rabbit with beautiful soft fur. He loves to jump on the straw bails in his stable and loves apples. He is self-confident and teaches us to be happy.</p>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
@@ -135,7 +135,7 @@
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
-            <div class="w-90p flex flex-col justify-center border-2 bg-grey-light border-primary-8 px-2 py-2 animals rounded" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            <div class="w-90p flex flex-col justify-center border-2 bg-grey-light border-primary-8 px-2 py-2 animals rounded" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                  <img src="/images/miranda.jpg" class="h-48 w-full object-cover rounded" alt="">  
                  <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Miranda</h3>
                 <h5 class="text-grey-darkest py-1 text-lg">Rhode Island Red Hen</h5>
@@ -148,6 +148,24 @@
                  <img src="/images/blonde.jpg" class="h-48 w-full object-cover rounded" alt="">  
                  <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Blonde</h3>
                 <h5 class="text-grey-darkest py-1 text-lg">Rhode Island Red Hen</h5>
+                <hr class="border w-full border-primary-8">
+                <p class="leading-normal py-1 px-1 h-full">Our five beautiful ladies came to the farm quiet wild. Only one (Blonde) allowed us to pick her up but now one of their favorite things they love to do is to be cuddled. They are five feisty ladies that keep us entertained at the farm with their very different personalities.</p>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
+            <div class="w-90p flex flex-col justify-center border-2 bg-grey-light border-primary-8 px-2 py-2 animals rounded" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000">
+                 <img src="/images/maggie.jpg" class="h-48 w-full object-cover rounded" alt="">  
+                 <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Maggie May</h3>
+                <h5 class="text-grey-darkest py-1 text-lg">Rhode Island Red Hen</h5>
+                <hr class="border w-full border-primary-8">
+                <p class="leading-normal py-1 px-1 h-full">Our five beautiful ladies came to the farm quiet wild. Only one (Blonde) allowed us to pick her up but now one of their favorite things they love to do is to be cuddled. They are five feisty ladies that keep us entertained at the farm with their very different personalities.</p>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
+            <div class="w-90p flex flex-col justify-center border-2 bg-grey-light border-primary-8 px-2 py-2 animals rounded" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                 <img src="/images/moses.jpg" class="h-48 w-full object-cover rounded" alt="">  
+                 <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Moses</h3>
+                <h5 class="text-grey-darkest py-1 text-lg">Shetland Pony</h5>
                 <hr class="border w-full border-primary-8">
                 <p class="leading-normal py-1 px-1 h-full">Our five beautiful ladies came to the farm quiet wild. Only one (Blonde) allowed us to pick her up but now one of their favorite things they love to do is to be cuddled. They are five feisty ladies that keep us entertained at the farm with their very different personalities.</p>
             </div>

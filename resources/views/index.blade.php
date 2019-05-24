@@ -73,7 +73,7 @@ St. Anne's City Farm | Our Community
                 <div class="w-full py-4 bg-grey-lighter">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Thursday - Open Entry</h5>
                 </div>
-                <div class="h-15r w-full md:pb-0"><img src="/images/thursday.jpg" alt="" class="w-full h-full object-cover ">
+                <div class="h-15r w-full md:pb-0"><img src="/images/thursday2.jpg" alt="" class="w-full h-full object-cover ">
                 </div>
                 <div class="my-4">
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
