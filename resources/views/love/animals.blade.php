@@ -13,7 +13,7 @@
     <div class="container mx-auto">
         <div class="px-12 py-12">
         {{-- <h2 class="text-center text-5xl py-2 text-neutral-2">Our Animals</h2> --}}
-        <p class="leading-loose text-neutral-2 text-center mx-auto sm:w-90p md:w-80p lg:w-50p leading-loose text-2xl"> Our animals, our family. We love and respect all our animals. They all have different stories, some are rescued, some have had to be rehomed for many different reasons.</p>
+        <p class="leading-loose text-neutral-2 text-center mx-auto sm:w-90p md:w-80p lg:w-50p leading-loose text-2xl"> Our animals, our family. We love and respect all our animals. They all have their own stories; some are rescued, some were rehomed for many different reasons.</p>
         </div>
     </div>
 </div>
@@ -32,7 +32,7 @@
                  <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Willow</h3>
                 <h5 class=" text-grey-darkest py-1 text-lg">Vietnamese Potbelly Pig</h5>
                 <hr class="border w-full border-primary-8">
-                <p class="leading-normal py-1 px-1 h-full">She may have been the runt of the liter but this pig is the brain of the operation, she's always got a plan, she's doesn't miss a trick. Our willow is a clever girl.</p>
+                <p class="leading-normal py-1 px-1 h-full">She may have been the runt of the litter but this pig is the brains of the operation; she's always got a plan and she's doesn't miss a trick. Our willow is a clever girl.</p>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">
@@ -113,7 +113,7 @@
                  <h3 class="bg-grey-light text-center text-primary-8 font-dec text-4xl py-1">Jessica</h3>
                 <h5 class="text-grey-darkest py-1 text-lg">Maran Hen</h5>
                 <hr class="border w-full border-primary-8">
-                <p class="leading-normal py-1 px-1 h-full">Our five beautiful ladies came to the farm quiet wild. Only one (Blonde) allowed us to pick her up but now one of their favorite things they love to do is to be cuddled. They are five feisty ladies that keep us entertained at the farm with their very different personalities.</p>
+                <p class="leading-normal py-1 px-1 h-full">Our five beautiful ladies came to the farm quite wild. Only one (Blonde) allowed us to pick her up, but now being cuddled is one of their favourite things to do. They are five feisty ladies that keep us entertained at the farm with their very different personalities.</p>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center my-4">

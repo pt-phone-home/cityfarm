@@ -45,7 +45,7 @@ St. Anne's City Farm | Our Community
 <div class="w-full flex justify-center bgi-farm z-30">
     <div class="container mx-auto w-90p md:w-80p lg:w-60p xl:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16  bgi-g4 shadow-lg z-30">
         <h3 class="font-dec text-4xl underline text-center uppercase">Our Story</h3>
-        <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. The Dublin City Farm aims to function as a center for knowledge, for teaching and for interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local communities providing access to structural learning and modern environmentally sustainable practices.</p>
+        <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. Dublin City Farm aims to function as a centre for knowledge, teaching and interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local community by providing access to structural learning and modern environmentally sustainable practices.</p>
     </div>
 </div>
 <div class="bg-pattern-grey-lightest bgi-layer2 -mt-20">
@@ -56,7 +56,7 @@ St. Anne's City Farm | Our Community
         <div class="w-full lg:w-1/3  mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighest w-full py-4">
-                    <h5 class="font-dec text-center text-3xl text-primary-8">Wednesday - group day</h5>
+                    <h5 class="font-dec text-center text-3xl text-primary-8">Wednesday - Group Day</h5>
                 </div>
                 <div class="h-15r w-full md:pb-0"><img src="/images/wed.jpg" alt="" class="w-full h-full object-cover "></div>
                 <div class="my-4">
@@ -205,7 +205,7 @@ St. Anne's City Farm | Our Community
                 <a class="text-center no-underline" >More</a>
                 </div>
                 <div class="w-full bg-grey-light px-2 py-2 flex-1 hidden" id="calendarItem">
-                    <p class="text-grey-darkest py-2 text-base leading-normal">We have one day a week dedicated to schools, groups, and clubs, we aim to educate wherever possible. The benefits of learning outside the classroom are well documented and widely recognised and we welcome visits from schools of all ages and abilities!
+                    <p class="text-grey-darkest py-2 text-base leading-normal">We have one day a week dedicated to schools, groups, and clubs; we aim to educate wherever possible. The benefits of learning outside the classroom are well documented and widely recognised. We welcome visits from schools of all ages and abilities!
                     </p>
                     <p class="text-grey-darkest py-2 text-base leading-normal">For more information visit our <a href="{{route('education')}}" class="text-primary-8 hover:text-grey-darkest">education</a> page.
                     </p>
@@ -224,7 +224,7 @@ St. Anne's City Farm | Our Community
                     <a class="text-center no-underline">More</a>
                 </div>
                 <div class="w-full bg-grey-light px-2 py-2 flex-1 hidden" id="calendarItem2">
-                    <p class="text-grey-darkest text-base leading-normal">Community Kitchen is empowering the community through food. Our kitchen is an ethical, sustainable, local and culturally diverse food hub, offering food centred activities, services, education, and training. We will be accessible, family-friendly and will be using all the produce that we grow on the farm. Giving people the chance to grow, harvest and cook their own food all in one place.</p>
+                    <p class="text-grey-darkest text-base leading-normal">Community Kitchen is empowering the community through food. Our kitchen is an ethical, sustainable, local and culturally diverse food hub, offering food centred activities, services, education, and training. We will be accessible, family-friendly and will be using all the produce that we grow on the farm. We aim to give people the chance to grow, harvest and cook their own food all in one place.</p>
                 </div>
             </div>
         </div>

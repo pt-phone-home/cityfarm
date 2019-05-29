@@ -12,13 +12,13 @@
 <div class="bg-pattern-grey-lightest">
     @if($event)
     <div class="container mx-auto flex flex-wrap justify-center py-4">
-        <div class="w-80p flex justify-center px-2 py-2 border-2 border-primary-8 bg-grey-lightest">
-            <div class="w-80p flex flex-col justify-center my-4">
+        <div class="w-95p md:w-80p flex justify-center px-2 py-2 border-2 border-primary-8 bg-grey-lightest">
+            <div class="w-95p md:w-80p flex flex-col justify-center my-4">
                 <h3 class="bg-grey-lightest text-primary-8 text-3xl text-center py-2">{{$event->title}}</h3>
                 <img src="/{{$event->img}}" class="h-48 w-full object-cover" alt="">  
                 <h5 class="bg-grey-lightest text-grey-darkest py-2 text-xl">{{$event->headline}}</h5>
                 <div class="flex flex-wrap py-2 text-grey-darkest">
-                    <div class="w-full sm:w-1/3"><p class="text-sm"><i class="far fa-clock"></i> From: {{$event->time_from}}</p></div> <div class="w-full sm:w-1/3"><p class="text-sm"> <i class="far fa-clock"></i> To: {{$event->time_to}}</p></div><div class="w-full sm:w-1/3"><p class="text-sm"><i class="far fa-calendar-alt"></i> {{Carbon::parse($event->date)->format('d-M-Y')}}</p></div>
+                    <div class="w-1/3"><p class="text-sm"><i class="far fa-clock"></i> From: {{$event->time_from}}</p></div> <div class="w-1/3"><p class="text-sm"> <i class="far fa-clock"></i> To: {{$event->time_to}}</p></div><div class="w-1/3"><p class="text-sm"><i class="far fa-calendar-alt"></i> {{Carbon::parse($event->date)->format('d-M-Y')}}</p></div>
                 </div>
                 <hr class="border-2 border-grey-darkest w-full my-4">
                 <div class="output leading-normal py-2 px-1 text-grey-darkest">{!!$event->content!!}</div>

@@ -25,14 +25,14 @@
                     <hr class="border w-full border-primary-8">
                     <p class="leading-normal py-1 px-2">An attractive education space with demonstration growing beds 
                     </p>
-                    <p class="leading-normal py-1 px-2">The demonstration beds are the perfect place for children to engage with nature, with raised garden beds at just the right level for little arms to reach toward the soil. Budding gardeners and future scientists learn by doing as they water, weed, and harvest plants. Expert instructors provide hands-on learning that makes a lasting impression. The family is encouraged to volunteer on Saturdays to come to grow and get closer to nature
+                    <p class="leading-normal py-1 px-2">The demonstration beds are the perfect place for children to engage with nature, with raised garden beds at just the right level for little arms to reach the soil. Budding gardeners and future scientists learn by doing as they water, weed, and harvest plants. Expert instructors provide hands-on learning that makes a lasting impression. The family is encouraged to volunteer on Saturdays to grow and get closer to nature
                     </p>
                 </div>
             </div>
         </div>
         <div class="w-full lg:w-1/2 py-2">
             <div class="w-90p px-2 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
-                <h2 class="text-grey-lightest bg-primary-8 rounded  font-dec text-3xl px-4 py-2 w-full max-h-full">Pollytunnel</h2>
+                <h2 class="text-grey-lightest bg-primary-8 rounded  font-dec text-3xl px-4 py-2 w-full max-h-full">Polytunnel</h2>
                 <div class="h-auto py-2 px-2 w-full flex justify-center items-center">
                     <img src="/images/pollytunnel.jpg" class="w-80p h-64 object-cover" alt="">
                 </div>
@@ -41,11 +41,11 @@
                 </div>
                 <div class="hidden" id="GrowItem2">
                     <hr class="border w-full border-primary-8">
-                    <p class="leading-normal py-1 px-2 self-start">The <strong>Pollytunel</strong> is a nursery with so much more than plants</p>
+                    <p class="leading-normal py-1 px-2 self-start">The <strong>Polytunel</strong> is a nursery with so much more than plants</p>
                     <p class="leading-normal py-1 px-2">Overflowing with organic farm grown flowers, lush indoor plants, herbs and vegetable plants.</p>
-                    <p class="leading-normal py-1 px-2">Throughout the year we run a collection of seasonal workshops for kids and adults, locals and visitors. Our range covers specialty gardening and growing techniques, botanical crafts and much more.</p>
+                    <p class="leading-normal py-1 px-2">Throughout the year we run a collection of seasonal workshops for kids, adults, locals and visitors. Our range covers specialty gardening and growing techniques, botanical crafts and much more.</p>
                     <p class="leading-normal py-1 px-2">Our growing team is currently busy growing a variety of seasonal produce for our Community kitchen and Animals.</p>
-                    <p class="leading-normal py-1 px-2">We believe healthy plants begin with healthy soil. Healthy plants mean less pests and disease. We use the following techniques to keep our soil in the best of health: cover cropping with green manures, crop rotation, mulching, composting, interplanting and animal rotations.</p>
+                    <p class="leading-normal py-1 px-2">We believe healthy plants begin with healthy soil. Healthy plants means less pests and disease. We use the following techniques to keep our soil in the best of health: cover cropping with green manures, crop rotation, mulching, composting, interplanting and animal rotations.</p>
                 </div>
             </div>
         </div>
@@ -63,7 +63,14 @@
                 </div>
                 <div class="hidden" id="GrowItem3">
                     <hr class="border w-full border-primary-8">
-                    <p class="leading-normal py-1 px-2 self-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eum, ab itaque ut optio iure et delectus! Cumque, molestiae voluptatibus?</p>
+                    <p class="leading-normal py-1 px-2 self-start">Just as locally grown food is key to long-term sustainability, so is locally grown medicine. That’s why our programs focus on growing your own herbs and all the ways you can enrich your life with edible and medicinal weeds. Preparing herbal medicine is a deeply satisfying and sovereign practice and an essential aspect of all traditional cultures across the globe. 
+                    </p>
+                    <p class="leading-normal py-1 px-2 self-start">Herbal Gardens are a fun‐filled learning activity for Adults & children where they get the opportunity to learn about the medicinal plants by actually planting the medicinal herbs and watching them grow in their gardens, and by exploring information about them from various sources. 
+                    </p>
+                    <p class="leading-normal py-1 px-2 self-start">The garden itself has been enriching in terms of making children realise the importance of teamwork such as detailed planning, and allocation of tasks within a team. We teach activities, such as Junior Herb school, Making natural beauty products, making natural household cleaners, making tonics, learning to collect and make your own herbal teas, eco- printing on fabrics using flowers, writing essays, poems and stories, making posters, drawing and painting, making herbariums, and even preparing food recipe using some of the culinary herbs students have planted in their gardens.
+                    </p>
+                    <p class="leading-normal py-1 px-2 self-start">TA herbal garden reflects the long‐ standing tradition of conserving and using plants products for health care and cooking. But while herbal plants are in demand, the traditions and culture associated with them are fading. Making a herbal garden is an opportunity to grow hers for use, while spreading knowledge of their importance and traditional uses, and saving plants that are threatened. 
+                    </p>
                 </div>
             </div>
         </div>
@@ -78,7 +85,7 @@
                 </div>
                 <div class="hidden" id="GrowItem4">
                     <hr class="border w-full border-primary-8">
-                    <p class="leading-normal py-1 px-2 self-start">Our long term plan is to grow all the food for our animals on the farm. Between our raised beds, allotment and polytunnel. We have lots of lush beds of grass, kale, spinach and wild herbs that meet the needs of our Goats, chickens, pony, rabbits, and guinea pigs. We've planted the allotment full of root vegetables for our piggie girls.</p>
+                    <p class="leading-normal py-1 px-2 self-start">Our long-term plan is to grow all the food for our animals on the farm. Between our raised beds, allotment and polytunnel we have lots of lush beds of grass, kale, spinach and wild herbs that meets the needs of our pony, rabbit, guinea pig, goats and chickens. We've planted the allotment full of root vegetables for our piggie girls.</p>
                     <p class="leading-normal py-1 px-2 self-start">If you'd like more information or advice please contact us at the farm.</p>
                 </div>
             </div>
@@ -87,7 +94,7 @@
             <div class="w-90p px-4 py-2 flex flex-col items-center border-2 bg-grey-light border-primary-8 my-2 mx-2 shadow-lg">
                 <h2 class="bg-primary-8 text-grey-lightest font-dec text-3xl px-4 py-2 w-full max-h-full">Forest Garden</h2>
                 <div class="h-auto py-2 px-2  w-full flex justify-center items-center">
-                    <img src="/images/fodder.jpg" class="w-80p h-64 object-cover" alt="">
+                    <img src="/images/forestGarden.jpg" class="w-80p h-64 object-cover" alt="">
                 </div>
                 <div class="w-full text-center bg-primary-8 text-grey-lightest text-center py-2 cursor-pointer rounded" id="GrowBtn5">
                         <a class="text-center no-underline px-2 py-2">More</a>
