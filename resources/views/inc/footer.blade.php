@@ -62,13 +62,13 @@
                 <h3 class="text-center py-2 font-dec text-3xl text-grey-light">Connect</h3>
                 <div class="flex flex-wrap">
                     <div class="w-1/3 flex justify-center">
-                        <a href=""><i class="fab fa-facebook-square text-4xl text-grey hover:text-grey-light"></i></a>
+                        <a href="https://www.facebook.com/DubCityfarm/" target="_blank"><i class="fab fa-facebook-square text-4xl text-grey hover:text-grey-light"></i></a>
                     </div>
                     <div class="w-1/3 flex justify-center">
-                        <a href=""><i class="fab fa-twitter-square text-4xl text-grey hover:text-grey-light"></i></a>
+                        <a href="https://twitter.com/dublincityfarm?lang=en" target="_blank"><i class="fab fa-twitter-square text-4xl text-grey hover:text-grey-light"></i></a>
                     </div>
                     <div class="w-1/3 flex justify-center">
-                        <a href=""><i class="fab fa-instagram text-4xl text-grey hover:text-grey-light"></i></a>
+                        <a href="https://www.instagram.com/dublincityfarm/" target="_blank"><i class="fab fa-instagram text-4xl text-grey hover:text-grey-light"></i></a>
                     </div>
                 </div>
             </div>
