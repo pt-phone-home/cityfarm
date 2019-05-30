@@ -13,9 +13,9 @@ St. Anne's City Farm | Our Community
 <div class="hero flex flex-col w-full h-20r md:h-30r lg:h-40r justify-center bg-fixed">
 
     <h1 class="font-dec text-white self-center text-5xl md:text-6xl hero-title uppercase mb-12">St. Anne's City Farm</h1>
-    <h4 class="text-white self-center text-lg text-center mx-2 lg:mx-0 text-xl md:text-2xl my-4 hero-subtitle">Promoting ecological awareness and sustainable living. Teaching ethics on every level.
+    <h4 class="text-white self-center text-lg text-center mx-2 lg:mx-0 text-xl md:text-2xl my-4 hero-subtitle"> St. Anne's City Farm is a sustainable farm that promotes education and multiculturalism. 
     </h4>
-
+    {{-- Promoting ecological awareness and sustainable living. Teaching ethics on every level. --}}
 
 </div>
 
@@ -41,19 +41,28 @@ St. Anne's City Farm | Our Community
 </div> --}}
 
 {{-- About Us Content --}}
-
-<div class="w-full flex justify-center bgi-farm z-30">
-    <div class="container mx-auto w-90p md:w-80p lg:w-60p xl:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16  bgi-g4 shadow-lg z-30">
-        <h3 class="font-dec text-4xl underline text-center uppercase">Our Story</h3>
-        <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. Dublin City Farm aims to function as a centre for knowledge, teaching and interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local community by providing access to structural learning and modern environmentally sustainable practices.</p>
-    </div>
-</div>
-<div class="bg-pattern-grey-lightest bgi-layer2 -mt-20">
-    <div class="container mx-auto pt-24 flex"> 
+<div class="bg-pattern-grey-lightest bgi-layer2 pb-20">
+    <div class="container mx-auto pt-6 flex"> 
         <h2 class="font-dec text-3xl md:text-5xl ml-4 md:ml-0 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">How the Farm Works</h2>
     </div>
+    <div class="container mx-auto py-4 flex justify-center">
+        <div class="bg-primary-8 w-95p md:w-70p rounded text-grey-lightest px-4 py-4">
+            <h3 class="font-thin leading-normal">The farm is a community space, where we encourage people to come to get involved. We strive to empower people through knowledge, growing and creating.
+            </h3>
+            <hr class="border border-grey-lightest w-80p">
+            <p class="py-2">
+                Things to know about the farm:
+            </p>
+            <ul class="list-reset">
+                <li class="py-1 pl-4">WE ARE NOT A PETTING FARM!</li>
+                <li class="py-1 pl-4">ALL CHILDREN MUST BE ACCOMPANIED BY AN ADULT</li>
+                <li class="py-1 pl-4">NO DOGS</li>
+                <li class="py-1 pl-4">PLEASE DO NOT FEED THE ANIMALS</li>
+            </ul>
+        </div>
+    </div>
     <div class="container mx-auto flex flex-wrap justify-center py-6">
-        <div class="w-full lg:w-1/3  mb-4 md:mb-2">
+        <div class="w-full md:w-1/2 lg:w-1/3  mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighest w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Wednesday - Group Day</h5>
@@ -68,7 +77,7 @@ St. Anne's City Farm | Our Community
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/3 mb-4 md:mb-2">
+        <div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="w-full py-4 bg-grey-lighter">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Thursday - Open Entry</h5>
@@ -79,12 +88,12 @@ St. Anne's City Farm | Our Community
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection2">
-                    <p class="text-grey-darkest text-base py-1">Thursday, the farm is open from 9:30am - 3pm</p>
+                    <p class="text-grey-darkest text-base py-1">Thursday, the farm is open from 10am - 2pm</p>
                     <p class="text-grey-darkest text-base py-1">No booking necessary</p>
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-1/3 mb-4 md:mb-2">
+        <div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Friday - Open Entry</h5>
@@ -95,12 +104,12 @@ St. Anne's City Farm | Our Community
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton3">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection3">
-                    <p class="text-grey-darkest text-base py-1">Friday, the farm is open from 1pm - 4pm</p>
+                    <p class="text-grey-darkest text-base py-1">Friday, the farm is open from 10am - 2pm</p>
                     <p class="text-grey-darkest text-base py-1">No booking necessary</p>
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-40p  px-2 py-2 mb-4 md:mb-2">
+        <div class="w-full md:w-1/2 lg:w-40p  px-2 py-2 mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Saturday - New Volunteers Day</h5>
@@ -122,7 +131,7 @@ St. Anne's City Farm | Our Community
                 </div>
             </div>
         </div>
-        <div class="w-full lg:w-40p  px-2 py-2 mb-4 md:mb-2">
+        <div class="w-full md:w-1/2 lg:w-40p  px-2 py-2 mb-4 md:mb-2">
             <div class="flex flex-col items-center justify-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-lighter shadow-lg">
                 <div class="bg-grey-lighter w-full py-4">
                     <h5 class="font-dec text-center text-3xl text-primary-8">Sunday - Family Day</h5>
@@ -137,7 +146,7 @@ St. Anne's City Farm | Our Community
                     <p class="text-grey-darkest text-base py-1">St. Anne's City Farm is open free to the public but you <span class="underline">must book tickets</span></p>
                     <p class="text-grey-darkest text-base py-1">We have a: </p>
                     <p class="text-grey-darkest text-base py-1"><strong>Morning slot</strong> from 10am - 12pm</p>
-                    <p class="text-grey-darkest text-base py-1"><strong>Afternoon slot</strong> from 1pm - 2.30pm</p>
+                    <p class="text-grey-darkest text-base py-1"><strong>Afternoon slot</strong> from 1pm - 2pm</p>
                     <p class="text-grey-darkest text-base py-2 border border-grey-darkest mt-2 text-center"><a href="https://www.eventbrite.ie/e/st-annes-city-farm-family-day-sundays-tickets-61049609024?aff=ebdssbdestsearch" class="no-underline text-grey-darkest uppercase hover:text-grey-dark" target="_blank">book now</a></p>
 
                     
@@ -148,6 +157,13 @@ St. Anne's City Farm | Our Community
           
     </div>
 </div>
+<div class="w-full flex justify-center bgi-farm z-30">
+    <div class="container mx-auto w-90p md:w-80p lg:w-60p xl:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 -mb-16  bgi-g4 shadow-lg z-30">
+        <h3 class="font-dec text-4xl underline text-center uppercase">Our Story</h3>
+        <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. Dublin City Farm aims to function as a centre for knowledge, teaching and interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local community by providing access to structural learning and modern environmentally sustainable practices.</p>
+    </div>
+</div>
+
 
 {{-- <div class="w-full -mt-20 z-0" >
     <div class="w-full py-4 lg:py-8 bgi-layer z-0">
@@ -184,7 +200,7 @@ St. Anne's City Farm | Our Community
 
 {{-- What's On Content --}}
 
-<div class="w-full bg-pattern-grey-light bg-grey-light">
+<div class="w-full bg-pattern-grey-light bg-grey-light pt-8">
     <div class="container mx-auto flex">
             <h2 class="font-dec text-5xl ml-4 md:ml-0 pt-16 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">What's On</h2>
     </div>
