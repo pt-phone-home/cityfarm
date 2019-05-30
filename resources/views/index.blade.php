@@ -21,7 +21,7 @@ St. Anne's City Farm | Our Community
 
 {{-- Intro Quote --}}
 <div class="bg-grey-lightest bgi-g2">
-    <div class="container mx-auto pb-8">
+    <div class="container mx-auto py-4">
         <h3 class="text-center text-neutral-10 font-normal mx-auto w-full md:-70p lg:w-50p py-24 leading-loose md:text-2xl px-6 md:px-0">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  
 
             <div class="text-center pt-4 lg:pt-0">
