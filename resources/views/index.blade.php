@@ -22,8 +22,7 @@ St. Anne's City Farm | Our Community
 {{-- Intro Quote --}}
 <div class="bg-grey-lightest bgi-g2">
     <div class="container mx-auto py-4">
-        <h3 class="text-center text-neutral-10 font-normal mx-auto w-full md:-70p lg:w-50p py-24 leading-loose md:text-2xl px-6 md:px-0">St. Anne's City Farm is a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary.  
-
+        <h3 class="text-center text-neutral-10 font-normal mx-auto w-full md:-70p lg:w-50p py-24 leading-loose md:text-2xl px-6 md:px-0">St. Anne's City Farm is an educational hub that encourages people to come get involved in growing their own food and being in nature.
             <div class="text-center pt-4 lg:pt-0">
                     <object data="/images/divider.svg" type="image/svg+xml" class="w-12 md:w-16 lg:w-24 h-auto"></object>
             </div>
@@ -54,10 +53,13 @@ St. Anne's City Farm | Our Community
                 Things to know about the farm:
             </p>
             <ul class="list-reset">
-                <li class="py-1 pl-4">WE ARE NOT A PETTING FARM!</li>
-                <li class="py-1 pl-4">ALL CHILDREN MUST BE ACCOMPANIED BY AN ADULT</li>
-                <li class="py-1 pl-4">NO DOGS</li>
-                <li class="py-1 pl-4">PLEASE DO NOT FEED THE ANIMALS</li>
+                <li class="py-1 pl-4">To avoid disappointment, we are not a petting farm!</li>
+                <li class="py-1 pl-4">Please check our opening hours as we change them seasonally.</li>
+                <li class="py-1 pl-4">All our classes are booked through Eventbrite.</li>
+                <li class="py-1 pl-4">All classes and events have to be booked. As most of them are FREE please understand that once an event is booked we will not be issuing any more tickets.</li>
+                <li class="py-1 pl-4">All children must be accompanied by an adult.</li>
+                <li class="py-1 pl-4">Please do not feed the animals. Please do not have food on the farm, the animals can bite and will try to take the food from your hands.</li>
+                <li class="py-1 pl-4">No dogs.</li>
             </ul>
         </div>
     </div>
@@ -88,7 +90,8 @@ St. Anne's City Farm | Our Community
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection2">
-                    <p class="text-grey-darkest text-base py-1">Thursday, the farm is open from 10am - 2pm</p>
+                    <p class="text-grey-darkest text-base py-1">Thursday, the farm is open from 10am - 1pm</p>
+                    <p class="text-grey-darkest text-base py-1">Come take a look at how our farm works.</p>
                     <p class="text-grey-darkest text-base py-1">No booking necessary</p>
                 </div>
             </div>
@@ -104,7 +107,8 @@ St. Anne's City Farm | Our Community
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton3">More info</button>
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8" id="WhatsOnSection3">
-                    <p class="text-grey-darkest text-base py-1">Friday, the farm is open from 10am - 2pm</p>
+                    <p class="text-grey-darkest text-base py-1">Friday, the farm is open from 10am - 1pm</p>
+                    <p class="text-grey-darkest text-base py-1">Come take a look at how our farm works.</p>
                     <p class="text-grey-darkest text-base py-1">No booking necessary</p>
                 </div>
             </div>

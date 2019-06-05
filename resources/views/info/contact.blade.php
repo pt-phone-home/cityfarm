@@ -30,7 +30,7 @@ Contact Us | St. Anne's City Farm
         </div>
         {{-- Contact Form --}}
         <div class="w-full md:w-3/4 flex flex-col items-start">
-            <div class="pl-24 w-full">
+            <div class="mx-4 w-full">
                 <h2 class="my-4 text-4xl">Send us a message</h2>
                 @if($errors)
             @foreach($errors->all() as $error)
@@ -70,7 +70,7 @@ Contact Us | St. Anne's City Farm
 </div>
 <div class="bg-grey-light bgi-social">
     <div class="container mx-auto py-8">
-        <h2 class="text-center text-6xl text-grey-lightest"> Connect with us on social media</h2>
+        <h2 class="text-center text-5xl text-grey-lightest"> Connect with us on social media</h2>
     </div>
 </div>
 {{-- Twitter --}}
@@ -120,7 +120,7 @@ Contact Us | St. Anne's City Farm
 
         {{-- Instagram Main Container--}}
 
-        <div class="w-full md:w-3/4 flex items-center flex-wrap">
+        <div class="w-full md:w-3/4 flex flex-wrap">
             {{-- Intagram Main --}}
             <div class="flex justify-start md:pl-24">
                     <div id="instafeed" class="w-70p overflow-scroll h-auto flex flex-wrap items-center">
@@ -151,14 +151,11 @@ Contact Us | St. Anne's City Farm
 
         {{-- Facebook Main Container--}}
 
-        <div class="w-full md:w-3/4">
+        <div class="w-full md:w-3/4 flex justify-center">
             {{-- Facebook Main --}}
-            <div class="flex pl-8 md:pl-24 justify-center">
-                <div class="w-80p flex justify-center">
-                    <div class="fb-page" data-href="https://www.facebook.com/DubCityfarm/" data-tabs="timeline" data-width="350" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/DubCityfarm/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DubCityfarm/">Dublin City Farm</a></blockquote></div>
-                </div>
+            <div class="w-80p ">
+                <div class="fb-page" data-href="https://www.facebook.com/DubCityfarm/" data-tabs="timeline" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/DubCityfarm/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DubCityfarm/">Dublin City Farm</a></blockquote></div>
             </div>
-
         </div>
        
 
