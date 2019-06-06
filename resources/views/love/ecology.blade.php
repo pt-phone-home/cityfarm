@@ -31,12 +31,12 @@
     <div class="container mx-auto py-4">
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">
-                <div class="px-4 py-4 bg-primary-8">
+                <div class="px-4 py-4 bg-transparent md:bg-primary-8">
                     <img src="/images/park1.jpg" alt="">
                 </div>
             </div>
             <div class="w-full md:w-2/3 flex justify-center items-center">
-                <div class="flex flex-col items-center justify-center">
+                <div class="flex flex-col items-center justify-center bg-grey-light md:bg-transparent">
                     <p class="px-20 text-lg text-grey-darkest leading-normal py-2">St. Anne's City Farm is surrounded by all this wonderful Ecology; using our cosy cabin as a base, we will explore the birds, bugs, mammals, ponds, wildflowers and bees of the Park with specially designed classes for children and teens.</p>
                     <p class="px-20 text-lg text-grey-darkest leading-normal self-start py-2">Keep an eye on our website and Facebook page for more information.</p>
                     <hr class="w-50p border-b-2 border-primary-8 mt-4">         

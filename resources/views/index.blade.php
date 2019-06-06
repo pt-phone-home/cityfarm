@@ -162,9 +162,15 @@ St. Anne's City Farm | Our Community
     </div>
 </div>
 <div class="w-full flex justify-center bgi-farm z-30">
-    <div class="container mx-auto w-90p md:w-80p lg:w-60p xl:w-40p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 -mb-16  bgi-g4 shadow-lg z-30">
+    <div class="container mx-auto w-90p md:w-80p lg:w-60p bg-grey flex flex-col px-12 py-12 my-8 leading-loose -mt-16 -mb-16  bgi-g4 shadow-lg z-30">
         <h3 class="font-dec text-4xl underline text-center uppercase">Our Story</h3>
-        <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. Dublin City Farm aims to function as a centre for knowledge, teaching and interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local community by providing access to structural learning and modern environmentally sustainable practices.</p>
+        {{-- <p class="text-base md:text-lg">The Dublin City Farm Project is small-scale, non-profit, traditional farm set in the urban park surroundings of St Anne’s Park. Dublin City Farm aims to function as a centre for knowledge, teaching and interaction between people, plants, animals and ecology. The Farm has its roots set firmly in the past with the use of traditional breeds of farm animals and old native seeds. The future of the farm extends beyond the confines of the Park to the local community by providing access to structural learning and modern environmentally sustainable practices.</p> --}}
+        <p class="text-base md:text-lg py-1">Run by volunteers set within the boundaries of a busy city park, 'St. Anne's City Farm' is home to 2 Pigs, 10 Chickens, 3 Goats, 3 Guinea Pig, 3 Rabbits and Moses the Pony.</p>
+        <p class="text-base md:text-lg py-1">It is also the site of raised beds, a herb garden, and a wooden cabin. We promote holistic education with a program that includes mindfulness, animal therapy and nurturing the whole child - helping children to connect with nature.</p>
+        <p class="text-base md:text-lg py-1">As we develop further, we will serve healthy food and drink onsite, expand our educational program and host cultural events.
+        </p>
+        <p class="text-base md:text-lg py-1">We also will develop the site as a showcase for how to thrive as a farm off the grid, using renewable energy sources and water conserving technologies.</p>
+        <p class="text-base md:text-lg py-1">By being a safe and open space for people to share what they know and learn from others, We strive to empower people through knowledge, growing and creating.</p>
     </div>
 </div>
 
