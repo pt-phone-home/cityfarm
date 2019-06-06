@@ -147,11 +147,9 @@ St. Anne's City Farm | Our Community
                 </div>
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8 " id="WhatsOnSection5">
                     <p class="text-grey-darkest text-base py-1">Sunday is our Family Day</p>
+                    <p class="text-grey-darkest text-base py-1">The farm is open from 10am - 1pm</p>
                     <p class="text-grey-darkest text-base py-1">St. Anne's City Farm is open free to the public but you <span class="underline">must book tickets</span></p>
-                    <p class="text-grey-darkest text-base py-1">We have a: </p>
-                    <p class="text-grey-darkest text-base py-1"><strong>Morning slot</strong> from 10am - 12pm</p>
-                    <p class="text-grey-darkest text-base py-1"><strong>Afternoon slot</strong> from 1pm - 2pm</p>
-                    <p class="text-grey-darkest text-base py-2 border border-grey-darkest mt-2 text-center"><a href="https://www.eventbrite.ie/e/st-annes-city-farm-family-day-sundays-tickets-61049609024?aff=ebdssbdestsearch" class="no-underline text-grey-darkest uppercase hover:text-grey-dark" target="_blank">book now</a></p>
+                    <p class="text-grey-darkest text-base py-2 border border-grey-darkest mt-2 text-center"><a href="https://www.eventbrite.ie/e/st-annes-city-farm-family-day-sundays-tickets-61049620057?aff=erellivmlt" class="no-underline text-grey-darkest uppercase hover:text-grey-dark" target="_blank">book now</a></p>
 
                     
                 </div>
