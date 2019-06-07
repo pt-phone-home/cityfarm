@@ -6,7 +6,7 @@ $(document).ready(function () {
         resolution: 'standard_resolution',
         accessToken: '7336542448.1677ed0.c0deef072c7e44c5ae37a1984a156d3a',
         sortBy: 'most-recent',
-        template: '<div class="flex"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class=" hover:opacity-75 "/></a></div>',
+        template: '<div class="w-20p ml-4 flex"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class=" hover:opacity-75 "/></a></div>',
     });
     userfeed.run();
 })
