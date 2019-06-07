@@ -1,15 +1,18 @@
 $(document).ready(function () {
     var userfeed = new Instafeed({
         get: 'user',
-        userId: '7336542448',
+        userId: '8261956488',
         limit: 12,
         resolution: 'standard_resolution',
-        accessToken: '7336542448.1677ed0.c0deef072c7e44c5ae37a1984a156d3a',
+        accessToken: '8261956488.1677ed0.02054695a9c44b58abed4ad739d89b41',
         sortBy: 'most-recent',
         template: '<div class="w-20p ml-4 flex"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class=" hover:opacity-75 "/></a></div>',
     });
     userfeed.run();
 })
+// 7336542448 user ID for ptiernan | Access token 7336542448.1677ed0.c0deef072c7e44c5ae37a1984a156d3a
+// 8261956488 user ID for City Farm | Access token 8261956488.1677ed0.02054695a9c44b58abed4ad739d89b41
+
 
 $(document).ready(function () {
     // This will create a single gallery from all elements that have class "gallery-item"
