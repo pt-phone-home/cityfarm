@@ -122,11 +122,12 @@ Contact Us | St. Anne's City Farm
 
         <div class="w-full md:w-3/4 flex flex-wrap">
             {{-- Intagram Main --}}
-            <div class="flex justify-start md:pl-24">
+            <div class="flex md:pl-24">
+                <div class="flex flex-wrap h-30r justify-center md:justify-start overflow-scroll">
                     <div id="instafeed" class="w-70p overflow-scroll h-auto flex flex-wrap items-center">
             
                     </div>
-
+                </div>
             </div>
 
         </div>
