@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Welcome to St. Anne's City Farm. We are a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary. We are always looking for volunteers.">
     <meta name="keywords" content="City Farm, Sanctuary, Volunteers, Education, Raheny, St. Anne's Park,">
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/magnific.css">
     <link rel="stylesheet" href="/css/aos.css">
@@ -38,7 +38,7 @@
     @include('inc.footer')
     @section('scripts')
 
-        <script src="/js/app.js"></script>
+        <script src="{{mix('js/app.js')}}"></script>
         <script src="{{asset('js/toastr.min.js')}}"></script>
         <script src="/js/anime.min.js"></script>
         <script src="/js/aos.js"></script>
