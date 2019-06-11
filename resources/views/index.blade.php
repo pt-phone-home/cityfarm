@@ -53,6 +53,8 @@ St. Anne's City Farm | Our Community
                 Things to know about the farm:
             </p>
             <ul class="list-reset">
+
+                <li class="py-6 pl-4 text-center underline">Our opening hours vary for each day and some days require booking, please see below for details</li>
                 <li class="py-1 pl-4">To avoid disappointment, we are not a petting farm!</li>
                 <li class="py-1 pl-4">Please check our opening hours as we change them seasonally.</li>
                 <li class="py-1 pl-4">All our classes are booked through Eventbrite.</li>
@@ -70,6 +72,9 @@ St. Anne's City Farm | Our Community
                     <h5 class="font-dec text-center text-3xl text-primary-8">Wednesday - Group Day</h5>
                 </div>
                 <div class="h-15r w-full md:pb-0"><img src="/images/wed.jpg" alt="" class="w-full h-full object-cover "></div>
+                <div>
+                    <p class="text-grey-darkest text-base pt-2">Opening Hours: Please contact us directly</p>
+                </div>
                 <div class="my-4">
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton">More info</button>
                 </div>
@@ -85,6 +90,9 @@ St. Anne's City Farm | Our Community
                     <h5 class="font-dec text-center text-3xl text-primary-8">Thursday - Open Entry</h5>
                 </div>
                 <div class="h-15r w-full md:pb-0"><img src="/images/thursday2.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div>
+                    <p class="text-grey-darkest text-base pt-2">Opening Hours: 10am - 1pm</p>
                 </div>
                 <div class="my-4">
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton2">More info</button>
@@ -103,6 +111,9 @@ St. Anne's City Farm | Our Community
                 </div>
                 <div class="h-15r w-full md:pb-0"><img src="/images/friday.jpg" alt="" class="w-full h-full object-cover ">
                 </div>
+                <div>
+                    <p class="text-grey-darkest text-base pt-2">Opening Hours: 10am - 1pm</p>
+                </div>
                 <div class="my-4">
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton3">More info</button>
                 </div>
@@ -119,6 +130,9 @@ St. Anne's City Farm | Our Community
                     <h5 class="font-dec text-center text-3xl text-primary-8">Saturday - New Volunteers Day</h5>
                 </div>
                 <div class="h-15r w-full md:pb-0"><img src="/images/saturday.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div>
+                    <p class="text-grey-darkest text-base pt-2">Opening Hours: 10am - 1pm</p>
                 </div>
                 <div class="my-4">
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec"  id="WhatsOnButton4">More info</button>
@@ -141,6 +155,9 @@ St. Anne's City Farm | Our Community
                     <h5 class="font-dec text-center text-3xl text-primary-8">Sunday - Family Day</h5>
                 </div>
                 <div class="h-15r w-full md:pb-0"><img src="/images/sunday.jpg" alt="" class="w-full h-full object-cover ">
+                </div>
+                <div>
+                    <p class="text-grey-darkest text-base pt-2">Opening Hours: 10am - 1pm</p>
                 </div>
                 <div class="my-4">
                     <button class="border-2 border-primary-8 bg-primary-8 text-grey-lightest hover:text-primary-8 hover:bg-grey-lightest active:bg-primary-8 active:text-grey-lightest text-lg focus:outline-none py-1 px-2 rounded font-dec" id="WhatsOnButton5">More info</button>

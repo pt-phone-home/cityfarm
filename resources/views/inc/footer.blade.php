@@ -1,5 +1,5 @@
 <footer class="w-full bg-primary-8">
-    <div class="container mx-auto py-4 flex flex-wrap text-grey-lightest">
+    <div class="container mx-auto py-4 flex flex-wrap ">
         <div class="w-full md:w-1/3 px-4 py-4">
             <div class="flex flex-col">
                 <h3 class="text-center py-2 font-dec text-3xl text-grey-light">Links</h3>
@@ -74,5 +74,9 @@
             </div>
         </div>
         
+    </div>
+    <div class="container mx-auto flex justify-center py-2">
+    <p class="text-grey">Designed and Developed by <a href="http://www.rocketchipwebsolutions.ie" class="no-underline text-grey-light hover:text-grey-lightest" target="_blank">Rocket.Chip Web Solutions &copy; {{Carbon::now()->year}}</a></p>
+
     </div>
 </footer>
