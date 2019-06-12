@@ -129,8 +129,8 @@ class PagesController extends Controller
 
     public function admin()
     {
-        $news = News::all();
-        $events = Fixture::all();
+        $news = News::all()->sortByDesc('updated_at');
+        $events = Fixture::all()->sortByDesc('updated_at');
 
         return view('admin.index')->with('news', $news)->with('events', $events);
     }
