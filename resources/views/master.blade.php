@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125112334-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125112334-6');
+</script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Welcome to St. Anne's City Farm. We are a community space that is open 5 days a week and is free for everyone. So come get involved or come spend time at a beautiful city sanctuary. We are always looking for volunteers.">
     <meta name="keywords" content="City Farm, Sanctuary, Volunteers, Education, Raheny, St. Anne's Park,">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.png"/>
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/magnific.css">
