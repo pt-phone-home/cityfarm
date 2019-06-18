@@ -9,7 +9,7 @@
                         <div class="flex flex-col flex-1 py-2">
                             <a href="{{route('index')}}" class="no-underline text-grey hover:text-grey-light">Home</a>
                             <a href="{{route('about')}}" class="no-underline text-grey hover:text-grey-light">About</a>
-                            <a href="{{route('classes')}}" class="no-underline text-grey hover:text-grey-light">Classes</a>
+                            <a href="{{route('calendar')}}" class="no-underline text-grey hover:text-grey-light">Classes</a>
                             <a href="{{route('calendar')}}" class="no-underline text-grey hover:text-grey-light">Calendar</a>
                             <a href="{{route('news')}}" class="no-underline text-grey hover:text-grey-light">News</a>
                         </div>
