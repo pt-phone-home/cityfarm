@@ -62,6 +62,8 @@
         @if ($events->count() > 0)
         
         @foreach ($events as $event)
+           @if ($event->date > Carbon::now()->startOfMonth())
+            
 
         {{-- @if($event->date > Carbon::now()) --}}
 
@@ -103,6 +105,7 @@
             </div>
         </div>
         {{-- @endif --}}
+        @endif
         @endforeach
         
     
