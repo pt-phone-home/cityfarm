@@ -36,7 +36,7 @@ class PagesController extends Controller
         // $events_2 = $events->sortBy('month');
         // $events_3 = $events_2->sortBy('year');
 
-        $events = Fixture::all()->sortByDesc('date')->take(9);
+        $events = Fixture::all()->sortByDesc('date')->take(18);
         return view('community.calendar')->with('events', $events);
     }
 
