@@ -32,7 +32,7 @@ Visit Us | St. Anne's City Farm
                 {{-- Right Side --}}
                 <div class="w-1/2 text-lg text-neutral-2">
                     <h5 class="text-xl py-2">St. Anne's City Farm</h5>
-                    <p class="py-1">67 All Saints Rd., Raheny</p>
+                    <p class="py-1">St. Anne's Park, Raheny</p>
                     <p class="py-1">Dublin, Ireland</p>
                     <p class="py-1">D05 Y102</p>
                 </div>
