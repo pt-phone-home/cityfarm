@@ -39,7 +39,7 @@ class PagesController extends Controller
 
         $now = Carbon::now()->startOfMonth();
 
-        $events = Fixture::where('date', '>=', $now)->take(18)->get();
+        $events = Fixture::where('date', '>=', $now)->take(18)->orderBy('date')->get();
         return view('community.calendar')->with('events', $events);
     }
 
