@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use \App\Fixture;
 use \App\Mail;
 use \App\News;
+use Carbon;
 
 class PagesController extends Controller
 {
@@ -36,7 +37,9 @@ class PagesController extends Controller
         // $events_2 = $events->sortBy('month');
         // $events_3 = $events_2->sortBy('year');
 
-        $events = Fixture::all()->sortBy('date')->take(18);
+        $now = Carbon::now()->startOfMonth();
+
+        $events = Fixture::where('date', '>=', $now)->take(18);
         return view('community.calendar')->with('events', $events);
     }
 

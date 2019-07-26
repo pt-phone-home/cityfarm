@@ -15,14 +15,14 @@
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/3">
                 <div class="flex flex-col bg-primary-8-opacity-7 justify-center items-center w-full h-full">
-                    
+
                     <div class="border-b border-grey-lightest pb-4 pt-24 mb-8">
                         <h4 class="text-grey-lightest text-3xl">Family Day Sundays</h4>
                     </div>
                     <div class="flex justify-around w-1/2 pb-4 border-b border-grey-lightest">
                         <div class="flex flex-col items-center px-4">
                             <span class="py-1 text-grey-lightest text-sm">Every</span>
-                            <span class="py-1 text-grey-lightest text-2xl">Sunday</span> 
+                            <span class="py-1 text-grey-lightest text-2xl">Sunday</span>
                             {{-- <span class="py-1 text-grey-lightest text-sm">2019</span> --}}
                         </div>
                         <div class="flex flex-col items-center justify-center">
@@ -35,9 +35,9 @@
                     <div class="pb-12 pt-4 flex justify-center w-full">
                             <i class="fas fa-money-bill-alt pr-2 text-grey-lightest"></i> <h5 class="text-grey-lightest text-sm"> Price: Free</h5>
                     </div>
-                    
+
                 </div>
-                
+
             </div>
             <div class="w-full md:w-2/3 hidden md:flex">
                 <div class="w-full flex flex-col items-center justify-center">
@@ -60,10 +60,10 @@
     <div class="container mx-auto flex flex-wrap py-8">
 
         @if ($events->count() > 0)
-        
+
         @foreach ($events as $event)
-           @if ($event->date > Carbon::now()->startOfMonth())
-            
+           {{-- @if ($event->date < Carbon::now()->startOfMonth()) --}}
+
 
         {{-- @if($event->date > Carbon::now()) --}}
 
@@ -74,7 +74,7 @@
                     <img src="/{{$event->img}}" alt="" class="w-full h-full object-cover">
                 </div>
                 {{-- <div class=" w-full h-full absolute pin-t pin-l bg-green-light-opacity-6 z-10">
-                   
+
                 </div> --}}
                 {{-- Background Image and Overlay END --}}
 
@@ -82,7 +82,7 @@
                 <div class="z-20 h-60p ">
                     <div class="w-1/3 bg-primary-8-opacity-7 h-full flex flex-col items-center justify-center">
                         <span class="text-grey-lightest text-sm">{{Carbon::parse($event->date)->format('M')}}</span>
-                        <span class="py-1 text-grey-lightest text-4xl">{{Carbon::parse($event->date)->format('d')}}</span> 
+                        <span class="py-1 text-grey-lightest text-4xl">{{Carbon::parse($event->date)->format('d')}}</span>
                     <span class="text-grey-lightest text-sm">{{Carbon::parse($event->date)->format('Y')}}</span>
                     </div>
                     <div class="w-2/3 h-full">
@@ -105,27 +105,27 @@
             </div>
         </div>
         {{-- @endif --}}
-        @endif
+        {{-- @endif --}}
         @endforeach
-        
-    
+
+
         @endif
-        
+
     </div>
 </div>
 
 
 {{-- <div class="container mx-auto py-8 flex flex-wrap"> --}}
-       
+
      {{-- <div class="w-full md:w-1/2">
         Testing
     </div>
    <div class="w-full md:w-1/2">
     <div data-tockify-component="calendar" data-tockify-calendar="peter.tiernan"></div> --}}
         {{-- {!! $calendar->calendar() !!} --}}
-    {{-- </div>     
+    {{-- </div>
 </div> --}}
-    
+
 @endsection
 
 @section('scripts')
