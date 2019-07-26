@@ -59,9 +59,8 @@
 <div class="bgi-layer3">
     <div class="container mx-auto flex flex-wrap py-8">
 
-        @if ($events->count() > 0)
 
-        @foreach ($events as $event)
+        @forelse ($events as $event)
            {{-- @if ($event->date < Carbon::now()->startOfMonth()) --}}
 
 
@@ -106,10 +105,16 @@
         </div>
         {{-- @endif --}}
         {{-- @endif --}}
-        @endforeach
+
+        @empty
+
+        <div class="container">
+            <p>No Events listed at the moment, please check back later</p>
+        </div>
+
+        @endforelse
 
 
-        @endif
 
     </div>
 </div>
