@@ -13,7 +13,7 @@ St. Anne's City Farm | Our Community
 <div class="hero flex flex-col w-full h-20r md:h-30r lg:h-40r justify-center bg-fixed">
 
     <h1 class="font-dec text-white self-center text-5xl md:text-6xl hero-title uppercase mb-12">St. Anne's City Farm</h1>
-    <h4 class="text-white self-center text-lg text-center mx-2 lg:mx-0 text-xl md:text-2xl my-4 hero-subtitle"> St. Anne's City Farm is a sustainable farm that promotes education and multiculturalism. 
+    <h4 class="text-white self-center text-lg text-center mx-2 lg:mx-0 text-xl md:text-2xl my-4 hero-subtitle"> St. Anne's City Farm is a sustainable farm that promotes education and multiculturalism.
     </h4>
     {{-- Promoting ecological awareness and sustainable living. Teaching ethics on every level. --}}
 
@@ -27,7 +27,7 @@ St. Anne's City Farm | Our Community
                     <object data="/images/divider.svg" type="image/svg+xml" class="w-12 md:w-16 lg:w-24 h-auto"></object>
             </div>
         </h3>
-        
+
     </div>
 
 
@@ -41,7 +41,7 @@ St. Anne's City Farm | Our Community
 
 {{-- About Us Content --}}
 <div class="bg-pattern-grey-lightest bgi-layer2 pb-20">
-    <div class="container mx-auto pt-6 flex"> 
+    <div class="container mx-auto pt-6 flex">
         <h2 class="font-dec text-3xl md:text-5xl ml-4 md:ml-0 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">How the Farm Works</h2>
     </div>
     <div class="container mx-auto py-4 flex justify-center">
@@ -165,15 +165,15 @@ St. Anne's City Farm | Our Community
                 <div class="w-full bg-grey-lighter px-4 py-4 hidden border-t-2 border-primary-8 " id="WhatsOnSection5">
                     <p class="text-grey-darkest text-base py-1">Sunday is our Family Day</p>
                     <p class="text-grey-darkest text-base py-1">The farm is open from 10am - 1pm</p>
-                    <p class="text-grey-darkest text-base py-1">St. Anne's City Farm is open free to the public but you <span class="underline">must book tickets</span></p>
-                    <p class="text-grey-darkest text-base py-2 border border-grey-darkest mt-2 text-center"><a href="https://www.eventbrite.ie/e/st-annes-city-farm-family-day-sundays-tickets-61049620057?aff=erellivmlt" class="no-underline text-grey-darkest uppercase hover:text-grey-dark" target="_blank">book now</a></p>
+                    <p class="text-grey-darkest text-base py-1">St. Anne's City Farm is open free to the public</p>
+                    {{-- <p class="text-grey-darkest text-base py-2 border border-grey-darkest mt-2 text-center"><a href="https://www.eventbrite.ie/e/st-annes-city-farm-family-day-sundays-tickets-61049620057?aff=erellivmlt" class="no-underline text-grey-darkest uppercase hover:text-grey-dark" target="_blank">book now</a></p> --}}
 
-                    
+
                 </div>
             </div>
         </div>
-        
-          
+
+
     </div>
 </div>
 <div class="w-full flex justify-center bgi-farm z-30">
@@ -203,7 +203,7 @@ St. Anne's City Farm | Our Community
             <div class="w-full lg:w-1/2 bg-primary-5 rounded-full flex justify-center items-center flex-no-shrink">
                 <object data="/images/family2.svg" type="image/svg+xml" class="h-10r md:h-15r lg:h-15r xl:h-20r w-80p"></object>
             </div>
-            <div class="lg:w-45p bgi-g2 flex flex-col items-center px-2 py-4 md:px-4 md:py-6 lg:ml-6 mt-4 lg:mt-0 shadow-lg"> 
+            <div class="lg:w-45p bgi-g2 flex flex-col items-center px-2 py-4 md:px-4 md:py-6 lg:ml-6 mt-4 lg:mt-0 shadow-lg">
                 <ul class="list-reset">
                     <li class="py-1 px-1 md:py-2 md:px-4 leading-normal text-sm md:text-base lg:text-lg">To involve and educate the young people in the Dublin urban area with the necessary skills to manage a farm or small area of land for growing food and raising animals organically.</li>
                     <li class="py-1 px-1 md:py-2 md:px-4 leading-normal text-sm md:text-base lg:text-lg">To provide training to the surrounding community so as to enrich their own personal space with sustainable food and environmental practices.</li>
@@ -236,7 +236,7 @@ St. Anne's City Farm | Our Community
     <div class="container mx-auto py-6">
         <h3 class="text-xl leading-normal text-center text-grey-darkest">Here at the farm we run a range of events such as classes and activities in our community kitchen.</h3>
     </div>
-    
+
     <div class="container mx-auto flex justify-center flex-wrap pb-4">
 
         <div class="w-full md:w-45p px-4 py-4">
@@ -256,7 +256,7 @@ St. Anne's City Farm | Our Community
                     </p>
                 </div>
             </div>
-            
+
         </div>
         <div class="w-full md:w-45p px-4 py-4" id="kitchen">
             <div class="flex flex-col justify-start items-center mx-1 px-2 py-2 border-2 border-primary-8 bg-grey-light shadow-lg mb-2 md:mb-4">
@@ -312,7 +312,7 @@ let whatsOnSection = document.getElementById("WhatsOnSection");
 
 whatsOnButton.addEventListener("click", function () {
     window.getComputedStyle(whatsOnSection).display === 'none' ?
-        (whatsOnSection.classList.add('show')): 
+        (whatsOnSection.classList.add('show')):
         (whatsOnSection.classList.remove('show')) ;
 })
 let whatsOnButton2 = document.getElementById("WhatsOnButton2");
@@ -320,7 +320,7 @@ let whatsOnSection2 = document.getElementById("WhatsOnSection2");
 
 whatsOnButton2.addEventListener("click", function () {
     window.getComputedStyle(whatsOnSection2).display === 'none' ?
-        (whatsOnSection2.classList.add('show')): 
+        (whatsOnSection2.classList.add('show')):
         (whatsOnSection2.classList.remove('show')) ;
 })
 let whatsOnButton3 = document.getElementById("WhatsOnButton3");
@@ -328,7 +328,7 @@ let whatsOnSection3 = document.getElementById("WhatsOnSection3");
 
 whatsOnButton3.addEventListener("click", function () {
     window.getComputedStyle(whatsOnSection3).display === 'none' ?
-        (whatsOnSection3.classList.add('show')): 
+        (whatsOnSection3.classList.add('show')):
         (whatsOnSection3.classList.remove('show')) ;
 })
 let whatsOnButton4 = document.getElementById("WhatsOnButton4");
@@ -336,7 +336,7 @@ let whatsOnSection4 = document.getElementById("WhatsOnSection4");
 
 whatsOnButton4.addEventListener("click", function () {
     window.getComputedStyle(whatsOnSection4).display === 'none' ?
-        (whatsOnSection4.classList.add('show')): 
+        (whatsOnSection4.classList.add('show')):
         (whatsOnSection4.classList.remove('show')) ;
 })
 let whatsOnButton5 = document.getElementById("WhatsOnButton5");
@@ -344,7 +344,7 @@ let whatsOnSection5 = document.getElementById("WhatsOnSection5");
 
 whatsOnButton5.addEventListener("click", function () {
     window.getComputedStyle(whatsOnSection5).display === 'none' ?
-        (whatsOnSection5.classList.add('show')): 
+        (whatsOnSection5.classList.add('show')):
         (whatsOnSection5.classList.remove('show')) ;
 });
 
@@ -355,9 +355,9 @@ let calendarItem = document.getElementById("calendarItem");
 
 calendarBtn.addEventListener("click", function () {
     window.getComputedStyle(calendarItem).display === 'none' ?
-        (calendarItem.classList.add('show')) (calendarBtn.innerText = 'Less') : 
+        (calendarItem.classList.add('show')) (calendarBtn.innerText = 'Less') :
         (calendarItem.classList.remove('show')) (calendarBtn.innerText = 'More') ;
-    
+
 })
 let calendarBtn2 = document.getElementById("calendarBtn2");
 let calendarItem2 = document.getElementById("calendarItem2");
@@ -365,9 +365,9 @@ let calendarItem2 = document.getElementById("calendarItem2");
 
 calendarBtn2.addEventListener("click", function () {
     window.getComputedStyle(calendarItem2).display === 'none' ?
-        (calendarItem2.classList.add('show')) (calendarBtn2.innerText = 'Less') : 
+        (calendarItem2.classList.add('show')) (calendarBtn2.innerText = 'Less') :
         (calendarItem2.classList.remove('show')) (calendarBtn2.innerText = 'More') ;
-    
+
 })
 
 
