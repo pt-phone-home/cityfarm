@@ -37,9 +37,9 @@ class PagesController extends Controller
         // $events_2 = $events->sortBy('month');
         // $events_3 = $events_2->sortBy('year');
 
-        $now = Carbon::now()->endOfMonth();
+        $now = Carbon::now()->startOfMonth();
 
-        $events = Fixture::where('date', '>=', $now)->take(18);
+        $events = Fixture::where('date', '>=', $now)->take(18)->get();
         return view('community.calendar')->with('events', $events);
     }
 

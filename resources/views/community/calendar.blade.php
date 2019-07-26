@@ -60,6 +60,8 @@
     <div class="container mx-auto flex flex-wrap py-8">
 
 
+
+
         @forelse ($events as $event)
            {{-- @if ($event->date < Carbon::now()->startOfMonth()) --}}
 
@@ -107,7 +109,6 @@
         {{-- @endif --}}
 
         @empty
-
         <div class="container">
             <p>No Events listed at the moment, please check back later</p>
         </div>
