@@ -42,8 +42,8 @@
             <div class="w-full md:w-2/3 hidden md:flex">
                 <div class="w-full flex flex-col items-center justify-center">
                     <h2 class="font-dec text-3xl text-grey-lightest pb-4 text-center">St. Anne's City Farm is open free to the public every Sunday. </h2>
-                    <p class="text-xl text-grey-lightest py-1">Morning Sessions: 10am - 12pm</p>
-                    <p class="text-xl text-grey-lightest py-1">Afternoon Sessions: 1pm - 2:30pm</p>
+                    <p class="text-xl text-grey-lightest py-1">From: 10am - 1pm</p>
+                    {{-- <p class="text-xl text-grey-lightest py-1">Afternoon Sessions: 1pm - 2:30pm</p> --}}
                 </div>
             </div>
         </div>
