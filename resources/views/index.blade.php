@@ -298,6 +298,26 @@ St. Anne's City Farm | Our Community
     </div>
 
 </div>
+<div class="w-full bg-pattern-grey-light bg-grey-light pt-1">
+    <div class="container mx-auto flex">
+            <h2 class="font-dec text-5xl ml-4 md:ml-0 pt-8 mb-4 border-b-2 md:border-b-8 border-primary-8 text-primary-8">Where we are</h2>
+    </div>
+</div>
+<div class="w-full bg-pattern-grey-light">
+    <div class="container mx-auto flex flex-wrap items-center py-12">
+        {{-- left Side --}}
+        <div class="map w-full md:w-1/2 mb-4 md:pb-0 h-20r" id="map">
+
+        </div>
+
+        {{-- Right Side --}}
+        <div class="pl-6">
+            <p class="text-grey-darkest text-lg">For more information visit the <a href="{{ route('info.visit_us') }}">Visit Us</a> Page</p>
+        </div>
+
+    </div>
+
+</div>
 
 @endsection
 
@@ -372,6 +392,49 @@ calendarBtn2.addEventListener("click", function () {
 
 
 </script>
+<script>
+        function initMap() {
+
+          var clonturk = {
+              info: '<strong>St. Anne\'s City Farm</strong><br>\
+              67 All Saints Rd, Raheny, Dublin 5, Ireland D05 Y102<br>\
+                          <a href="https://goo.gl/maps/X2MNdF4WeS72" target="_blank">Get Directions</a>',
+              lat: 53.373999,
+              long: -6.176056
+          };
+
+
+          var locations = [
+            [clonturk.info, clonturk.lat, clonturk.long, 0],
+          ];
+
+          var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 14,
+              center: new google.maps.LatLng(53.373999, -6.176056),
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+          });
+
+          var infowindow = new google.maps.InfoWindow({});
+
+          var marker, i;
+
+          for (i = 0; i < locations.length; i++) {
+              marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                  map: map
+              });
+
+              google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                  return function () {
+                      infowindow.setContent(locations[i][0]);
+                      infowindow.open(map, marker);
+                  }
+              })(marker, i));
+          }
+      }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtbJayjrxT9C_mqWSebyR4DxEIi7cRl3g&callback=initMap"
+        async defer></script>
 
 
 @endsection

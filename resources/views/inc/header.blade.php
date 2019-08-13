@@ -1,7 +1,11 @@
 <div class="w-full py-2 px-3 h-32 flex  bg-grey-lightest justify-center items-center z-100 relative font-dec">
     <div class="flex flex-row justify-between container mx-auto sm:w-100p md:w-100p lg:w-70p">
-        <div class="logo w-1/3 my-4">
+        <div class="logo w-1/3 my-4 ml-2">
             <img src="/images/logo.png" alt="" class="farm-logo" onclick="location.href= '/';" style="cursor:pointer">
+        </div>
+        <div class="flex flex-col justify-center items text-sm mr-3 -ml-2">
+            <p>Visiting hours: <span class="">10am - 1pm: Thu, Fri, Sun</span> </p>
+            <p>Groups: <span class="">10am - 1pm: Wed (book ahead)</span></p>
         </div>
         <div class="flex justify-end md:justify-between items-center w-2/3" id="nav">
             <li class="list-reset dropdown z-10">
@@ -72,7 +76,7 @@
             <a href="{{route('grow')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">Grow</a>
             <a href="{{route('ecology')}}" class="py-2 px-4 text-grey-lightest text-xl no-underline hover:bg-green-dark hover:cursor-pointer">Ecology</a>
             </div>
-            
+
         </li>
         <li class="relative" id="dropdownMob">
             <p class="py-4 text-grey-lightest text-2xl hover:bg-green-dark hover:cursor-pointer px-8" id="invBtn">Get Involved</p>

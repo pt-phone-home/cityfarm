@@ -17,12 +17,13 @@ Visit Us | St. Anne's City Farm
         <div class="map w-full md:w-1/2 h-20r" id="map">
 
         </div>
+
         {{-- Right Side --}}
         <div class="w-full md:w-1/2 h-auto flex flex-col justify-center px-4 py-4 md:py-0">
             {{-- Top --}}
             <div>
-                <h3 class="text-center text-4xl text-neutral-2">Farm Location</h3>
-            </div>  
+                <h3 class="text-center text-3xl text-neutral-2">Farm Location</h3>
+            </div>
             {{-- Bottom --}}
             <div class="flex flex-row border-b-2 border-dashed border-neutral-2 pb-4">
                 {{-- Left Side --}}
@@ -31,19 +32,31 @@ Visit Us | St. Anne's City Farm
                 </div>
                 {{-- Right Side --}}
                 <div class="w-1/2 text-lg text-neutral-2">
-                    <h5 class="text-xl py-2">St. Anne's City Farm</h5>
-                    <p class="py-1">St. Anne's Park, Raheny</p>
-                    <p class="py-1">Dublin, Ireland</p>
-                    <p class="py-1">D05 Y102</p>
+                    <h5 class="text-lg py-2">St. Anne's City Farm</h5>
+                    <p class="py-1 text-sm">St. Anne's Park, Raheny</p>
+                    <p class="py-1 text-sm">Dublin, Ireland</p>
+                    <p class="py-1 text-sm">D05 Y102</p>
                 </div>
             </div>
             {{-- Second Bottom Section --}}
-            <div class="container mx-auto flex flex-col py-6 px-6">
-                    <h3 class="text-3xl text-center text-neutral-2">Entrance</h3>
-                    <p class="leading-loose text-xl text-neutral-2">Completely free entry! We are located beside the All Saint's Road Service entrance of the park. Right beside the Allotments.</p>
-                    <p class="leading-loose text-xl text-neutral-2">Toilets - We are in the process of building our toilets at the minute. So be aware that we don't have those facilities onsite.</p>
+            <div class="container mx-auto flex flex-col pt-6 px-6">
+                    <h3 class="text-2xl text-center text-neutral-2">Entrance</h3>
+                    <p class="leading-loose text-lg text-neutral-2">Completely free entry! We are located beside the All Saint's Road Service entrance of the park. Right beside the Allotments.</p>
+                    <p class="leading-loose text-lg text-neutral-2">Toilets - We are in the process of building our toilets at the minute. So be aware that we don't have those facilities onsite.</p>
             </div>
         </div>
+    </div>
+    <div class="container mx-auto flex flex-col items-center justify-center">
+        <p class="text-neutral-2 text-2xl">Visiting Hours</p>
+        <ul class="list-reset text-neutral-2 text-lg py-4 px-2">
+            <li class="pt-2">Monday - Closed to public</li>
+            <li class="pt-2">Tuesday - Closed to public</li>
+            <li class="pt-2">Wednesday - Open to group bookings only, 10 am - 1 pm</li>
+            <li class="pt-2">Thursday - Open to the public, 10 am - 1 pm</li>
+            <li class="pt-2">Friday - Open to the public, 10 am - 1 pm</li>
+            <li class="pt-2">Saturday - Open to volunteers, 10 am - 1 pm, new volunteer induction every first Saturday of the month.</li>
+            <li class="pt-2">Sunday - Open to the public, 10 am - 1 pm</li>
+        </ul>
     </div>
 </div>
 {{-- Getting to the Farm --}}
@@ -125,38 +138,38 @@ Visit Us | St. Anne's City Farm
 
 @section('scripts')
 @parent
-<script> 
+<script>
         function initMap() {
-          
+
           var clonturk = {
               info: '<strong>St. Anne\'s City Farm</strong><br>\
               67 All Saints Rd, Raheny, Dublin 5, Ireland D05 Y102<br>\
                           <a href="https://goo.gl/maps/X2MNdF4WeS72" target="_blank">Get Directions</a>',
-              lat: 53.373999, 
+              lat: 53.373999,
               long: -6.176056
           };
-      
-      
+
+
           var locations = [
             [clonturk.info, clonturk.lat, clonturk.long, 0],
           ];
-      
+
           var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 14,
               center: new google.maps.LatLng(53.373999, -6.176056),
               mapTypeId: google.maps.MapTypeId.ROADMAP
           });
-      
+
           var infowindow = new google.maps.InfoWindow({});
-      
+
           var marker, i;
-      
+
           for (i = 0; i < locations.length; i++) {
               marker = new google.maps.Marker({
                   position: new google.maps.LatLng(locations[i][1], locations[i][2]),
                   map: map
               });
-      
+
               google.maps.event.addListener(marker, 'click', (function (marker, i) {
                   return function () {
                       infowindow.setContent(locations[i][0]);
