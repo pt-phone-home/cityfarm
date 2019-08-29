@@ -20,6 +20,12 @@
     </div>
 </div>
 <div class="bg-pattern-grey-light">
+    <div class="container mx-auto py-8 flex flex-col justify-center items-center">
+        <div>
+            {!! $video !!}
+        </div>
+        <h2 class="text-grey-darkest text-2xl">How to help the farm</h2>
+    </div>
     <div class="container mx-auto py-8">
         <div class="flex flex-wrap">
             <div class="w-full sm:w-1/3 px-2 py-2 flex justify-center items-center">

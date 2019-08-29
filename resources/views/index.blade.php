@@ -29,9 +29,30 @@ St. Anne's City Farm | Our Community
         </h3>
 
     </div>
-
-
 </div>
+<div class="bgi-g4">
+    <div class="container mx-auto py-4">
+        <div class="w-full overflow-scroll flex flex-wrap-reverse justify-center pt-2">
+            <div class="w-full lg:w-1/2 mb-2 lg:mb-0 flex flex-col items-center justify-center">
+                <div>
+                    {!! $video1 !!}
+                </div>
+                <div>
+                    <h2 class="text-grey-darkest text-2xl">Health &amp; Satefy at the farm</h2>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 mb-2 lg:mb-0 flex flex-col items-center justify-center">
+                <div>
+                    {!! $video2 !!}
+                </div>
+                <div>
+                    <h2 class="text-grey-darkest text-2xl">Directions to the farm</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 {{-- About Us Banner --}}
 

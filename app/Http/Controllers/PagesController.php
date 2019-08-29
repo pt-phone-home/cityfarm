@@ -8,12 +8,23 @@ use \App\Fixture;
 use \App\Mail;
 use \App\News;
 use Carbon;
+use Merujan99\LaravelVideoEmbed\Facades\LaravelVideoEmbed;
 
 class PagesController extends Controller
 {
     public function index()
     {
-        return view('index');
+        $url1 = 'https://www.youtube.com/watch?v=OptZHeZUUno';
+        $url2 = 'https://www.youtube.com/watch?v=z3GKYuQBjhE';
+        $whitelist = ['YouTube'];
+        $params = [
+            'autoplay' => 0,
+            'loop' => 0,
+        ];
+        $video1 = LaravelVideoEmbed::parse($url1, $whitelist);
+        $video2 = LaravelVideoEmbed::parse($url2, $whitelist);
+
+        return view('index', compact('video1', 'video2'));
     }
 
     //OUR COMMUNITY
@@ -78,7 +89,14 @@ class PagesController extends Controller
     }
     public function donate()
     {
-        return view('involved.donate');
+        $url = 'https://www.youtube.com/watch?v=ULouTFHWruU';
+        $whitelist = ['YouTube'];
+        $params = [
+            'autoplay' => 0,
+            'loop' => 0,
+        ];
+        $video = LaravelVideoEmbed::parse($url, $whitelist, $params);
+        return view('involved.donate', compact('video'));
     }
 
     // News

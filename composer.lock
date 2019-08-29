@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2d1e89c097a09c9638825fa82566dfd",
+    "content-hash": "356e22b4a91be393f13a9ab473589e16",
     "packages": [
         {
             "name": "anhskohbo/no-captcha",
@@ -116,6 +116,54 @@
                 "stream_filter_register"
             ],
             "time": "2019-04-09T12:31:48+00:00"
+        },
+        {
+            "name": "dereuromark/media-embed",
+            "version": "0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dereuromark/MediaEmbed.git",
+                "reference": "a2be85ad4fc1e17328f8a53fe13a3808301adf80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dereuromark/MediaEmbed/zipball/a2be85ad4fc1e17328f8a53fe13a3808301adf80",
+                "reference": "a2be85ad4fc1e17328f8a53fe13a3808301adf80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "fig-r/psr2r-sniffer": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Scherer",
+                    "role": "Author",
+                    "homepage": "http://www.dereuromark.de"
+                }
+            ],
+            "description": "A PHP library to deal with all those media services around, parsing their URLs and embedding their audio/video content in websites.",
+            "keywords": [
+                "audio",
+                "embed",
+                "iframe",
+                "media",
+                "php",
+                "video"
+            ],
+            "time": "2018-03-06T23:30:13+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1093,6 +1141,46 @@
             ],
             "description": "Laravel helper for FullCalendar.io",
             "time": "2017-09-18T17:54:18+00:00"
+        },
+        {
+            "name": "merujan99/laravel-video-embed",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Merujan99/laravel-video-embed.git",
+                "reference": "05092957a51bb290f74d935534f05116a362e354"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Merujan99/laravel-video-embed/zipball/05092957a51bb290f74d935534f05116a362e354",
+                "reference": "05092957a51bb290f74d935534f05116a362e354",
+                "shasum": ""
+            },
+            "require": {
+                "dereuromark/media-embed": "^0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Merujan99\\LaravelVideoEmbed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Meruzhan Hovhannisyan",
+                    "email": "merujan99@gmail.com"
+                }
+            ],
+            "description": "Laravel Package for dereuromark/MediaEmbed With Thumbnail",
+            "keywords": [
+                "laravel",
+                "package development"
+            ],
+            "time": "2019-03-16T06:13:49+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5298,7 +5386,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "merujan99/laravel-video-embed": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
