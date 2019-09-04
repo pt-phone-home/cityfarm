@@ -38,7 +38,7 @@ Create Event | admin
             <div class="flex flex-wrap">
                 <div class="py-2 w-full md:w-1/4">
                     <label for="date" class="block my-2 text-xl">Date:</label>
-                    <input type="date" name="date" class="block w-80p md:w-80p h-8 outline-none rounded" value="{{old('date')}}" required>
+                    <input type="text" name="date" class="block w-80p md:w-80p h-8 outline-none rounded" value="{{old('date')}}" id="datepicker" required>
                 </div>
                 <div class="py-2 w-full md:w-1/4">
                     <label for="time_from" class="block my-2 text-xl">Time From:</label>
@@ -63,7 +63,7 @@ Create Event | admin
             </div>
             <div class="my-4">
                 <button type="submit" class="bg-green-light text-grey-lightest rounded px-4 py-2 text-2xl hover:bg-green outline-none active:bg-green-dark active:outline-none">Save</button>
-            </div> 
+            </div>
 
         </form>
     </div>
@@ -77,7 +77,7 @@ Create Event | admin
 <script>
         CKEDITOR.replace('content', {
             toolbarGroups:[{
-                'name': 'basicstyles', 
+                'name': 'basicstyles',
                 'groups': ['basicstyles']
             },
             {
@@ -94,6 +94,13 @@ Create Event | admin
             }
             ]
         });
+    </script>
+
+    <script>
+        $('#datepicker').datepicker({
+        dateFormat: 'dd-mm-yy',
+        // minDate: tomorrow
+    });
     </script>
 
 @endsection

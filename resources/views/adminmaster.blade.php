@@ -11,6 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/toastr.min.css')}}">
+    {{-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> --}}
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
 
@@ -45,15 +51,15 @@
     <script src="/js/app.js"></script>
     <script src="/js/custom.js"></script>
     <script src="{{asset('js/toastr.min.js')}}"></script>
-    <script> 
+    <script>
 
         @if(Session::has('success'))
-    
+
         toastr.success("{{Session::get('success')}}")
         @endif
-        
+
         @if(Session::has('info'))
-    
+
         toastr.info("{{Session::get('info')}}")
         @endif
 
@@ -62,6 +68,15 @@
         toastr.error("{{Session::get('error')}}")
         @endif
     </script>
-    
+
+        {{-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> --}}
+  <script src="jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="jquery.datetimepicker.css"/>
+<script src="jquery.datetimepicker.full.js"></script>
+
+
 </body>
 </html>

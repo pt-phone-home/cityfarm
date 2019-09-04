@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Fixture;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class FixturesController extends Controller
@@ -51,7 +52,7 @@ class FixturesController extends Controller
         $event->headline = $request['headline'];
         $event->short_description = $request['short_description'];
         $event->location = $request['location'];
-        $event->date = $request['date'];
+        $event->date = Carbon::parse($request['date'])->format('Y-m-d');
         $event->time_from = $request['time_from'];
         $event->time_to = $request['time_to'];
         $event->content = $request['content'];
