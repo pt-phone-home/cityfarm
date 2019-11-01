@@ -48,7 +48,7 @@ class PagesController extends Controller
         // $events_2 = $events->sortBy('month');
         // $events_3 = $events_2->sortBy('year');
 
-        $now = Carbon::now()->startOfMonth();
+        $now = Carbon::now()->subMonth()->startOfMonth();
 
         $events = Fixture::where('date', '>=', $now)->take(18)->orderBy('date')->get();
         // dd($events);
